@@ -1,1 +1,6 @@
-IiIiYWdlbnQtdG9vbHMgQ0xJIGVudHJ5IHBvaW50LiIiIgpmcm9tIGFnZW50X3Rvb2xzLmNsaSBpbXBvcnQgbWFpbgppbXBvcnQgc3lzCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgc3lzLmV4aXQobWFpbigpKQo=
+"""agent-tools CLI entry point."""
+from agent_tools.cli import main
+import sys
+
+if __name__ == "__main__":
+    sys.exit(main())

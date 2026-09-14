@@ -1,1 +1,30 @@
-IyBDb250cmlidXRpbmcgdG8gYWdlbnQtdG9vbHMKCiMjIOW8gOWPkeeOr+WigwoKYGBgYmFzaApwaXAgaW5zdGFsbCAtZSAiLltkZXZdIgpweXRlc3QgdGVzdHMvIC12CmBgYAoKIyMg5re75Yqg5paw5ZG95LukCgoxLiDlnKggYGFnZW50X3Rvb2xzL2NtZC88Y2F0ZWdvcnk+LnB5YCDkuK3mt7vliqDlh73mlbAgYGNtZF88bmFtZT4oYXJncylg77yM6L+U5ZueIGBpbnRgIOmAgOWHuueggQoyLiDlnKggYHJlZ2lzdGVyKHBhcmVudClgIOS4reazqOWGjO+8mmBwID0gc3ViLmFkZF9wYXJzZXIoIm5hbWUiLCBoZWxwPSIuLi4iKWAKMy4g5ZyoIGB0ZXN0cy90ZXN0X2FsbC5weWAg5Lit5re75Yqg5rWL6K+VCjQuIOi/kOihjCBgcHl0ZXN0YCDnoa7orqTpgJrov4cKCiMjIOS7o+eggeinhOiMgwoKLSDnuq/moIflh4blupPkvJjlhYjvvIzlj6/pgInkvp3otZbnlKggdHJ5L2V4Y2VwdCBJbXBvcnRFcnJvcgotIFdpbmRvd3MgR0JLIOWFvOWuue+8muS4jeS9v+eUqCBlbW9qae+8jOS9v+eUqCBBU0NJSSDovpPlh7oKLSDmiYDmnInlkb3ku6TmjqXlj5cgYGFyZ3NgIOWRveWQjeepuumXtO+8jOi/lOWbniBgaW50YCDpgIDlh7rnoIEKLSDplJnor6/ml7bov5Tlm57pnZ7pm7bpgIDlh7rnoIHvvIzmraPluLjov5Tlm54gMAoKIyMg5o+Q5LqkCgpgYGBiYXNoCmdpdCBhZGQgLUEKZ2l0IGNvbW1pdCAtbSAiZmVhdDogYWRkIGNtZF94eHgiCmdpdCBwdXNoCmBgYA==
+# Contributing to agent-tools
+
+## 开发环境
+
+```bash
+pip install -e ".[dev]"
+pytest tests/ -v
+```
+
+## 添加新命令
+
+1. 在 `agent_tools/cmd/<category>.py` 中添加函数 `cmd_<name>(args)`，返回 `int` 退出码
+2. 在 `register(parent)` 中注册：`p = sub.add_parser("name", help="...")`
+3. 在 `tests/test_all.py` 中添加测试
+4. 运行 `pytest` 确认通过
+
+## 代码规范
+
+- 纯标准库优先，可选依赖用 try/except ImportError
+- Windows GBK 兼容：不使用 emoji，使用 ASCII 输出
+- 所有命令接受 `args` 命名空间，返回 `int` 退出码
+- 错误时返回非零退出码，正常返回 0
+
+## 提交
+
+```bash
+git add -A
+git commit -m "feat: add cmd_xxx"
+git push
+```

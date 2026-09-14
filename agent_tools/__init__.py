@@ -1,1 +1,4 @@
-IiIiYWdlbnQtdG9vbHMg4oCUIEFnZW50IOi2hee6p+W3peWFt+mbhuWFpeWPo+OAgiIiIgpmcm9tIGFnZW50X3Rvb2xzLmNsaSBpbXBvcnQgbWFpbgoKX192ZXJzaW9uX18gPSAiMS4wLjAiCg==
+"""agent-tools — Agent 超级工具集入口。"""
+from agent_tools.cli import main
+
+__version__ = "1.0.0"

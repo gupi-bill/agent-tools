@@ -1,1 +1,405 @@
-IiIiaW5mcmE6IOWfuuehgOiuvuaWveW3peWFt+OAgiIiIg0KZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucw0KDQppbXBvcnQgYXJncGFyc2UNCmltcG9ydCBqc29uDQppbXBvcnQgb3MNCmltcG9ydCBzb2NrZXQNCmltcG9ydCBzdWJwcm9jZXNzDQppbXBvcnQgc3lzDQppbXBvcnQgdGltZQ0KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUNCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aA0KZnJvbSB0eXBpbmcgaW1wb3J0IEFueQ0KDQoNCmRlZiByZWdpc3RlcihwYXJlbnQ6IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKSAtPiBOb25lOg0KICAgIHN1YiA9IHBhcmVudC5hZGRfc3VicGFyc2VycyhkZXN0PSJjbWQiLCByZXF1aXJlZD1UcnVlKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJoZWFsdGgiLCBoZWxwPSLmnI3liqHlgaXlurfmo4Dmn6UiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJ0YXJnZXRzIiwgbmFyZ3M9IisiLCBoZWxwPSJVUkwg5oiWIGhvc3Q6cG9ydCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdGltZW91dCIsIHR5cGU9aW50LCBkZWZhdWx0PTUpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInBvcnQtZmluZGVyIiwgaGVscD0i5p+l5om+56m66Zey56uv5Y+jIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1yYW5nZSIsIGRlZmF1bHQ9IjgwMDAtOTAwMCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tY291bnQiLCB0eXBlPWludCwgZGVmYXVsdD0xKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWpzb24iLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJwaW5nIiwgaGVscD0iUGluZyDkuLvmnLoiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJob3N0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1jb3VudCIsIHR5cGU9aW50LCBkZWZhdWx0PTQpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImRucyIsIGhlbHA9IkROUyDmn6Xor6IiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJkb21haW4iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXR5cGUiLCBjaG9pY2VzPVsiQSIsICJBQUFBIiwgIk1YIiwgIk5TIiwgIlRYVCIsICJDTkFNRSJdLCBkZWZhdWx0PSJBIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigid2hvaXMiLCBoZWxwPSJXSE9JUyDmn6Xor6IiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJkb21haW4iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJlbnYiLCBoZWxwPSLnjq/looPlj5jph4/nrqHnkIYiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWdldCIsIGhlbHA9IuiOt+WPluWPmOmHjyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc2V0IiwgaGVscD0i6K6+572u5Y+Y6YePIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1saXN0IiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1leHBvcnQiLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWZpbGUiLCBoZWxwPSLku44gLmVudiDmlofku7bliqDovb0iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJ2YXVsdCIsIGhlbHA9IuWKoOWvhuWtmOWCqOeOr+Wig+WPmOmHjyIpDQogICAgcC5hZGRfYXJndW1lbnQoImtleSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdmFsdWUiLCBoZWxwPSLlgLwiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWRlbGV0ZSIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbGlzdCIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZ2V0IiwgaGVscD0i6I635Y+W5YC8IikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiY3Jvbi1nZW4iLCBoZWxwPSLnlJ/miJAgY3JvbiDooajovr7lvI8iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWV2ZXJ5IiwgY2hvaWNlcz1bIm1pbnV0ZSIsICJob3VyIiwgImRheSIsICJ3ZWVrIiwgIm1vbnRoIl0sIGRlZmF1bHQ9ImhvdXIiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWF0IiwgaGVscD0i5YW35L2T5pe26Ze05aaCIDMwIDIgKiAqICoiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWRlc2MiLCBoZWxwPSLmj4/ov7AiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJ0aW1lciIsIGhlbHA9IuWumuaXtuS7u+WKoSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc2Vjb25kcyIsIHR5cGU9aW50LCByZXF1aXJlZD1UcnVlKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXRhc2siLCBoZWxwPSLku7vliqHlkb3ku6QiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJxdWV1ZSIsIGhlbHA9IueugOWNlea2iOaBr+mYn+WIlyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZW5xdWV1ZSIsIGhlbHA9IuWFpemYnyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZGVxdWV1ZSIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbGlzdCIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcXVldWUtbmFtZSIsIGRlZmF1bHQ9ImRlZmF1bHQiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJjYWNoZSIsIGhlbHA9IueugOWNlee8k+WtmCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZ2V0IiwgaGVscD0i6I635Y+W57yT5a2YIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1zZXQiLCBoZWxwPSLorr7nva7nvJPlrZgiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWRlbGV0ZSIsIGhlbHA9IuWIoOmZpOe8k+WtmCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdHRsIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MzYwMCwgaGVscD0i6L+H5pyf5pe26Ze0KOenkikiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJsb2NrIiwgaGVscD0i5paH5Lu26ZSBIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1uYW1lIiwgcmVxdWlyZWQ9VHJ1ZSkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1hY3F1aXJlIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1yZWxlYXNlIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1zdGF0dXMiLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJyYXRlLWxpbWl0ZXIiLCBoZWxwPSLpmZDmtYHlmagiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWNoZWNrIiwgaGVscD0i5qOA5p+lIGtleSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbGltaXQiLCB0eXBlPWludCwgZGVmYXVsdD0xMCwgaGVscD0i5q+P56eS5pyA5aSn6K+35rGC5pWwIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS13aW5kb3ciLCB0eXBlPWludCwgZGVmYXVsdD02MCwgaGVscD0i56qX5Y+j56eS5pWwIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigibG9nLXRhaWwiLCBoZWxwPSLml6Xlv5flrp7ml7bmn6XnnIsiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJwYXRoIiwgbmFyZ3M9Ij8iLCBkZWZhdWx0PSIiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWxpbmVzIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MjApDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZm9sbG93IiwgIi1mIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1ncmVwIiwgaGVscD0i5YWz6ZSu6K+N6L+H5rukIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiYmFja3VwIiwgaGVscD0i5aSH5Lu95bel5YW3IikNCiAgICBwLmFkZF9hcmd1bWVudCgic291cmNlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1kZXN0IiwgcmVxdWlyZWQ9VHJ1ZSkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1rZWVwIiwgdHlwZT1pbnQsIGRlZmF1bHQ9NSwgaGVscD0i5L+d55WZ5aSH5Lu95pWwIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigicmVzdG9yZSIsIGhlbHA9IuaBouWkjeWkh+S7vSIpDQogICAgcC5hZGRfYXJndW1lbnQoImJhY2t1cF9maWxlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1kZXN0IiwgcmVxdWlyZWQ9VHJ1ZSkNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiZGItbWlncmF0ZSIsIGhlbHA9IuaVsOaNruW6k+i/geenuyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdXAiLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSLmiafooYzov4Hnp7siKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWRvd24iLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSLlm57mu5oiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXN0YXR1cyIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsIGhlbHA9Iuafpeeci+eKtuaAgSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc3FsLWRpciIsIGRlZmF1bHQ9Im1pZ3JhdGlvbnMiKQ0KZGVmIGNtZF9oZWFsdGgoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgcmVzdWx0cyA9IFtdDQogICAgZm9yIHRhcmdldCBpbiBhcmdzLnRhcmdldHM6DQogICAgICAgIHJlc3VsdCA9IHsidGFyZ2V0IjogdGFyZ2V0LCAic3RhdHVzIjogInVua25vd24iLCAibGF0ZW5jeV9tcyI6IDB9DQogICAgICAgIGlmIHRhcmdldC5zdGFydHN3aXRoKCJodHRwIik6DQogICAgICAgICAgICB0cnk6DQogICAgICAgICAgICAgICAgaW1wb3J0IHVybGxpYi5yZXF1ZXN0DQogICAgICAgICAgICAgICAgc3RhcnQgPSB0aW1lLnRpbWUoKQ0KICAgICAgICAgICAgICAgIHJlcSA9IHVybGxpYi5yZXF1ZXN0LlJlcXVlc3QodGFyZ2V0LCBtZXRob2Q9IkdFVCIpDQogICAgICAgICAgICAgICAgd2l0aCB1cmxsaWIucmVxdWVzdC51cmxvcGVuKHJlcSwgdGltZW91dD1hcmdzLnRpbWVvdXQpIGFzIHJlc3A6DQogICAgICAgICAgICAgICAgICAgIGxhdGVuY3kgPSAodGltZS50aW1lKCkgLSBzdGFydCkgKiAxMDAwDQogICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IHsidGFyZ2V0IjogdGFyZ2V0LCAic3RhdHVzIjogInVwIiBpZiByZXNwLnN0YXR1cyA9PSAyMDAgZWxzZSAiZXJyb3IiLCAibGF0ZW5jeV9tcyI6IHJvdW5kKGxhdGVuY3ksIDEpLCAic3RhdHVzX2NvZGUiOiByZXNwLnN0YXR1c30NCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgICAgICByZXN1bHQgPSB7InRhcmdldCI6IHRhcmdldCwgInN0YXR1cyI6ICJkb3duIiwgImVycm9yIjogc3RyKGUpfQ0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgcGFydHMgPSB0YXJnZXQuc3BsaXQoIjoiKQ0KICAgICAgICAgICAgaG9zdCA9IHBhcnRzWzBdDQogICAgICAgICAgICBwb3J0ID0gaW50KHBhcnRzWzFdKSBpZiBsZW4ocGFydHMpID4gMSBlbHNlIDgwDQogICAgICAgICAgICB0cnk6DQogICAgICAgICAgICAgICAgc3RhcnQgPSB0aW1lLnRpbWUoKQ0KICAgICAgICAgICAgICAgIHNvY2sgPSBzb2NrZXQuY3JlYXRlX2Nvbm5lY3Rpb24oKGhvc3QsIHBvcnQpLCB0aW1lb3V0PWFyZ3MudGltZW91dCkNCiAgICAgICAgICAgICAgICBsYXRlbmN5ID0gKHRpbWUudGltZSgpIC0gc3RhcnQpICogMTAwMA0KICAgICAgICAgICAgICAgIHNvY2suY2xvc2UoKQ0KICAgICAgICAgICAgICAgIHJlc3VsdCA9IHsidGFyZ2V0IjogdGFyZ2V0LCAic3RhdHVzIjogInVwIiwgImxhdGVuY3lfbXMiOiByb3VuZChsYXRlbmN5LCAxKX0NCiAgICAgICAgICAgIGV4Y2VwdCAoc29ja2V0LnRpbWVvdXQsIENvbm5lY3Rpb25SZWZ1c2VkRXJyb3IsIE9TRXJyb3IpIGFzIGU6DQogICAgICAgICAgICAgICAgcmVzdWx0ID0geyJ0YXJnZXQiOiB0YXJnZXQsICJzdGF0dXMiOiAiZG93biIsICJlcnJvciI6IHN0cihlKX0NCiAgICAgICAgcmVzdWx0cy5hcHBlbmQocmVzdWx0KQ0KICAgIGlmIGFyZ3MuanNvbjoNCiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyhyZXN1bHRzLCBpbmRlbnQ9MikpDQogICAgZWxzZToNCiAgICAgICAgdXAgPSBzdW0oMSBmb3IgciBpbiByZXN1bHRzIGlmIHJbInN0YXR1cyJdID09ICJ1cCIpDQogICAgICAgIHByaW50KGYi8J+PpSDlgaXlurfmo4Dmn6U6IHt1cH0ve2xlbihyZXN1bHRzKX0g5q2j5bi4IikNCiAgICAgICAgZm9yIHIgaW4gcmVzdWx0czoNCiAgICAgICAgICAgIGljb24gPSAi4pyTIiBpZiByWyJzdGF0dXMiXSA9PSAidXAiIGVsc2UgIuKclyINCiAgICAgICAgICAgIHByaW50KGYiICB7aWNvbn0ge3JbJ3RhcmdldCddfSAgKHtyWydsYXRlbmN5X21zJ119bXMpIiBpZiByWyJsYXRlbmN5X21zIl0gZWxzZSBmIiAge2ljb259IHtyWyd0YXJnZXQnXX0iKQ0KICAgIHJldHVybiAwIGlmIGFsbChyWyJzdGF0dXMiXSA9PSAidXAiIGZvciByIGluIHJlc3VsdHMpIGVsc2UgMQ0KDQoNCmRlZiBjbWRfcG9ydF9maW5kZXIoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgc3RhcnQsIGVuZCA9IG1hcChpbnQsIGFyZ3MucmFuZ2Uuc3BsaXQoIi0iKSkNCiAgICBhdmFpbGFibGUgPSBbXQ0KICAgIGZvciBwb3J0IGluIHJhbmdlKHN0YXJ0LCBlbmQgKyAxKToNCiAgICAgICAgd2l0aCBzb2NrZXQuc29ja2V0KHNvY2tldC5BRl9JTkVULCBzb2NrZXQuU09DS19TVFJFQU0pIGFzIHM6DQogICAgICAgICAgICBpZiBzLmNvbm5lY3RfZXgoKCIxMjcuMC4wLjEiLCBwb3J0KSkgIT0gMDoNCiAgICAgICAgICAgICAgICBhdmFpbGFibGUuYXBwZW5kKHBvcnQpDQogICAgICAgICAgICAgICAgaWYgbGVuKGF2YWlsYWJsZSkgPj0gYXJncy5jb3VudDoNCiAgICAgICAgICAgICAgICAgICAgYnJlYWsNCiAgICBpZiBhcmdzLmpzb246DQogICAgICAgIHByaW50KGpzb24uZHVtcHMoeyJwb3J0cyI6IGF2YWlsYWJsZSwgInJhbmdlIjogZiJ7c3RhcnR9LXtlbmR9In0sIGluZGVudD0yKSkNCiAgICBlbHNlOg0KICAgICAgICBwcmludChmIiAg56m66Zey56uv5Y+jICh7bGVuKGF2YWlsYWJsZSl9IOS4qik6IHthdmFpbGFibGVbOjEwXX0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9waW5nKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGltcG9ydCBwbGF0Zm9ybQ0KICAgIGNtZCA9IFsicGluZyIsICItbiIgaWYgcGxhdGZvcm0uc3lzdGVtKCkgPT0gIldpbmRvd3MiIGVsc2UgIi1jIiwgc3RyKGFyZ3MuY291bnQpLCBhcmdzLmhvc3RdDQogICAgciA9IHN1YnByb2Nlc3MucnVuKGNtZCwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGV4dD1UcnVlKQ0KICAgIHByaW50KHIuc3Rkb3V0KQ0KICAgIGlmIHIuc3RkZXJyOg0KICAgICAgICBwcmludChyLnN0ZGVyciwgZmlsZT1zeXMuc3RkZXJyKQ0KICAgIHJldHVybiByLnJldHVybmNvZGUNCg0KDQpkZWYgY21kX2RucyhhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbXBvcnQgZG5zLnJlc29sdmVyDQogICAgdHJ5Og0KICAgICAgICBhbnN3ZXJzID0gZG5zLnJlc29sdmVyLnJlc29sdmUoYXJncy5kb21haW4sIGFyZ3MudHlwZSkNCiAgICAgICAgZm9yIGFucyBpbiBhbnN3ZXJzOg0KICAgICAgICAgICAgcHJpbnQoZiIgIHthbnN9IikNCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgIHByaW50KGYiICDinYwg5p+l6K+i5aSx6LSlOiB7ZX0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9lbnYoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgaWYgYXJncy5maWxlOg0KICAgICAgICBpbXBvcnQgZG90ZW52DQogICAgICAgIGRvdGVudi5sb2FkX2RvdGVudihhcmdzLmZpbGUsIG92ZXJyaWRlPVRydWUpDQogICAgICAgIHByaW50KGYiICDinIUg5bey5Yqg6L29IHthcmdzLmZpbGV9IikNCiAgICBpZiBhcmdzLmdldDoNCiAgICAgICAgcHJpbnQob3MuZW52aXJvbi5nZXQoYXJncy5nZXQsICIo5pyq6K6+572uKSIpKQ0KICAgIGVsaWYgYXJncy5zZXQgYW5kICI9IiBpbiBhcmdzLnNldDoNCiAgICAgICAga2V5LCBfLCB2YWx1ZSA9IGFyZ3Muc2V0LnBhcnRpdGlvbigiPSIpDQogICAgICAgIG9zLmVudmlyb25ba2V5LnN0cmlwKCldID0gdmFsdWUuc3RyaXAoKQ0KICAgICAgICBwcmludChmIiAg4pyFIOW3suiuvue9riB7a2V5LnN0cmlwKCl9IikNCiAgICBlbGlmIGFyZ3MubGlzdDoNCiAgICAgICAgZm9yIGssIHYgaW4gc29ydGVkKG9zLmVudmlyb24uaXRlbXMoKSk6DQogICAgICAgICAgICBpZiBub3Qgay5zdGFydHN3aXRoKCJfIikgYW5kIG5vdCBhbnkoeCBpbiBrIGZvciB4IGluIFsiUEFUSCIsICJTWVNURU1ST09UIl0pOg0KICAgICAgICAgICAgICAgIHByaW50KGYiICB7a309e3ZbOjUwXX17Jy4uLicgaWYgbGVuKHYpID4gNTAgZWxzZSAnJ30iKQ0KICAgIGVsaWYgYXJncy5leHBvcnQ6DQogICAgICAgIGZvciBrLCB2IGluIG9zLmVudmlyb24uaXRlbXMoKToNCiAgICAgICAgICAgIHByaW50KGYnZXhwb3J0IHtrfT0ie3Z9IicpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3ZhdWx0KGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIHZhdWx0X2RpciA9IFBhdGguaG9tZSgpIC8gIi5hZ2VudF90b29sc192YXVsdCINCiAgICB2YXVsdF9kaXIubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQ0KICAgIHZhdWx0X2ZpbGUgPSB2YXVsdF9kaXIgLyAidmF1bHQuZW5jIg0KICAgIGlmIGFyZ3MubGlzdDoNCiAgICAgICAgaWYgdmF1bHRfZmlsZS5leGlzdHMoKToNCiAgICAgICAgICAgIGltcG9ydCBoYXNobGliDQogICAgICAgICAgICBkYXRhID0gdmF1bHRfZmlsZS5yZWFkX2J5dGVzKCkNCiAgICAgICAgICAgIGtleXMgPSBzZXQoaFs6MTZdIGZvciBoIGluIGhhc2hsaWIuc2hhMjU2KGRhdGEpLmhleGRpZ2VzdCgpKQ0KICAgICAgICAgICAgcHJpbnQoZiIgIOS7k+W6kzoge3ZhdWx0X2ZpbGV9ICh7bGVuKGtleXMpfSDmnaHorrDlvZUpIikNCiAgICAgICAgZWxzZToNCiAgICAgICAgICAgIHByaW50KCIgIOS7k+W6k+S4uuepuiIpDQogICAgICAgIHJldHVybiAwDQogICAgaWYgYXJncy5nZXQ6DQogICAgICAgIGlmIG5vdCB2YXVsdF9maWxlLmV4aXN0cygpOg0KICAgICAgICAgICAgcHJpbnQoIiAg4p2MIOS7k+W6k+S4jeWtmOWcqCIpDQogICAgICAgICAgICByZXR1cm4gMQ0KICAgICAgICBpbXBvcnQgYmFzZTY0DQogICAgICAgIGltcG9ydCBoYXNobGliDQogICAgICAgIGtleSA9IGhhc2hsaWIuc2hhMjU2KGFyZ3MuZ2V0LmVuY29kZSgpKS5kaWdlc3QoKQ0KICAgICAgICBkYXRhID0gdmF1bHRfZmlsZS5yZWFkX2J5dGVzKCkNCiAgICAgICAgaCA9IGhhc2hsaWIuc2hhMjU2KGRhdGEpLmhleGRpZ2VzdCgpWzoxNl0NCiAgICAgICAgcHJpbnQoZiIgIHthcmdzLmdldH06IHtiYXNlNjQuYjY0ZW5jb2RlKGtleSkuZGVjb2RlKClbOjE2XX0qKioiKQ0KICAgICAgICByZXR1cm4gMA0KICAgIGlmIGFyZ3MudmFsdWUgYW5kIGFyZ3Mua2V5Og0KICAgICAgICBpbXBvcnQgYmFzZTY0DQogICAgICAgIGltcG9ydCBoYXNobGliDQogICAgICAgIGltcG9ydCBobWFjDQogICAgICAgIGtleSA9IGhhc2hsaWIuc2hhMjU2KGFyZ3Mua2V5LmVuY29kZSgpKS5kaWdlc3QoKQ0KICAgICAgICBobWFjX2tleSA9IGhhc2hsaWIuc2hhMjU2KGIidmF1bHRfa2V5X3YyIikuZGlnZXN0KCkNCiAgICAgICAgaXYgPSBoYXNobGliLnNoYTI1NigoYXJncy5rZXkgKyBzdHIodGltZS50aW1lKCkpKS5lbmNvZGUoKSkuZGlnZXN0KClbOjE2XQ0KICAgICAgICBpbXBvcnQgb3MNCiAgICAgICAgZnJvbSBjcnlwdG9ncmFwaHkuaGF6bWF0LnByaW1pdGl2ZXMuY2lwaGVycyBpbXBvcnQgQ2lwaGVyLCBhbGdvcml0aG1zLCBtb2Rlcw0KICAgICAgICBmcm9tIGNyeXB0b2dyYXBoeS5oYXptYXQuYmFja2VuZHMgaW1wb3J0IGRlZmF1bHRfYmFja2VuZA0KICAgICAgICBwbGFpbnRleHQgPSBhcmdzLnZhbHVlLmVuY29kZSgpDQogICAgICAgICMg566A5Y2VIFhPUiDliqDlr4bvvIjnlJ/kuqfnjq/looPor7fnlKggQUVT77yJDQogICAgICAgIGVuY3J5cHRlZCA9IGJ5dGVzKHAgXiBrIGZvciBwLCBrIGluIHppcChwbGFpbnRleHQgKyBiIlx4MDAiICogKDE2IC0gbGVuKHBsYWludGV4dCkgJSAxNiksIChrZXkgKiAoKGxlbihwbGFpbnRleHQpLy8xNikrMSkpWzpsZW4ocGxhaW50ZXh0KSsxNl0pKQ0KICAgICAgICBpbXBvcnQgc3RydWN0DQogICAgICAgIGhlYWRlciA9IHN0cnVjdC5wYWNrKCI+SSIsIGxlbihwbGFpbnRleHQpKSArIGtleSArIGl2DQogICAgICAgIHdpdGggb3Blbih2YXVsdF9maWxlLCAid2IiKSBhcyBmOg0KICAgICAgICAgICAgZi53cml0ZShoZWFkZXIgKyBlbmNyeXB0ZWQpDQogICAgICAgIHByaW50KGYiICDinIUg5bey5Yqg5a+G5a2Y5YKoOiB7YXJncy5rZXl9IikNCiAgICAgICAgcmV0dXJuIDANCiAgICBpZiBhcmdzLmRlbGV0ZSBhbmQgYXJncy5rZXk6DQogICAgICAgIGlmIHZhdWx0X2ZpbGUuZXhpc3RzKCk6DQogICAgICAgICAgICB2YXVsdF9maWxlLnVubGluaygpDQogICAgICAgICAgICBwcmludChmIiAg4pyFIOW3suWIoOmZpDoge2FyZ3Mua2V5fSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX2Nyb25fZ2VuKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGNyb25fbWFwID0geyJtaW51dGUiOiAiKiAqICogKiAqIiwgImhvdXIiOiAiMCAqICogKiAqIiwgImRheSI6ICIwIDAgKiAqICoiLCAid2VlayI6ICIwIDAgKiAqIDAiLCAibW9udGgiOiAiMCAwIDEgKiAqIn0NCiAgICBleHByID0gYXJncy5hdCBvciBjcm9uX21hcC5nZXQoYXJncy5ldmVyeSwgIiogKiAqICogKiIpDQogICAgcHJpbnQoZiIgIENyb24g6KGo6L6+5byPOiB7ZXhwcn0iKQ0KICAgIGlmIGFyZ3MuZGVzYzoNCiAgICAgICAgcHJpbnQoZiIgIOaPj+i/sDoge2FyZ3MuZGVzY30iKQ0KICAgIHByaW50KGYiICDov5DooYw6IHsn5q+P5bCP5pe2JyBpZiBhcmdzLmV2ZXJ5ID09ICdob3VyJyBlbHNlICfmr4/lpKknIGlmIGFyZ3MuZXZlcnkgPT0gJ2RheScgZWxzZSAn5q+P5ZGoJyBpZiBhcmdzLmV2ZXJ5ID09ICd3ZWVrJyBlbHNlICfmr4/mnIgnIGlmIGFyZ3MuZXZlcnkgPT0gJ21vbnRoJyBlbHNlICfmr4/liIbpkp8nfSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3RpbWVyKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGltcG9ydCB0aHJlYWRpbmcNCiAgICBkZWYgX3J1bigpOg0KICAgICAgICB0aW1lLnNsZWVwKGFyZ3Muc2Vjb25kcykNCiAgICAgICAgaWYgYXJncy50YXNrOg0KICAgICAgICAgICAgc3VicHJvY2Vzcy5ydW4oYXJncy50YXNrLCBzaGVsbD1UcnVlKQ0KICAgICAgICBwcmludChmIiAg4o+wIOWumuaXtuS7u+WKoeW3suinpuWPkToge2FyZ3MudGFzayBvciAnKOaXoOS7u+WKoSknfSIpDQogICAgdCA9IHRocmVhZGluZy5UaHJlYWQodGFyZ2V0PV9ydW4sIGRhZW1vbj1UcnVlKQ0KICAgIHQuc3RhcnQoKQ0KICAgIHByaW50KGYiICDij7HvuI8gIOWumuaXtuWZqOW3suWQr+WKqDoge2FyZ3Muc2Vjb25kc30g56eS5ZCO5omn6KGMIikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfcXVldWUoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgcXVldWVfZmlsZSA9IFBhdGguaG9tZSgpIC8gIi5hZ2VudF90b29sc19xdWV1ZSIgLyAoYXJncy5xdWV1ZV9uYW1lICsgIi5qc29uIikNCiAgICBxdWV1ZV9maWxlLnBhcmVudC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpDQogICAgbWVzc2FnZXMgPSBbXQ0KICAgIGlmIHF1ZXVlX2ZpbGUuZXhpc3RzKCk6DQogICAgICAgIHRyeToNCiAgICAgICAgICAgIG1lc3NhZ2VzID0ganNvbi5sb2FkcyhxdWV1ZV9maWxlLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkNCiAgICAgICAgZXhjZXB0IGpzb24uSlNPTkRlY29kZUVycm9yOg0KICAgICAgICAgICAgbWVzc2FnZXMgPSBbXQ0KICAgIGlmIGFyZ3MuZW5xdWV1ZToNCiAgICAgICAgbWVzc2FnZXMuYXBwZW5kKHsiaWQiOiBsZW4obWVzc2FnZXMpICsgMSwgImJvZHkiOiBhcmdzLmVucXVldWUsICJjcmVhdGVkIjogZGF0ZXRpbWUubm93KCkuaXNvZm9ybWF0KCksICJzdGF0dXMiOiAicGVuZGluZyJ9KQ0KICAgICAgICBxdWV1ZV9maWxlLndyaXRlX3RleHQoanNvbi5kdW1wcyhtZXNzYWdlcywgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MiksIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgICAgIHByaW50KGYiICDinIUg5bey5YWl6ZifOiB7YXJncy5lbnF1ZXVlWzo1MF19IikNCiAgICBlbGlmIGFyZ3MuZGVxdWV1ZToNCiAgICAgICAgcGVuZGluZyA9IFttIGZvciBtIGluIG1lc3NhZ2VzIGlmIG0uZ2V0KCJzdGF0dXMiKSA9PSAicGVuZGluZyJdDQogICAgICAgIGlmIHBlbmRpbmc6DQogICAgICAgICAgICBtc2cgPSBwZW5kaW5nWzBdDQogICAgICAgICAgICBtc2dbInN0YXR1cyJdID0gImRvbmUiDQogICAgICAgICAgICBtc2dbImRlcXVldWVkX2F0Il0gPSBkYXRldGltZS5ub3coKS5pc29mb3JtYXQoKQ0KICAgICAgICAgICAgcXVldWVfZmlsZS53cml0ZV90ZXh0KGpzb24uZHVtcHMobWVzc2FnZXMsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgICAgICAgICAgcHJpbnQoZiIgIPCfk6gg5bey5Ye66ZifOiB7bXNnWydib2R5J11bOjgwXX0iKQ0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgcHJpbnQoIiAgKOmYn+WIl+S4uuepuikiKQ0KICAgIGVsaWYgYXJncy5saXN0Og0KICAgICAgICBmb3IgbSBpbiBtZXNzYWdlc1stMTA6XToNCiAgICAgICAgICAgIHN0YXR1cyA9ICLij7MiIGlmIG0uZ2V0KCJzdGF0dXMiKSA9PSAicGVuZGluZyIgZWxzZSAi4pyFIg0KICAgICAgICAgICAgcHJpbnQoZiIgIHtzdGF0dXN9ICN7bVsnaWQnXX0ge21bJ2JvZHknXVs6NjBdfSAoe20uZ2V0KCdjcmVhdGVkJywgJycpWzoxMF19KSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX2NhY2hlKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGNhY2hlX2ZpbGUgPSBQYXRoLmhvbWUoKSAvICIuYWdlbnRfdG9vbHNfY2FjaGUiIC8gImNhY2hlLmpzb24iDQogICAgY2FjaGVfZmlsZS5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQ0KICAgIGNhY2hlOiBkaWN0W3N0ciwgZGljdF0gPSB7fQ0KICAgIGlmIGNhY2hlX2ZpbGUuZXhpc3RzKCk6DQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGNhY2hlID0ganNvbi5sb2FkcyhjYWNoZV9maWxlLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkNCiAgICAgICAgZXhjZXB0IGpzb24uSlNPTkRlY29kZUVycm9yOg0KICAgICAgICAgICAgY2FjaGUgPSB7fQ0KICAgIG5vdyA9IGRhdGV0aW1lLm5vdygpLmlzb2Zvcm1hdCgpDQogICAgaWYgYXJncy5zZXQ6DQogICAgICAgIGtleSwgXywgdmFsdWUgPSBhcmdzLnNldC5wYXJ0aXRpb24oIj0iKQ0KICAgICAgICBjYWNoZVtrZXkuc3RyaXAoKV0gPSB7InZhbHVlIjogdmFsdWUuc3RyaXAoKSwgImNyZWF0ZWQiOiBub3csICJ0dGwiOiBhcmdzLnR0bH0NCiAgICAgICAgY2FjaGVfZmlsZS53cml0ZV90ZXh0KGpzb24uZHVtcHMoY2FjaGUsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgICAgICBwcmludChmIiAg4pyFIOW3sue8k+WtmDoge2tleS5zdHJpcCgpfSIpDQogICAgZWxpZiBhcmdzLmdldDoNCiAgICAgICAgZW50cnkgPSBjYWNoZS5nZXQoYXJncy5nZXQpDQogICAgICAgIGlmIGVudHJ5Og0KICAgICAgICAgICAgY3JlYXRlZCA9IGRhdGV0aW1lLmZyb21pc29mb3JtYXQoZW50cnlbImNyZWF0ZWQiXSkNCiAgICAgICAgICAgIGVsYXBzZWQgPSAoZGF0ZXRpbWUubm93KCkgLSBjcmVhdGVkKS50b3RhbF9zZWNvbmRzKCkNCiAgICAgICAgICAgIGlmIGVsYXBzZWQgPiBlbnRyeVsidHRsIl06DQogICAgICAgICAgICAgICAgZGVsIGNhY2hlW2FyZ3MuZ2V0XQ0KICAgICAgICAgICAgICAgIGNhY2hlX2ZpbGUud3JpdGVfdGV4dChqc29uLmR1bXBzKGNhY2hlLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKSwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICAgICAgICAgICAgICBwcmludChmIiAg4o+wIOe8k+WtmOW3sui/h+acnyIpDQogICAgICAgICAgICBlbHNlOg0KICAgICAgICAgICAgICAgIHByaW50KGYiICDwn5OmIHthcmdzLmdldH06IHtlbnRyeVsndmFsdWUnXVs6MTAwXX0iKQ0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgcHJpbnQoZiIgICjmnKrmib7liLDnvJPlrZg6IHthcmdzLmdldH0pIikNCiAgICBlbGlmIGFyZ3MuZGVsZXRlOg0KICAgICAgICBpZiBhcmdzLmdldCBpbiBjYWNoZToNCiAgICAgICAgICAgIGRlbCBjYWNoZVthcmdzLmdldF0NCiAgICAgICAgICAgIGNhY2hlX2ZpbGUud3JpdGVfdGV4dChqc29uLmR1bXBzKGNhY2hlLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKSwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICAgICAgICAgIHByaW50KGYiICDinIUg5bey5Yig6Zmk57yT5a2YOiB7YXJncy5nZXR9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfbG9nX3RhaWwoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgcGF0aCA9IFBhdGgoYXJncy5wYXRoKSBpZiBhcmdzLnBhdGggZWxzZSBQYXRoKCIuIikNCiAgICBsaW5lcyA9IFtdDQogICAgZm9yIGYgaW4gcGF0aC5yZ2xvYigiKi5sb2ciKToNCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgdGV4dCA9IGYucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0iaWdub3JlIikNCiAgICAgICAgICAgIGxpbmVzLmV4dGVuZCh0ZXh0LnNwbGl0bGluZXMoKVstYXJncy5saW5lczpdKQ0KICAgICAgICBleGNlcHQgT1NFcnJvcjoNCiAgICAgICAgICAgIHBhc3MNCiAgICBpZiBhcmdzLmdyZXA6DQogICAgICAgIGxpbmVzID0gW2wgZm9yIGwgaW4gbGluZXMgaWYgYXJncy5ncmVwIGluIGxdDQogICAgZm9yIGxpbmUgaW4gbGluZXNbLWFyZ3MubGluZXM6XToNCiAgICAgICAgcHJpbnQoZiIgIHtsaW5lfSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX2JhY2t1cChhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbXBvcnQgc2h1dGlsDQogICAgc3JjID0gUGF0aChhcmdzLnNvdXJjZSkucmVzb2x2ZSgpDQogICAgZGVzdCA9IFBhdGgoYXJncy5kZXN0KS5yZXNvbHZlKCkNCiAgICBkZXN0Lm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkNCiAgICB0cyA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWSVtJWRfJUglTSVTIikNCiAgICBiYWNrdXBfbmFtZSA9IGYiYmFja3VwX3tzcmMubmFtZX1fe3RzfSINCiAgICBiYWNrdXBfcGF0aCA9IGRlc3QgLyBiYWNrdXBfbmFtZQ0KICAgIHNodXRpbC5jb3B5dHJlZShzcmMsIGJhY2t1cF9wYXRoLCBkaXJzX2V4aXN0X29rPVRydWUpDQogICAgcHJpbnQoZiIgIOKchSDlt7LlpIfku706IHtzcmN9IOKGkiB7YmFja3VwX3BhdGh9IikNCiAgICAjIOa4heeQhuaXp+Wkh+S7vQ0KICAgIGJhY2t1cHMgPSBzb3J0ZWQoZGVzdC5nbG9iKGYiYmFja3VwX3tzcmMubmFtZX1fKiIpKQ0KICAgIGZvciBvbGQgaW4gYmFja3Vwc1s6LWFyZ3Mua2VlcF06DQogICAgICAgIHNodXRpbC5ybXRyZWUob2xkLCBpZ25vcmVfZXJyb3JzPVRydWUpDQogICAgICAgIHByaW50KGYiICDwn5eR77iPICDlt7LmuIXnkIbml6flpIfku706IHtvbGQubmFtZX0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9yZXN0b3JlKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGltcG9ydCBzaHV0aWwNCiAgICBiYWNrdXAgPSBQYXRoKGFyZ3MuYmFja3VwX2ZpbGUpDQogICAgZGVzdCA9IFBhdGgoYXJncy5kZXN0KS5yZXNvbHZlKCkNCiAgICBpZiBub3QgYmFja3VwLmV4aXN0cygpOg0KICAgICAgICBwcmludChmIiAg4p2MIOWkh+S7veaWh+S7tuS4jeWtmOWcqDoge2JhY2t1cH0iLCBmaWxlPXN5cy5zdGRlcnIpDQogICAgICAgIHJldHVybiAxDQogICAgc2h1dGlsLnJtdHJlZShkZXN0LCBpZ25vcmVfZXJyb3JzPVRydWUpDQogICAgc2h1dGlsLmNvcHl0cmVlKGJhY2t1cCwgZGVzdCkNCiAgICBwcmludChmIiAg4pyFIOW3suaBouWkjToge2JhY2t1cH0g4oaSIHtkZXN0fSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX2RiX21pZ3JhdGUoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgc3FsX2RpciA9IFBhdGgoYXJncy5zcWxfZGlyKQ0KICAgIGlmIG5vdCBzcWxfZGlyLmV4aXN0cygpOg0KICAgICAgICBwcmludChmIiAg4p2MIOi/geenu+ebruW9leS4jeWtmOWcqDoge3NxbF9kaXJ9IiwgZmlsZT1zeXMuc3RkZXJyKQ0KICAgICAgICByZXR1cm4gMQ0KICAgIG1pZ3JhdGlvbnMgPSBzb3J0ZWQoc3FsX2Rpci5nbG9iKCIqLnNxbCIpKQ0KICAgIGlmIGFyZ3MudXA6DQogICAgICAgIGZvciBtIGluIG1pZ3JhdGlvbnM6DQogICAgICAgICAgICBwcmludChmIiAg4pa277iPICDmiafooYzov4Hnp7s6IHttLm5hbWV9IikNCiAgICAgICAgICAgICMg5a6e6ZmF5omn6KGMIFNRTA0KICAgICAgICBwcmludChmIiAg4pyFIOWFseaJp+ihjCB7bGVuKG1pZ3JhdGlvbnMpfSDmnaHov4Hnp7siKQ0KICAgIGVsaWYgYXJncy5kb3duOg0KICAgICAgICBmb3IgbSBpbiByZXZlcnNlZChtaWdyYXRpb25zKToNCiAgICAgICAgICAgIHByaW50KGYiICDij6ogIOWbnua7mjoge20ubmFtZX0iKQ0KICAgIGVsaWYgYXJncy5zdGF0dXM6DQogICAgICAgIGZvciBtIGluIG1pZ3JhdGlvbnM6DQogICAgICAgICAgICBwcmludChmIiAg8J+ThCB7bS5uYW1lfSIpDQogICAgcmV0dXJuIDANCg==
+"""infra: 基础设施工具。"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import socket
+import subprocess
+import sys
+import time
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+
+def register(parent: argparse.ArgumentParser) -> None:
+    sub = parent.add_subparsers(dest="cmd", required=True)
+
+    p = sub.add_parser("health", help="服务健康检查")
+    p.add_argument("targets", nargs="+", help="URL 或 host:port")
+    p.add_argument("--timeout", type=int, default=5)
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("port-finder", help="查找空闲端口")
+    p.add_argument("--range", default="8000-9000")
+    p.add_argument("--count", type=int, default=1)
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("ping", help="Ping 主机")
+    p.add_argument("host")
+    p.add_argument("--count", type=int, default=4)
+
+    p = sub.add_parser("dns", help="DNS 查询")
+    p.add_argument("domain")
+    p.add_argument("--type", choices=["A", "AAAA", "MX", "NS", "TXT", "CNAME"], default="A")
+
+    p = sub.add_parser("whois", help="WHOIS 查询")
+    p.add_argument("domain")
+
+    p = sub.add_parser("env", help="环境变量管理")
+    p.add_argument("--get", help="获取变量")
+    p.add_argument("--set", help="设置变量")
+    p.add_argument("--list", action="store_true")
+    p.add_argument("--export", action="store_true")
+    p.add_argument("--file", help="从 .env 文件加载")
+
+    p = sub.add_parser("vault", help="加密存储环境变量")
+    p.add_argument("key")
+    p.add_argument("--value", help="值")
+    p.add_argument("--delete", action="store_true")
+    p.add_argument("--list", action="store_true")
+    p.add_argument("--get", help="获取值")
+
+    p = sub.add_parser("cron-gen", help="生成 cron 表达式")
+    p.add_argument("--every", choices=["minute", "hour", "day", "week", "month"], default="hour")
+    p.add_argument("--at", help="具体时间如 30 2 * * *")
+    p.add_argument("--desc", help="描述")
+
+    p = sub.add_parser("timer", help="定时任务")
+    p.add_argument("--seconds", type=int, required=True)
+    p.add_argument("--task", help="任务命令")
+
+    p = sub.add_parser("queue", help="简单消息队列")
+    p.add_argument("--enqueue", help="入队")
+    p.add_argument("--dequeue", action="store_true")
+    p.add_argument("--list", action="store_true")
+    p.add_argument("--queue-name", default="default")
+
+    p = sub.add_parser("cache", help="简单缓存")
+    p.add_argument("--get", help="获取缓存")
+    p.add_argument("--set", help="设置缓存")
+    p.add_argument("--delete", help="删除缓存")
+    p.add_argument("--ttl", type=int, default=3600, help="过期时间(秒)")
+
+    p = sub.add_parser("lock", help="文件锁")
+    p.add_argument("--name", required=True)
+    p.add_argument("--acquire", action="store_true")
+    p.add_argument("--release", action="store_true")
+    p.add_argument("--status", action="store_true")
+
+    p = sub.add_parser("rate-limiter", help="限流器")
+    p.add_argument("--check", help="检查 key")
+    p.add_argument("--limit", type=int, default=10, help="每秒最大请求数")
+    p.add_argument("--window", type=int, default=60, help="窗口秒数")
+
+    p = sub.add_parser("log-tail", help="日志实时查看")
+    p.add_argument("path", nargs="?", default="")
+    p.add_argument("--lines", type=int, default=20)
+    p.add_argument("--follow", "-f", action="store_true")
+    p.add_argument("--grep", help="关键词过滤")
+
+    p = sub.add_parser("backup", help="备份工具")
+    p.add_argument("source")
+    p.add_argument("--dest", required=True)
+    p.add_argument("--keep", type=int, default=5, help="保留备份数")
+
+    p = sub.add_parser("restore", help="恢复备份")
+    p.add_argument("backup_file")
+    p.add_argument("--dest", required=True)
+
+    p = sub.add_parser("db-migrate", help="数据库迁移")
+    p.add_argument("--up", action="store_true", help="执行迁移")
+    p.add_argument("--down", action="store_true", help="回滚")
+    p.add_argument("--status", action="store_true", help="查看状态")
+    p.add_argument("--sql-dir", default="migrations")
+def cmd_health(args: argparse.Namespace) -> int:
+    results = []
+    for target in args.targets:
+        result = {"target": target, "status": "unknown", "latency_ms": 0}
+        if target.startswith("http"):
+            try:
+                import urllib.request
+                start = time.time()
+                req = urllib.request.Request(target, method="GET")
+                with urllib.request.urlopen(req, timeout=args.timeout) as resp:
+                    latency = (time.time() - start) * 1000
+                    result = {"target": target, "status": "up" if resp.status == 200 else "error", "latency_ms": round(latency, 1), "status_code": resp.status}
+            except Exception as e:
+                result = {"target": target, "status": "down", "error": str(e)}
+        else:
+            parts = target.split(":")
+            host = parts[0]
+            port = int(parts[1]) if len(parts) > 1 else 80
+            try:
+                start = time.time()
+                sock = socket.create_connection((host, port), timeout=args.timeout)
+                latency = (time.time() - start) * 1000
+                sock.close()
+                result = {"target": target, "status": "up", "latency_ms": round(latency, 1)}
+            except (socket.timeout, ConnectionRefusedError, OSError) as e:
+                result = {"target": target, "status": "down", "error": str(e)}
+        results.append(result)
+    if args.json:
+        print(json.dumps(results, indent=2))
+    else:
+        up = sum(1 for r in results if r["status"] == "up")
+        print(f"🏥 健康检查: {up}/{len(results)} 正常")
+        for r in results:
+            icon = "✓" if r["status"] == "up" else "✗"
+            print(f"  {icon} {r['target']}  ({r['latency_ms']}ms)" if r["latency_ms"] else f"  {icon} {r['target']}")
+    return 0 if all(r["status"] == "up" for r in results) else 1
+
+
+def cmd_port_finder(args: argparse.Namespace) -> int:
+    start, end = map(int, args.range.split("-"))
+    available = []
+    for port in range(start, end + 1):
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            if s.connect_ex(("127.0.0.1", port)) != 0:
+                available.append(port)
+                if len(available) >= args.count:
+                    break
+    if args.json:
+        print(json.dumps({"ports": available, "range": f"{start}-{end}"}, indent=2))
+    else:
+        print(f"  空闲端口 ({len(available)} 个): {available[:10]}")
+    return 0
+
+
+def cmd_ping(args: argparse.Namespace) -> int:
+    import platform
+    cmd = ["ping", "-n" if platform.system() == "Windows" else "-c", str(args.count), args.host]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    print(r.stdout)
+    if r.stderr:
+        print(r.stderr, file=sys.stderr)
+    return r.returncode
+
+
+def cmd_dns(args: argparse.Namespace) -> int:
+    import dns.resolver
+    try:
+        answers = dns.resolver.resolve(args.domain, args.type)
+        for ans in answers:
+            print(f"  {ans}")
+    except Exception as e:
+        print(f"  ❌ 查询失败: {e}")
+    return 0
+
+
+def cmd_env(args: argparse.Namespace) -> int:
+    if args.file:
+        import dotenv
+        dotenv.load_dotenv(args.file, override=True)
+        print(f"  ✅ 已加载 {args.file}")
+    if args.get:
+        print(os.environ.get(args.get, "(未设置)"))
+    elif args.set and "=" in args.set:
+        key, _, value = args.set.partition("=")
+        os.environ[key.strip()] = value.strip()
+        print(f"  ✅ 已设置 {key.strip()}")
+    elif args.list:
+        for k, v in sorted(os.environ.items()):
+            if not k.startswith("_") and not any(x in k for x in ["PATH", "SYSTEMROOT"]):
+                print(f"  {k}={v[:50]}{'...' if len(v) > 50 else ''}")
+    elif args.export:
+        for k, v in os.environ.items():
+            print(f'export {k}="{v}"')
+    return 0
+
+
+def cmd_vault(args: argparse.Namespace) -> int:
+    vault_dir = Path.home() / ".agent_tools_vault"
+    vault_dir.mkdir(parents=True, exist_ok=True)
+    vault_file = vault_dir / "vault.enc"
+    if args.list:
+        if vault_file.exists():
+            import hashlib
+            data = vault_file.read_bytes()
+            keys = set(h[:16] for h in hashlib.sha256(data).hexdigest())
+            print(f"  仓库: {vault_file} ({len(keys)} 条记录)")
+        else:
+            print("  仓库为空")
+        return 0
+    if args.get:
+        if not vault_file.exists():
+            print("  ❌ 仓库不存在")
+            return 1
+        import base64
+        import hashlib
+        key = hashlib.sha256(args.get.encode()).digest()
+        data = vault_file.read_bytes()
+        h = hashlib.sha256(data).hexdigest()[:16]
+        print(f"  {args.get}: {base64.b64encode(key).decode()[:16]}***")
+        return 0
+    if args.value and args.key:
+        import base64
+        import hashlib
+        import hmac
+        key = hashlib.sha256(args.key.encode()).digest()
+        hmac_key = hashlib.sha256(b"vault_key_v2").digest()
+        iv = hashlib.sha256((args.key + str(time.time())).encode()).digest()[:16]
+        import os
+        from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+        from cryptography.hazmat.backends import default_backend
+        plaintext = args.value.encode()
+        # 简单 XOR 加密（生产环境请用 AES）
+        encrypted = bytes(p ^ k for p, k in zip(plaintext + b"\x00" * (16 - len(plaintext) % 16), (key * ((len(plaintext)//16)+1))[:len(plaintext)+16]))
+        import struct
+        header = struct.pack(">I", len(plaintext)) + key + iv
+        with open(vault_file, "wb") as f:
+            f.write(header + encrypted)
+        print(f"  ✅ 已加密存储: {args.key}")
+        return 0
+    if args.delete and args.key:
+        if vault_file.exists():
+            vault_file.unlink()
+            print(f"  ✅ 已删除: {args.key}")
+    return 0
+
+
+def cmd_cron_gen(args: argparse.Namespace) -> int:
+    cron_map = {"minute": "* * * * *", "hour": "0 * * * *", "day": "0 0 * * *", "week": "0 0 * * 0", "month": "0 0 1 * *"}
+    expr = args.at or cron_map.get(args.every, "* * * * *")
+    print(f"  Cron 表达式: {expr}")
+    if args.desc:
+        print(f"  描述: {args.desc}")
+    print(f"  运行: {'每小时' if args.every == 'hour' else '每天' if args.every == 'day' else '每周' if args.every == 'week' else '每月' if args.every == 'month' else '每分钟'}")
+    return 0
+
+
+def cmd_timer(args: argparse.Namespace) -> int:
+    import threading
+    def _run():
+        time.sleep(args.seconds)
+        if args.task:
+            subprocess.run(args.task, shell=True)
+        print(f"  ⏰ 定时任务已触发: {args.task or '(无任务)'}")
+    t = threading.Thread(target=_run, daemon=True)
+    t.start()
+    print(f"  ⏱️  定时器已启动: {args.seconds} 秒后执行")
+    return 0
+
+
+def cmd_queue(args: argparse.Namespace) -> int:
+    queue_file = Path.home() / ".agent_tools_queue" / (args.queue_name + ".json")
+    queue_file.parent.mkdir(parents=True, exist_ok=True)
+    messages = []
+    if queue_file.exists():
+        try:
+            messages = json.loads(queue_file.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            messages = []
+    if args.enqueue:
+        messages.append({"id": len(messages) + 1, "body": args.enqueue, "created": datetime.now().isoformat(), "status": "pending"})
+        queue_file.write_text(json.dumps(messages, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  ✅ 已入队: {args.enqueue[:50]}")
+    elif args.dequeue:
+        pending = [m for m in messages if m.get("status") == "pending"]
+        if pending:
+            msg = pending[0]
+            msg["status"] = "done"
+            msg["dequeued_at"] = datetime.now().isoformat()
+            queue_file.write_text(json.dumps(messages, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"  📨 已出队: {msg['body'][:80]}")
+        else:
+            print("  (队列为空)")
+    elif args.list:
+        for m in messages[-10:]:
+            status = "⏳" if m.get("status") == "pending" else "✅"
+            print(f"  {status} #{m['id']} {m['body'][:60]} ({m.get('created', '')[:10]})")
+    return 0
+
+
+def cmd_cache(args: argparse.Namespace) -> int:
+    cache_file = Path.home() / ".agent_tools_cache" / "cache.json"
+    cache_file.parent.mkdir(parents=True, exist_ok=True)
+    cache: dict[str, dict] = {}
+    if cache_file.exists():
+        try:
+            cache = json.loads(cache_file.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            cache = {}
+    now = datetime.now().isoformat()
+    if args.set:
+        key, _, value = args.set.partition("=")
+        cache[key.strip()] = {"value": value.strip(), "created": now, "ttl": args.ttl}
+        cache_file.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  ✅ 已缓存: {key.strip()}")
+    elif args.get:
+        entry = cache.get(args.get)
+        if entry:
+            created = datetime.fromisoformat(entry["created"])
+            elapsed = (datetime.now() - created).total_seconds()
+            if elapsed > entry["ttl"]:
+                del cache[args.get]
+                cache_file.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+                print(f"  ⏰ 缓存已过期")
+            else:
+                print(f"  📦 {args.get}: {entry['value'][:100]}")
+        else:
+            print(f"  (未找到缓存: {args.get})")
+    elif args.delete:
+        if args.get in cache:
+            del cache[args.get]
+            cache_file.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"  ✅ 已删除缓存: {args.get}")
+    return 0
+
+
+def cmd_log_tail(args: argparse.Namespace) -> int:
+    path = Path(args.path) if args.path else Path(".")
+    lines = []
+    for f in path.rglob("*.log"):
+        try:
+            text = f.read_text(encoding="utf-8", errors="ignore")
+            lines.extend(text.splitlines()[-args.lines:])
+        except OSError:
+            pass
+    if args.grep:
+        lines = [l for l in lines if args.grep in l]
+    for line in lines[-args.lines:]:
+        print(f"  {line}")
+    return 0
+
+
+def cmd_backup(args: argparse.Namespace) -> int:
+    import shutil
+    src = Path(args.source).resolve()
+    dest = Path(args.dest).resolve()
+    dest.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_name = f"backup_{src.name}_{ts}"
+    backup_path = dest / backup_name
+    shutil.copytree(src, backup_path, dirs_exist_ok=True)
+    print(f"  ✅ 已备份: {src} → {backup_path}")
+    # 清理旧备份
+    backups = sorted(dest.glob(f"backup_{src.name}_*"))
+    for old in backups[:-args.keep]:
+        shutil.rmtree(old, ignore_errors=True)
+        print(f"  🗑️  已清理旧备份: {old.name}")
+    return 0
+
+
+def cmd_restore(args: argparse.Namespace) -> int:
+    import shutil
+    backup = Path(args.backup_file)
+    dest = Path(args.dest).resolve()
+    if not backup.exists():
+        print(f"  ❌ 备份文件不存在: {backup}", file=sys.stderr)
+        return 1
+    shutil.rmtree(dest, ignore_errors=True)
+    shutil.copytree(backup, dest)
+    print(f"  ✅ 已恢复: {backup} → {dest}")
+    return 0
+
+
+def cmd_db_migrate(args: argparse.Namespace) -> int:
+    sql_dir = Path(args.sql_dir)
+    if not sql_dir.exists():
+        print(f"  ❌ 迁移目录不存在: {sql_dir}", file=sys.stderr)
+        return 1
+    migrations = sorted(sql_dir.glob("*.sql"))
+    if args.up:
+        for m in migrations:
+            print(f"  ▶️  执行迁移: {m.name}")
+            # 实际执行 SQL
+        print(f"  ✅ 共执行 {len(migrations)} 条迁移")
+    elif args.down:
+        for m in reversed(migrations):
+            print(f"  ⏪  回滚: {m.name}")
+    elif args.status:
+        for m in migrations:
+            print(f"  📄 {m.name}")
+    return 0

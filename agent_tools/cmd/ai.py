@@ -1,1 +1,364 @@
-IiIiYWk6IEFJIC8gQWdlbnQg5bel5YW344CCIiIiDQpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zDQoNCmltcG9ydCBhcmdwYXJzZQ0KaW1wb3J0IGpzb24NCmltcG9ydCByZQ0KaW1wb3J0IHN5cw0KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoDQpmcm9tIHR5cGluZyBpbXBvcnQgQW55DQoNCg0KZGVmIHJlZ2lzdGVyKHBhcmVudDogYXJncGFyc2UuQXJndW1lbnRQYXJzZXIpIC0+IE5vbmU6DQogICAgc3ViID0gcGFyZW50LmFkZF9zdWJwYXJzZXJzKGRlc3Q9ImNtZCIsIHJlcXVpcmVkPVRydWUpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInRva2VuLWNvdW50IiwgaGVscD0i6K6h566XIHRva2VuIOaVsCIpDQogICAgcC5hZGRfYXJndW1lbnQoInRleHQiLCBuYXJncz0iPyIsIGhlbHA9Iui+k+WFpeaWh+acrCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZmlsZSIsICItZiIsIGhlbHA9IuS7juaWh+S7tuivu+WPliIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbW9kZWwiLCBkZWZhdWx0PSJncHQtNCIsIGhlbHA9IuaooeWei+WQjeensO+8iOeUqOS6juS8sOeul++8iSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInByb21wdC10ZW1wbGF0ZSIsIGhlbHA9IueUn+aIkCBwcm9tcHQg5qih5p2/IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1uYW1lIiwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0i5qih5p2/5ZCNIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS12YXJpYWJsZXMiLCBoZWxwPSLlj5jph4/liJfooajvvIjpgJflj7fliIbpmpTvvIkiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZm9ybWF0IiwgY2hvaWNlcz1bImppbmphMiIsICJweXRob24iLCAibXVzdGFjaGUiXSwgZGVmYXVsdD0icHl0aG9uIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigianNvbi1zY2hlbWEtZ2VuIiwgaGVscD0i5LuOIEpTT04g56S65L6L55Sf5oiQIFNjaGVtYSIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJyYWctaW5kZXgiLCBoZWxwPSJSQUcg5paH5qGj57Si5byVIikNCiAgICBwLmFkZF9hcmd1bWVudCgicGF0aCIsIG5hcmdzPSI/IiwgZGVmYXVsdD0iLiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZXh0IiwgZGVmYXVsdD0iLm1kLC50eHQsLnB5LC5qcywudHMiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIsIGRlZmF1bHQ9InJhZ19pbmRleC5qc29uIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigic2ltaWxhcml0eSIsIGhlbHA9IuaWh+acrOebuOS8vOW6puiuoeeulyIpDQogICAgcC5hZGRfYXJndW1lbnQoImEiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJiIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1tZXRob2QiLCBjaG9pY2VzPVsiY29zaW5lIiwgImphY2NhcmQiLCAibGV2ZW5zaHRlaW4iXSwgZGVmYXVsdD0iY29zaW5lIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiY2xhc3NpZnkiLCBoZWxwPSLmlofmnKzliIbnsbsiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJ0ZXh0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1jYXRlZ29yaWVzIiwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0i5YiG57G75YiX6KGo77yI6YCX5Y+35YiG6ZqU77yJIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1tZXRob2QiLCBjaG9pY2VzPVsia2V5d29yZCIsICJ0ZmlkZiJdLCBkZWZhdWx0PSJrZXl3b3JkIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigic3VtbWFyaXplIiwgaGVscD0i5paH5pys5pGY6KaB77yIVEYtSURGIOWFs+mUruivjeaPkOWPlu+8iSIpDQogICAgcC5hZGRfYXJndW1lbnQoInRleHQiLCBuYXJncz0iPyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZmlsZSIsICItZiIsIGhlbHA9IuS7juaWh+S7tuivu+WPliIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc2VudGVuY2VzIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MykNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigia2V5d29yZC1leHRyYWN0IiwgaGVscD0i5YWz6ZSu6K+N5o+Q5Y+WIikNCiAgICBwLmFkZF9hcmd1bWVudCgidGV4dCIsIG5hcmdzPSI/IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1maWxlIiwgIi1mIiwgaGVscD0i5LuO5paH5Lu26K+75Y+WIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS10b3AiLCB0eXBlPWludCwgZGVmYXVsdD0xMCkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1taW4tbGVuZ3RoIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigic2VudGltZW50IiwgaGVscD0i566A5Y2V5oOF5oSf5YiG5p6QIikNCiAgICBwLmFkZF9hcmd1bWVudCgidGV4dCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInN0b3B3b3JkcyIsIGhlbHA9IuWBnOeUqOivjeeuoeeQhiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbGFuZyIsIGNob2ljZXM9WyJlbiIsICJ6aCIsICJqYSIsICJrbyJdLCBkZWZhdWx0PSJlbiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tYWRkIiwgaGVscD0i5re75Yqg5YGc55So6K+NIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1yZW1vdmUiLCBoZWxwPSLnp7vpmaTlgZznlKjor40iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWxpc3QiLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJubHRrLXRlc3QiLCBoZWxwPSJOTFRLIOajgOa1iyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbGlzdC1jb3Jwb3JhIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1kb3dubG9hZCIsIGhlbHA9IuS4i+i9veivreaWmSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImVtYmVkZGluZy1kaW0iLCBoZWxwPSLmo4DmtYsgZW1iZWRkaW5nIOe7tOW6piIpDQogICAgcC5hZGRfYXJndW1lbnQoInRleHQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXByb3ZpZGVyIiwgY2hvaWNlcz1bIm9wZW5haSIsICJhenVyZSIsICJvbGxhbWEiLCAibG9jYWwiXSwgZGVmYXVsdD0ibG9jYWwiKQ0KZGVmIF9lc3RpbWF0ZV90b2tlbnModGV4dDogc3RyLCBtb2RlbDogc3RyID0gImdwdC00IikgLT4gaW50Og0KICAgICIiIueyl+eVpeS8sOeulyB0b2tlbiDmlbDjgIIiIiINCiAgICBpZiBtb2RlbC5zdGFydHN3aXRoKCJncHQtNCIpOg0KICAgICAgICAjIH40IGNoYXJzIHBlciB0b2tlbiBmb3IgRW5nbGlzaA0KICAgICAgICByZXR1cm4gbWF4KDEsIGxlbih0ZXh0KSAvLyA0KQ0KICAgIGVsaWYgbW9kZWwuc3RhcnRzd2l0aCgiZ3B0LTMuNSIpOg0KICAgICAgICByZXR1cm4gbWF4KDEsIGxlbih0ZXh0KSAvLyA0KQ0KICAgIGVsaWYgImNsYXVkZSIgaW4gbW9kZWwubG93ZXIoKToNCiAgICAgICAgcmV0dXJuIG1heCgxLCBsZW4odGV4dCkgLy8gMykNCiAgICBlbHNlOg0KICAgICAgICByZXR1cm4gbWF4KDEsIGxlbih0ZXh0KSAvLyA0KQ0KDQoNCmRlZiBjbWRfdG9rZW5fY291bnQoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgdGV4dCA9IGFyZ3MudGV4dCBvciAiIg0KICAgIGlmIGFyZ3MuZmlsZToNCiAgICAgICAgdGV4dCA9IFBhdGgoYXJncy5maWxlKS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJpZ25vcmUiKQ0KICAgIHRva2VucyA9IF9lc3RpbWF0ZV90b2tlbnModGV4dCwgYXJncy5tb2RlbCkNCiAgICBjaGFycyA9IGxlbih0ZXh0KQ0KICAgIHdvcmRzID0gbGVuKHRleHQuc3BsaXQoKSkNCiAgICByZXN1bHQgPSB7Im1vZGVsIjogYXJncy5tb2RlbCwgInRva2VucyI6IHRva2VucywgImNoYXJhY3RlcnMiOiBjaGFycywgIndvcmRzIjogd29yZHN9DQogICAgaWYgYXJncy5qc29uOg0KICAgICAgICBwcmludChqc29uLmR1bXBzKHJlc3VsdCwgaW5kZW50PTIpKQ0KICAgIGVsc2U6DQogICAgICAgIHByaW50KGYi8J+TnSBUb2tlbiDkvLDnrpciKQ0KICAgICAgICBwcmludChmIiAgIOaooeWeizoge2FyZ3MubW9kZWx9IikNCiAgICAgICAgcHJpbnQoZiIgICDlrZfnrKY6IHtjaGFyczosfSIpDQogICAgICAgIHByaW50KGYiICAg5Y2V6K+NOiB7d29yZHM6LH0iKQ0KICAgICAgICBwcmludChmIiAgIOS8sOeulyBUb2tlbjoge3Rva2VuczosfSIpDQogICAgcmV0dXJuIDANCg0KDQoNCmRlZiBjbWRfcHJvbXB0X3RlbXBsYXRlKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIG5hbWUgPSBhcmdzLm5hbWUNCiAgICB2YXJpYWJsZXMgPSBbdi5zdHJpcCgpIGZvciB2IGluIChhcmdzLnZhcmlhYmxlcyBvciAiIikuc3BsaXQoIiwiKSBpZiB2LnN0cmlwKCldIGlmIGFyZ3MudmFyaWFibGVzIGVsc2UgW10NCiAgICBvdXQgPSBQYXRoKGFyZ3Mub3V0cHV0KSBpZiBhcmdzLm91dHB1dCBlbHNlIFBhdGgoZiJwcm9tcHRfe25hbWV9LnB5IikNCiAgICBsaW5lcyA9IFtmJyIiIntuYW1lfSBwcm9tcHQgdGVtcGxhdGUuIiIiJywgJ2Zyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMnLCAnJywgJyddDQogICAgaWYgdmFyaWFibGVzOg0KICAgICAgICBsaW5lcy5hcHBlbmQoZidkZWYgcmVuZGVyX3tuYW1lLnJlcGxhY2UoIi0iLCAiXyIpfSgnICsgJywgJy5qb2luKHZhcmlhYmxlcykgKyBmJykgLT4gc3RyOicpDQogICAgICAgIGxpbmVzLmFwcGVuZCgnICAgICIiIlJlbmRlciB0aGUgcHJvbXB0IHRlbXBsYXRlLiIiIicpDQogICAgICAgIGxpbmVzLmFwcGVuZCgnICAgIHJldHVybiBmIiIiJykNCiAgICAgICAgbGluZXMuYXBwZW5kKCcgICAgPFNZU1RFTT4nKQ0KICAgICAgICBsaW5lcy5hcHBlbmQoJyAgICBZb3UgYXJlIGEgcHJvZmVzc2lvbmFsIEFJIGFzc2lzdGFudC4nKQ0KICAgICAgICBsaW5lcy5hcHBlbmQoJyAgICA8L1NZU1RFTT4nKQ0KICAgICAgICBsaW5lcy5hcHBlbmQoJycpDQogICAgICAgIGxpbmVzLmFwcGVuZCgnICAgIDxVU0VSPicpDQogICAgICAgIGZvciB2IGluIHZhcmlhYmxlczoNCiAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmJyAgICB7dn09e3t7e3t2fX19fX0nKQ0KICAgICAgICBsaW5lcy5hcHBlbmQoJyAgICA8L1VTRVI+JykNCiAgICAgICAgbGluZXMuYXBwZW5kKCcgICAgIiIiJykNCiAgICBlbHNlOg0KICAgICAgICBsaW5lcy5hcHBlbmQoJ2RlZiByZW5kZXJfcHJvbXB0KCkgLT4gc3RyOicpDQogICAgICAgIGxpbmVzLmFwcGVuZCgnICAgIHJldHVybiAiIiInKQ0KICAgICAgICBsaW5lcy5hcHBlbmQoJyAgICA8U1lTVEVNPkFJIEFzc2lzdGFudDwvU1lTVEVNPicpDQogICAgICAgIGxpbmVzLmFwcGVuZCgnICAgICIiIicpDQogICAgY29udGVudCA9ICdcbicuam9pbihsaW5lcykgKyAnXG4nDQogICAgb3V0LndyaXRlX3RleHQoY29udGVudCwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICBwcmludChmIuKchSBQcm9tcHQg5qih5p2/5bey55Sf5oiQIOKGkiB7b3V0fSIpDQogICAgcmV0dXJuIDANCmRlZiBjbWRfanNvbl9zY2hlbWFfZ2VuKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGltcG9ydCBqc29uIGFzIF9qc29uDQogICAgZGF0YSA9IF9qc29uLmxvYWRzKFBhdGgoYXJncy5pbnB1dCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQ0KICAgIGRlZiBfc2NoZW1hKG9iajogQW55KSAtPiBkaWN0Og0KICAgICAgICBpZiBpc2luc3RhbmNlKG9iaiwgZGljdCk6DQogICAgICAgICAgICByZXR1cm4geyJ0eXBlIjogIm9iamVjdCIsICJwcm9wZXJ0aWVzIjoge2s6IF9zY2hlbWEodikgZm9yIGssIHYgaW4gb2JqLml0ZW1zKCl9fQ0KICAgICAgICBlbGlmIGlzaW5zdGFuY2Uob2JqLCBsaXN0KToNCiAgICAgICAgICAgIHJldHVybiB7InR5cGUiOiAiYXJyYXkiLCAiaXRlbXMiOiBfc2NoZW1hKG9ialswXSkgaWYgb2JqIGVsc2Uge319DQogICAgICAgIGVsaWYgaXNpbnN0YW5jZShvYmosIGJvb2wpOg0KICAgICAgICAgICAgcmV0dXJuIHsidHlwZSI6ICJib29sZWFuIn0NCiAgICAgICAgZWxpZiBpc2luc3RhbmNlKG9iaiwgaW50KToNCiAgICAgICAgICAgIHJldHVybiB7InR5cGUiOiAiaW50ZWdlciJ9DQogICAgICAgIGVsaWYgaXNpbnN0YW5jZShvYmosIGZsb2F0KToNCiAgICAgICAgICAgIHJldHVybiB7InR5cGUiOiAibnVtYmVyIn0NCiAgICAgICAgZWxpZiBpc2luc3RhbmNlKG9iaiwgc3RyKToNCiAgICAgICAgICAgIHJldHVybiB7InR5cGUiOiAic3RyaW5nIn0NCiAgICAgICAgZWxpZiBvYmogaXMgTm9uZToNCiAgICAgICAgICAgIHJldHVybiB7InR5cGUiOiAibnVsbCJ9DQogICAgICAgIHJldHVybiB7fQ0KICAgIHNjaGVtYSA9IF9zY2hlbWEoZGF0YSkNCiAgICBvdXQgPSBQYXRoKGFyZ3Mub3V0cHV0KSBpZiBhcmdzLm91dHB1dCBlbHNlIFBhdGgoYXJncy5pbnB1dCkud2l0aF9zdWZmaXgoIi5zY2hlbWEuanNvbiIpDQogICAgb3V0LndyaXRlX3RleHQoX2pzb24uZHVtcHMoc2NoZW1hLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKSwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICBwcmludChmIuKchSBTY2hlbWEg5bey55Sf5oiQIOKGkiB7b3V0fSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3JhZ19pbmRleChhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICByb290ID0gUGF0aChhcmdzLnBhdGgpLnJlc29sdmUoKQ0KICAgIGV4dHMgPSB0dXBsZShhcmdzLmV4dC5zcGxpdCgiLCIpKQ0KICAgIGNodW5rczogbGlzdFtkaWN0XSA9IFtdDQogICAgY2h1bmtfc2l6ZSA9IDUwMA0KICAgIG92ZXJsYXAgPSA1MA0KICAgIGZvciBmIGluIHJvb3Qucmdsb2IoIioiKToNCiAgICAgICAgaWYgZi5pc19maWxlKCkgYW5kIGYuc3VmZml4Lmxvd2VyKCkgaW4gZXh0czoNCiAgICAgICAgICAgIHRyeToNCiAgICAgICAgICAgICAgICB0ZXh0ID0gZi5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJpZ25vcmUiKQ0KICAgICAgICAgICAgZXhjZXB0IE9TRXJyb3I6DQogICAgICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgICAgIHNlbnRlbmNlcyA9IHJlLnNwbGl0KHIiW+OAgi4hIT/vvJtcbl0iLCB0ZXh0KQ0KICAgICAgICAgICAgY3VycmVudCA9IFtdDQogICAgICAgICAgICBjdXJyZW50X2xlbiA9IDANCiAgICAgICAgICAgIGZvciBzZW50IGluIHNlbnRlbmNlczoNCiAgICAgICAgICAgICAgICBzZW50ID0gc2VudC5zdHJpcCgpDQogICAgICAgICAgICAgICAgaWYgbm90IHNlbnQ6DQogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlDQogICAgICAgICAgICAgICAgY3VycmVudC5hcHBlbmQoc2VudCkNCiAgICAgICAgICAgICAgICBjdXJyZW50X2xlbiArPSBsZW4oc2VudCkNCiAgICAgICAgICAgICAgICBpZiBjdXJyZW50X2xlbiA+PSBjaHVua19zaXplOg0KICAgICAgICAgICAgICAgICAgICBjaHVua3MuYXBwZW5kKHsNCiAgICAgICAgICAgICAgICAgICAgICAgICJzb3VyY2UiOiBzdHIoZi5yZWxhdGl2ZV90byhyb290KSksDQogICAgICAgICAgICAgICAgICAgICAgICAiY29udGVudCI6ICIgIi5qb2luKGN1cnJlbnQpLA0KICAgICAgICAgICAgICAgICAgICAgICAgImNoYXJfY291bnQiOiBjdXJyZW50X2xlbiwNCiAgICAgICAgICAgICAgICAgICAgfSkNCiAgICAgICAgICAgICAgICAgICAgY3VycmVudCA9IGN1cnJlbnRbLShjdXJyZW50X2xlbiAtIG92ZXJsYXApLy9tYXgoMSwgY2h1bmtfc2l6ZS8vMik6XSBpZiBjdXJyZW50IGVsc2UgW10NCiAgICAgICAgICAgICAgICAgICAgY3VycmVudF9sZW4gPSBzdW0obGVuKHMpIGZvciBzIGluIGN1cnJlbnQpDQogICAgICAgICAgICBpZiBjdXJyZW50Og0KICAgICAgICAgICAgICAgIGNodW5rcy5hcHBlbmQoeyJzb3VyY2UiOiBzdHIoZi5yZWxhdGl2ZV90byhyb290KSksICJjb250ZW50IjogIiAiLmpvaW4oY3VycmVudCksICJjaGFyX2NvdW50Ijogc3VtKGxlbihzKSBmb3IgcyBpbiBjdXJyZW50KX0pDQogICAgb3V0ID0gUGF0aChhcmdzLm91dHB1dCkNCiAgICBvdXQud3JpdGVfdGV4dChqc29uLmR1bXBzKGNodW5rcywgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MiksIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgcHJpbnQoZiLinIUgUkFHIOe0ouW8leW3sueUn+aIkCDihpIge291dH0gKHtsZW4oY2h1bmtzKX0g5Liq54mH5q61KSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3NpbWlsYXJpdHkoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgYSA9IGFyZ3MuYS5sb3dlcigpDQogICAgYiA9IGFyZ3MuYi5sb3dlcigpDQogICAgaWYgYXJncy5tZXRob2QgPT0gImNvc2luZSI6DQogICAgICAgIGZyb20gY29sbGVjdGlvbnMgaW1wb3J0IENvdW50ZXINCiAgICAgICAgY2EgPSBDb3VudGVyKGEuc3BsaXQoKSkNCiAgICAgICAgY2IgPSBDb3VudGVyKGIuc3BsaXQoKSkNCiAgICAgICAgYWxsX3dvcmRzID0gc2V0KGNhKSB8IHNldChjYikNCiAgICAgICAgZG90ID0gc3VtKGNhLmdldCh3LCAwKSAqIGNiLmdldCh3LCAwKSBmb3IgdyBpbiBhbGxfd29yZHMpDQogICAgICAgIG1hZ19hID0gc3VtKHYqKjIgZm9yIHYgaW4gY2EudmFsdWVzKCkpICoqIDAuNQ0KICAgICAgICBtYWdfYiA9IHN1bSh2KioyIGZvciB2IGluIGNiLnZhbHVlcygpKSAqKiAwLjUNCiAgICAgICAgc2NvcmUgPSBkb3QgLyAobWFnX2EgKiBtYWdfYikgaWYgbWFnX2EgYW5kIG1hZ19iIGVsc2UgMA0KICAgIGVsaWYgYXJncy5tZXRob2QgPT0gImphY2NhcmQiOg0KICAgICAgICBzYSA9IHNldChhLnNwbGl0KCkpDQogICAgICAgIHNiID0gc2V0KGIuc3BsaXQoKSkNCiAgICAgICAgc2NvcmUgPSBsZW4oc2EgJiBzYikgLyBsZW4oc2EgfCBzYikgaWYgc2EgfCBzYiBlbHNlIDANCiAgICBlbHNlOg0KICAgICAgICAjIExldmVuc2h0ZWluDQogICAgICAgIG0sIG4gPSBsZW4oYSksIGxlbihiKQ0KICAgICAgICBkcCA9IFtbMF0qKG4rMSkgZm9yIF8gaW4gcmFuZ2UobSsxKV0NCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobSsxKTogZHBbaV1bMF0gPSBpDQogICAgICAgIGZvciBqIGluIHJhbmdlKG4rMSk6IGRwWzBdW2pdID0gag0KICAgICAgICBmb3IgaSBpbiByYW5nZSgxLCBtKzEpOg0KICAgICAgICAgICAgZm9yIGogaW4gcmFuZ2UoMSwgbisxKToNCiAgICAgICAgICAgICAgICBpZiBhW2ktMV0gPT0gYltqLTFdOg0KICAgICAgICAgICAgICAgICAgICBkcFtpXVtqXSA9IGRwW2ktMV1bai0xXQ0KICAgICAgICAgICAgICAgIGVsc2U6DQogICAgICAgICAgICAgICAgICAgIGRwW2ldW2pdID0gMSArIG1pbihkcFtpLTFdW2pdLCBkcFtpXVtqLTFdLCBkcFtpLTFdW2otMV0pDQogICAgICAgIHNjb3JlID0gMSAtIGRwW21dW25dIC8gbWF4KG0sIG4pDQogICAgcHJpbnQoZiIgIOebuOS8vOW6pjoge3Njb3JlOi40Zn0gICh7YXJncy5tZXRob2R9KSIpDQogICAgcHJpbnQoZiIgIEE6IHthWzo2MF19Li4uIikNCiAgICBwcmludChmIiAgQjoge2JbOjYwXX0uLi4iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9jbGFzc2lmeShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBjYXRlZ29yaWVzID0gW2Muc3RyaXAoKSBmb3IgYyBpbiBhcmdzLmNhdGVnb3JpZXMuc3BsaXQoIiwiKV0NCiAgICB0ZXh0ID0gYXJncy50ZXh0Lmxvd2VyKCkNCiAgICBzY29yZXM6IGRpY3Rbc3RyLCBmbG9hdF0gPSB7fQ0KICAgIGZvciBjYXQgaW4gY2F0ZWdvcmllczoNCiAgICAgICAga2V5d29yZHMgPSBjYXQubG93ZXIoKS5zcGxpdCgpDQogICAgICAgIG1hdGNoZXMgPSBzdW0oMSBmb3Iga3cgaW4ga2V5d29yZHMgaWYga3cgaW4gdGV4dCkNCiAgICAgICAgc2NvcmVzW2NhdF0gPSBtYXRjaGVzIC8gbGVuKGtleXdvcmRzKSBpZiBrZXl3b3JkcyBlbHNlIDANCiAgICBiZXN0ID0gbWF4KHNjb3Jlcy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IHhbMV0pDQogICAgcHJpbnQoZiLwn5OCIOWIhuexu+e7k+aenDoge2Jlc3RbMF19ICjlvpfliIY6IHtiZXN0WzFdOi4yZn0pIikNCiAgICBmb3IgY2F0LCBzY29yZSBpbiBzb3J0ZWQoc2NvcmVzLml0ZW1zKCksIGtleT1sYW1iZGEgeDogLXhbMV0pOg0KICAgICAgICBiYXIgPSAi4paIIiAqIGludChzY29yZSAqIDIwKQ0KICAgICAgICBwcmludChmIiAgIHtjYXQ6PDE1fSB7c2NvcmU6LjJmfSAge2Jhcn0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9zdW1tYXJpemUoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgdGV4dCA9IGFyZ3MudGV4dCBvciAiIg0KICAgIGlmIGFyZ3MuZmlsZToNCiAgICAgICAgdGV4dCA9IFBhdGgoYXJncy5maWxlKS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJpZ25vcmUiKQ0KICAgIHNlbnRlbmNlcyA9IHJlLnNwbGl0KHIiW+OAgi4hIT/vvJtcbl0iLCB0ZXh0KQ0KICAgIHNlbnRlbmNlcyA9IFtzLnN0cmlwKCkgZm9yIHMgaW4gc2VudGVuY2VzIGlmIHMuc3RyaXAoKV0NCiAgICBmcm9tIGNvbGxlY3Rpb25zIGltcG9ydCBDb3VudGVyDQogICAgd29yZHMgPSBDb3VudGVyKHRleHQubG93ZXIoKS5zcGxpdCgpKQ0KICAgIHRvdGFsID0gbGVuKHRleHQuc3BsaXQoKSkNCiAgICBzY29yZXMgPSB7fQ0KICAgIGZvciBpLCBzZW50IGluIGVudW1lcmF0ZShzZW50ZW5jZXMpOg0KICAgICAgICBzY29yZSA9IHN1bSh3b3Jkcy5nZXQodywgMCkgZm9yIHcgaW4gc2VudC5sb3dlcigpLnNwbGl0KCkpIC8gbWF4KDEsIGxlbihzZW50LnNwbGl0KCkpKQ0KICAgICAgICBzY29yZXNbaV0gPSBzY29yZQ0KICAgIHRvcF9pbmRpY2VzID0gc29ydGVkKHNjb3Jlcywga2V5PXNjb3Jlcy5nZXQsIHJldmVyc2U9VHJ1ZSlbOmFyZ3Muc2VudGVuY2VzXQ0KICAgIHN1bW1hcnkgPSAiICIuam9pbihzZW50ZW5jZXNbaV0gZm9yIGkgaW4gc29ydGVkKHRvcF9pbmRpY2VzKSkNCiAgICBwcmludChzdW1tYXJ5KQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9rZXl3b3JkX2V4dHJhY3QoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgdGV4dCA9IGFyZ3MudGV4dCBvciAiIg0KICAgIGlmIGFyZ3MuZmlsZToNCiAgICAgICAgdGV4dCA9IFBhdGgoYXJncy5maWxlKS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJpZ25vcmUiKQ0KICAgIGZyb20gY29sbGVjdGlvbnMgaW1wb3J0IENvdW50ZXINCiAgICB3b3JkcyA9IFt3IGZvciB3IGluIHRleHQubG93ZXIoKS5zcGxpdCgpIGlmIGxlbih3KSA+PSBhcmdzLm1pbl9sZW5ndGhdDQogICAgZnJlcSA9IENvdW50ZXIod29yZHMpDQogICAgdG90YWwgPSBsZW4od29yZHMpDQogICAgc2NvcmVkID0ge3c6IG4vdG90YWwgZm9yIHcsIG4gaW4gZnJlcS5pdGVtcygpIGlmIG4gPj0gMn0NCiAgICB0b3AgPSBzb3J0ZWQoc2NvcmVkLml0ZW1zKCksIGtleT1sYW1iZGEgeDogLXhbMV0pWzphcmdzLnRvcF0NCiAgICBmb3IgdywgcyBpbiB0b3A6DQogICAgICAgIGJhciA9ICLilogiICogaW50KHMgKiAxMDApDQogICAgICAgIHByaW50KGYiICB7dzo8MjB9IHtzOi4zZn0gIHtiYXJ9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfc2VudGltZW50KGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIHRleHQgPSBhcmdzLnRleHQubG93ZXIoKQ0KICAgIHBvc2l0aXZlID0gWyJnb29kIiwgImdyZWF0IiwgImV4Y2VsbGVudCIsICJhbWF6aW5nIiwgImxvdmUiLCAiYmVzdCIsICJwZXJmZWN0IiwgImhhcHB5IiwgIndvbmRlcmZ1bCIsICJmYW50YXN0aWMiLCAi5Zac5qyiIiwgIuWlvSIsICLmo5IiLCAi5LyY56eAIiwgIuW8gOW/gyIsICLniLEiXQ0KICAgIG5lZ2F0aXZlID0gWyJiYWQiLCAidGVycmlibGUiLCAiYXdmdWwiLCAiaGF0ZSIsICJ3b3JzdCIsICJob3JyaWJsZSIsICJzYWQiLCAiYW5ncnkiLCAiYnVnIiwgImVycm9yIiwgImZhaWwiLCAi57Of57OVIiwgIuW3riIsICLng4IiLCAi6K6o5Y6MIiwgIueUn+awlCIsICLplJnor68iXQ0KICAgIHBvc19jb3VudCA9IHN1bSgxIGZvciB3IGluIHBvc2l0aXZlIGlmIHcgaW4gdGV4dCkNCiAgICBuZWdfY291bnQgPSBzdW0oMSBmb3IgdyBpbiBuZWdhdGl2ZSBpZiB3IGluIHRleHQpDQogICAgdG90YWwgPSBwb3NfY291bnQgKyBuZWdfY291bnQNCiAgICBpZiB0b3RhbCA9PSAwOg0KICAgICAgICByZXN1bHQgPSB7InNlbnRpbWVudCI6ICJuZXV0cmFsIiwgInNjb3JlIjogMC4wLCAicG9zaXRpdmUiOiBwb3NfY291bnQsICJuZWdhdGl2ZSI6IG5lZ19jb3VudH0NCiAgICBlbHNlOg0KICAgICAgICBzY29yZSA9IChwb3NfY291bnQgLSBuZWdfY291bnQpIC8gdG90YWwNCiAgICAgICAgaWYgc2NvcmUgPiAwLjI6DQogICAgICAgICAgICBzZW50aW1lbnQgPSAicG9zaXRpdmUiDQogICAgICAgIGVsaWYgc2NvcmUgPCAtMC4yOg0KICAgICAgICAgICAgc2VudGltZW50ID0gIm5lZ2F0aXZlIg0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgc2VudGltZW50ID0gIm5ldXRyYWwiDQogICAgICAgIHJlc3VsdCA9IHsic2VudGltZW50Ijogc2VudGltZW50LCAic2NvcmUiOiByb3VuZChzY29yZSwgMyksICJwb3NpdGl2ZSI6IHBvc19jb3VudCwgIm5lZ2F0aXZlIjogbmVnX2NvdW50fQ0KICAgIGlmIGFyZ3MuanNvbjoNCiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyhyZXN1bHQsIGluZGVudD0yKSkNCiAgICBlbHNlOg0KICAgICAgICBlbW9qaSA9IHsicG9zaXRpdmUiOiAi8J+YiiIsICJuZWdhdGl2ZSI6ICLwn5igIiwgIm5ldXRyYWwiOiAi8J+YkCJ9DQogICAgICAgIHByaW50KGYiICB7ZW1vamkuZ2V0KHJlc3VsdFsnc2VudGltZW50J10sICfwn5iQJyl9IOaDheaEnzoge3Jlc3VsdFsnc2VudGltZW50J119ICAo5YiG5pWwOiB7cmVzdWx0WydzY29yZSddOisuM2Z9KSIpDQogICAgICAgIHByaW50KGYiICAgICDmraPpnaI6IHtyZXN1bHRbJ3Bvc2l0aXZlJ119ICDotJ/pnaI6IHtyZXN1bHRbJ25lZ2F0aXZlJ119IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfc3RvcHdvcmRzKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGxhbmcgPSBhcmdzLmxhbmcNCiAgICBkZWZhdWx0X3N3ID0gew0KICAgICAgICAiZW4iOiBbImEiLCAiYW4iLCAidGhlIiwgImFuZCIsICJvciIsICJidXQiLCAiaW4iLCAib24iLCAiYXQiLCAidG8iLCAiZm9yIiwgIm9mIiwgIndpdGgiLCAiYnkiLCAiZnJvbSIsICJhcyIsICJpcyIsICJ3YXMiLCAiYXJlIiwgIndlcmUiLCAiYmUiLCAiYmVlbiIsICJiZWluZyIsICJoYXZlIiwgImhhcyIsICJoYWQiLCAiZG8iLCAiZG9lcyIsICJkaWQiLCAid2lsbCIsICJ3b3VsZCIsICJjb3VsZCIsICJzaG91bGQiLCAibWF5IiwgIm1pZ2h0IiwgImNhbiIsICJzaGFsbCIsICJub3QiLCAibm8iLCAibm9yIiwgInNvIiwgImlmIiwgInRoZW4iLCAidGhhbiIsICJ0b28iLCAidmVyeSIsICJqdXN0IiwgImFib3V0IiwgImFib3ZlIiwgImFmdGVyIiwgImFnYWluIiwgImFsbCIsICJhbHNvIiwgImFueSIsICJiZWNhdXNlIiwgImJlZm9yZSIsICJiZXR3ZWVuIiwgImJvdGgiLCAiYnV0IiwgImVhY2giLCAiZmV3IiwgIm1vcmUiLCAibW9zdCIsICJvdGhlciIsICJvdXQiLCAib3ZlciIsICJvd24iLCAic2FtZSIsICJzb21lIiwgInN1Y2giLCAidGhyb3VnaCIsICJ1bmRlciIsICJ1bnRpbCIsICJ1cCIsICJ3ZSIsICJtZSIsICJteSIsICJpIiwgInlvdSIsICJ5b3VyIiwgImhlIiwgInNoZSIsICJpdCIsICJ0aGV5IiwgInRoZW0iLCAidGhlaXIiLCAiaXRzIiwgImhpcyIsICJoZXIiXSwNCiAgICAgICAgInpoIjogWyLnmoQiLCAi5LqGIiwgIuaYryIsICLlnKgiLCAi5oiRIiwgIuaciSIsICLlkowiLCAi5bCxIiwgIuS4jSIsICLkuroiLCAi6YO9IiwgIuS4gCIsICLkuIDkuKoiLCAi5LiKIiwgIuS5nyIsICLlvogiLCAi5YiwIiwgIuivtCIsICLopoEiLCAi5Y67IiwgIuS9oCIsICLkvJoiLCAi552AIiwgIuayoeaciSIsICLnnIsiLCAi5aW9IiwgIuiHquW3sSIsICLov5kiXSwNCiAgICB9DQogICAgc3cgPSBkZWZhdWx0X3N3LmdldChsYW5nLCBkZWZhdWx0X3N3WyJlbiJdKQ0KICAgIGlmIGFyZ3MuYWRkOg0KICAgICAgICBmb3Igd29yZCBpbiBhcmdzLmFkZC5zcGxpdCgiLCIpOg0KICAgICAgICAgICAgc3cuYXBwZW5kKHdvcmQuc3RyaXAoKSkNCiAgICAgICAgcHJpbnQoZiIgIOW3sua3u+WKoDoge3dvcmQuc3RyaXAoKX0iKQ0KICAgIGlmIGFyZ3MucmVtb3ZlOg0KICAgICAgICBmb3Igd29yZCBpbiBhcmdzLnJlbW92ZS5zcGxpdCgiLCIpOg0KICAgICAgICAgICAgaWYgd29yZC5zdHJpcCgpIGluIHN3Og0KICAgICAgICAgICAgICAgIHN3LnJlbW92ZSh3b3JkLnN0cmlwKCkpDQogICAgICAgIHByaW50KGYiICDlt7Lnp7vpmaQ6IHt3b3JkLnN0cmlwKCl9IikNCiAgICBpZiBhcmdzLmxpc3Q6DQogICAgICAgIHByaW50KGYiICB7bGFuZ30g5YGc55So6K+NICh7bGVuKHN3KX0g5LiqKToiKQ0KICAgICAgICBwcmludCgiICAiICsgIiAiLmpvaW4oc3dbOjUwXSkpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX25sdGtfdGVzdChhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICB0cnk6DQogICAgICAgIGltcG9ydCBubHRrDQogICAgICAgIGlmIGFyZ3MubGlzdF9jb3Jwb3JhOg0KICAgICAgICAgICAgcHJpbnQoIiAgTkxUSyDor63mlpnlupM6IikNCiAgICAgICAgICAgIGZvciBuYW1lIGluIGRpcihubHRrLmNvcnB1cyk6DQogICAgICAgICAgICAgICAgaWYgbm90IG5hbWUuc3RhcnRzd2l0aCgiXyIpOg0KICAgICAgICAgICAgICAgICAgICBwcmludChmIiAgICAtIHtuYW1lfSIpDQogICAgICAgIGlmIGFyZ3MuZG93bmxvYWQ6DQogICAgICAgICAgICBubHRrLmRvd25sb2FkKGFyZ3MuZG93bmxvYWQpDQogICAgICAgICAgICBwcmludChmIiAg4pyFIOW3suS4i+i9vSB7YXJncy5kb3dubG9hZH0iKQ0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgcHJpbnQoZiIgIE5MVEsg5bey5a6J6KOF77yM54mI5pysOiB7bmx0ay5fX3ZlcnNpb25fX30iKQ0KICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoNCiAgICAgICAgcHJpbnQoIiAg4p2MIOivt+WuieijhSBOTFRLOiBwaXAgaW5zdGFsbCBubHRrIikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfZW1iZWRkaW5nX2RpbShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICB0ZXh0ID0gYXJncy50ZXh0DQogICAgcHJvdmlkZXIgPSBhcmdzLnByb3ZpZGVyDQogICAgaWYgcHJvdmlkZXIgPT0gIm9wZW5haSI6DQogICAgICAgIGRpbSA9IDE1MzYgICMgdGV4dC1lbWJlZGRpbmctYWRhLTAwMg0KICAgIGVsaWYgcHJvdmlkZXIgPT0gImF6dXJlIjoNCiAgICAgICAgZGltID0gMTUzNg0KICAgIGVsaWYgcHJvdmlkZXIgPT0gIm9sbGFtYSI6DQogICAgICAgIGRpbSA9IDc2OCAgIyBkZWZhdWx0IG5vbWljLWVtYmVkLXRleHQNCiAgICBlbHNlOg0KICAgICAgICBkaW0gPSAzODQgICMgYWxsLU1pbmlMTS1MNi12Mg0KICAgIHByaW50KGYiICDmj5DkvpvllYY6IHtwcm92aWRlcn0iKQ0KICAgIHByaW50KGYiICDpu5jorqTnu7TluqY6IHtkaW19IikNCiAgICBwcmludChmIiAg6L6T5YWl5paH5pys6ZW/5bqmOiB7bGVuKHRleHQpfSDlrZfnrKYiKQ0KICAgIHJldHVybiAwDQo=
+"""ai: AI / Agent 工具。"""
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from pathlib import Path
+from typing import Any
+
+
+def register(parent: argparse.ArgumentParser) -> None:
+    sub = parent.add_subparsers(dest="cmd", required=True)
+
+    p = sub.add_parser("token-count", help="计算 token 数")
+    p.add_argument("text", nargs="?", help="输入文本")
+    p.add_argument("--file", "-f", help="从文件读取")
+    p.add_argument("--model", default="gpt-4", help="模型名称（用于估算）")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("prompt-template", help="生成 prompt 模板")
+    p.add_argument("--name", required=True, help="模板名")
+    p.add_argument("--variables", help="变量列表（逗号分隔）")
+    p.add_argument("--output", "-o")
+    p.add_argument("--format", choices=["jinja2", "python", "mustache"], default="python")
+
+    p = sub.add_parser("json-schema-gen", help="从 JSON 示例生成 Schema")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("rag-index", help="RAG 文档索引")
+    p.add_argument("path", nargs="?", default=".")
+    p.add_argument("--ext", default=".md,.txt,.py,.js,.ts")
+    p.add_argument("--output", "-o", default="rag_index.json")
+
+    p = sub.add_parser("similarity", help="文本相似度计算")
+    p.add_argument("a")
+    p.add_argument("b")
+    p.add_argument("--method", choices=["cosine", "jaccard", "levenshtein"], default="cosine")
+
+    p = sub.add_parser("classify", help="文本分类")
+    p.add_argument("text")
+    p.add_argument("--categories", required=True, help="分类列表（逗号分隔）")
+    p.add_argument("--method", choices=["keyword", "tfidf"], default="keyword")
+
+    p = sub.add_parser("summarize", help="文本摘要（TF-IDF 关键词提取）")
+    p.add_argument("text", nargs="?")
+    p.add_argument("--file", "-f", help="从文件读取")
+    p.add_argument("--sentences", type=int, default=3)
+
+    p = sub.add_parser("keyword-extract", help="关键词提取")
+    p.add_argument("text", nargs="?")
+    p.add_argument("--file", "-f", help="从文件读取")
+    p.add_argument("--top", type=int, default=10)
+    p.add_argument("--min-length", type=int, default=2)
+
+    p = sub.add_parser("sentiment", help="简单情感分析")
+    p.add_argument("text")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("stopwords", help="停用词管理")
+    p.add_argument("--lang", choices=["en", "zh", "ja", "ko"], default="en")
+    p.add_argument("--add", help="添加停用词")
+    p.add_argument("--remove", help="移除停用词")
+    p.add_argument("--list", action="store_true")
+
+    p = sub.add_parser("nltk-test", help="NLTK 检测")
+    p.add_argument("--list-corpora", action="store_true")
+    p.add_argument("--download", help="下载语料")
+
+    p = sub.add_parser("embedding-dim", help="检测 embedding 维度")
+    p.add_argument("text")
+    p.add_argument("--provider", choices=["openai", "azure", "ollama", "local"], default="local")
+def _estimate_tokens(text: str, model: str = "gpt-4") -> int:
+    """粗略估算 token 数。"""
+    if model.startswith("gpt-4"):
+        # ~4 chars per token for English
+        return max(1, len(text) // 4)
+    elif model.startswith("gpt-3.5"):
+        return max(1, len(text) // 4)
+    elif "claude" in model.lower():
+        return max(1, len(text) // 3)
+    else:
+        return max(1, len(text) // 4)
+
+
+def cmd_token_count(args: argparse.Namespace) -> int:
+    text = args.text or ""
+    if args.file:
+        text = Path(args.file).read_text(encoding="utf-8", errors="ignore")
+    tokens = _estimate_tokens(text, args.model)
+    chars = len(text)
+    words = len(text.split())
+    result = {"model": args.model, "tokens": tokens, "characters": chars, "words": words}
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        print(f"📝 Token 估算")
+        print(f"   模型: {args.model}")
+        print(f"   字符: {chars:,}")
+        print(f"   单词: {words:,}")
+        print(f"   估算 Token: {tokens:,}")
+    return 0
+
+
+
+def cmd_prompt_template(args: argparse.Namespace) -> int:
+    name = args.name
+    variables = [v.strip() for v in (args.variables or "").split(",") if v.strip()] if args.variables else []
+    out = Path(args.output) if args.output else Path(f"prompt_{name}.py")
+    lines = [f'"""{name} prompt template."""', 'from __future__ import annotations', '', '']
+    if variables:
+        lines.append(f'def render_{name.replace("-", "_")}(' + ', '.join(variables) + f') -> str:')
+        lines.append('    """Render the prompt template."""')
+        lines.append('    return f"""')
+        lines.append('    <SYSTEM>')
+        lines.append('    You are a professional AI assistant.')
+        lines.append('    </SYSTEM>')
+        lines.append('')
+        lines.append('    <USER>')
+        for v in variables:
+            lines.append(f'    {v}={{{{{v}}}}}')
+        lines.append('    </USER>')
+        lines.append('    """')
+    else:
+        lines.append('def render_prompt() -> str:')
+        lines.append('    return """')
+        lines.append('    <SYSTEM>AI Assistant</SYSTEM>')
+        lines.append('    """')
+    content = '\n'.join(lines) + '\n'
+    out.write_text(content, encoding="utf-8")
+    print(f"✅ Prompt 模板已生成 → {out}")
+    return 0
+def cmd_json_schema_gen(args: argparse.Namespace) -> int:
+    import json as _json
+    data = _json.loads(Path(args.input).read_text(encoding="utf-8"))
+    def _schema(obj: Any) -> dict:
+        if isinstance(obj, dict):
+            return {"type": "object", "properties": {k: _schema(v) for k, v in obj.items()}}
+        elif isinstance(obj, list):
+            return {"type": "array", "items": _schema(obj[0]) if obj else {}}
+        elif isinstance(obj, bool):
+            return {"type": "boolean"}
+        elif isinstance(obj, int):
+            return {"type": "integer"}
+        elif isinstance(obj, float):
+            return {"type": "number"}
+        elif isinstance(obj, str):
+            return {"type": "string"}
+        elif obj is None:
+            return {"type": "null"}
+        return {}
+    schema = _schema(data)
+    out = Path(args.output) if args.output else Path(args.input).with_suffix(".schema.json")
+    out.write_text(_json.dumps(schema, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"✅ Schema 已生成 → {out}")
+    return 0
+
+
+def cmd_rag_index(args: argparse.Namespace) -> int:
+    root = Path(args.path).resolve()
+    exts = tuple(args.ext.split(","))
+    chunks: list[dict] = []
+    chunk_size = 500
+    overlap = 50
+    for f in root.rglob("*"):
+        if f.is_file() and f.suffix.lower() in exts:
+            try:
+                text = f.read_text(encoding="utf-8", errors="ignore")
+            except OSError:
+                continue
+            sentences = re.split(r"[。.!!?；\n]", text)
+            current = []
+            current_len = 0
+            for sent in sentences:
+                sent = sent.strip()
+                if not sent:
+                    continue
+                current.append(sent)
+                current_len += len(sent)
+                if current_len >= chunk_size:
+                    chunks.append({
+                        "source": str(f.relative_to(root)),
+                        "content": " ".join(current),
+                        "char_count": current_len,
+                    })
+                    current = current[-(current_len - overlap)//max(1, chunk_size//2):] if current else []
+                    current_len = sum(len(s) for s in current)
+            if current:
+                chunks.append({"source": str(f.relative_to(root)), "content": " ".join(current), "char_count": sum(len(s) for s in current)})
+    out = Path(args.output)
+    out.write_text(json.dumps(chunks, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"✅ RAG 索引已生成 → {out} ({len(chunks)} 个片段)")
+    return 0
+
+
+def cmd_similarity(args: argparse.Namespace) -> int:
+    a = args.a.lower()
+    b = args.b.lower()
+    if args.method == "cosine":
+        from collections import Counter
+        ca = Counter(a.split())
+        cb = Counter(b.split())
+        all_words = set(ca) | set(cb)
+        dot = sum(ca.get(w, 0) * cb.get(w, 0) for w in all_words)
+        mag_a = sum(v**2 for v in ca.values()) ** 0.5
+        mag_b = sum(v**2 for v in cb.values()) ** 0.5
+        score = dot / (mag_a * mag_b) if mag_a and mag_b else 0
+    elif args.method == "jaccard":
+        sa = set(a.split())
+        sb = set(b.split())
+        score = len(sa & sb) / len(sa | sb) if sa | sb else 0
+    else:
+        # Levenshtein
+        m, n = len(a), len(b)
+        dp = [[0]*(n+1) for _ in range(m+1)]
+        for i in range(m+1): dp[i][0] = i
+        for j in range(n+1): dp[0][j] = j
+        for i in range(1, m+1):
+            for j in range(1, n+1):
+                if a[i-1] == b[j-1]:
+                    dp[i][j] = dp[i-1][j-1]
+                else:
+                    dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])
+        score = 1 - dp[m][n] / max(m, n)
+    print(f"  相似度: {score:.4f}  ({args.method})")
+    print(f"  A: {a[:60]}...")
+    print(f"  B: {b[:60]}...")
+    return 0
+
+
+def cmd_classify(args: argparse.Namespace) -> int:
+    categories = [c.strip() for c in args.categories.split(",")]
+    text = args.text.lower()
+    scores: dict[str, float] = {}
+    for cat in categories:
+        keywords = cat.lower().split()
+        matches = sum(1 for kw in keywords if kw in text)
+        scores[cat] = matches / len(keywords) if keywords else 0
+    best = max(scores.items(), key=lambda x: x[1])
+    print(f"📂 分类结果: {best[0]} (得分: {best[1]:.2f})")
+    for cat, score in sorted(scores.items(), key=lambda x: -x[1]):
+        bar = "█" * int(score * 20)
+        print(f"   {cat:<15} {score:.2f}  {bar}")
+    return 0
+
+
+def cmd_summarize(args: argparse.Namespace) -> int:
+    text = args.text or ""
+    if args.file:
+        text = Path(args.file).read_text(encoding="utf-8", errors="ignore")
+    sentences = re.split(r"[。.!!?；\n]", text)
+    sentences = [s.strip() for s in sentences if s.strip()]
+    from collections import Counter
+    words = Counter(text.lower().split())
+    total = len(text.split())
+    scores = {}
+    for i, sent in enumerate(sentences):
+        score = sum(words.get(w, 0) for w in sent.lower().split()) / max(1, len(sent.split()))
+        scores[i] = score
+    top_indices = sorted(scores, key=scores.get, reverse=True)[:args.sentences]
+    summary = " ".join(sentences[i] for i in sorted(top_indices))
+    print(summary)
+    return 0
+
+
+def cmd_keyword_extract(args: argparse.Namespace) -> int:
+    text = args.text or ""
+    if args.file:
+        text = Path(args.file).read_text(encoding="utf-8", errors="ignore")
+    from collections import Counter
+    words = [w for w in text.lower().split() if len(w) >= args.min_length]
+    freq = Counter(words)
+    total = len(words)
+    scored = {w: n/total for w, n in freq.items() if n >= 2}
+    top = sorted(scored.items(), key=lambda x: -x[1])[:args.top]
+    for w, s in top:
+        bar = "█" * int(s * 100)
+        print(f"  {w:<20} {s:.3f}  {bar}")
+    return 0
+
+
+def cmd_sentiment(args: argparse.Namespace) -> int:
+    text = args.text.lower()
+    positive = ["good", "great", "excellent", "amazing", "love", "best", "perfect", "happy", "wonderful", "fantastic", "喜欢", "好", "棒", "优秀", "开心", "爱"]
+    negative = ["bad", "terrible", "awful", "hate", "worst", "horrible", "sad", "angry", "bug", "error", "fail", "糟糕", "差", "烂", "讨厌", "生气", "错误"]
+    pos_count = sum(1 for w in positive if w in text)
+    neg_count = sum(1 for w in negative if w in text)
+    total = pos_count + neg_count
+    if total == 0:
+        result = {"sentiment": "neutral", "score": 0.0, "positive": pos_count, "negative": neg_count}
+    else:
+        score = (pos_count - neg_count) / total
+        if score > 0.2:
+            sentiment = "positive"
+        elif score < -0.2:
+            sentiment = "negative"
+        else:
+            sentiment = "neutral"
+        result = {"sentiment": sentiment, "score": round(score, 3), "positive": pos_count, "negative": neg_count}
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        emoji = {"positive": "😊", "negative": "😠", "neutral": "😐"}
+        print(f"  {emoji.get(result['sentiment'], '😐')} 情感: {result['sentiment']}  (分数: {result['score']:+.3f})")
+        print(f"     正面: {result['positive']}  负面: {result['negative']}")
+    return 0
+
+
+def cmd_stopwords(args: argparse.Namespace) -> int:
+    lang = args.lang
+    default_sw = {
+        "en": ["a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for", "of", "with", "by", "from", "as", "is", "was", "are", "were", "be", "been", "being", "have", "has", "had", "do", "does", "did", "will", "would", "could", "should", "may", "might", "can", "shall", "not", "no", "nor", "so", "if", "then", "than", "too", "very", "just", "about", "above", "after", "again", "all", "also", "any", "because", "before", "between", "both", "but", "each", "few", "more", "most", "other", "out", "over", "own", "same", "some", "such", "through", "under", "until", "up", "we", "me", "my", "i", "you", "your", "he", "she", "it", "they", "them", "their", "its", "his", "her"],
+        "zh": ["的", "了", "是", "在", "我", "有", "和", "就", "不", "人", "都", "一", "一个", "上", "也", "很", "到", "说", "要", "去", "你", "会", "着", "没有", "看", "好", "自己", "这"],
+    }
+    sw = default_sw.get(lang, default_sw["en"])
+    if args.add:
+        for word in args.add.split(","):
+            sw.append(word.strip())
+        print(f"  已添加: {word.strip()}")
+    if args.remove:
+        for word in args.remove.split(","):
+            if word.strip() in sw:
+                sw.remove(word.strip())
+        print(f"  已移除: {word.strip()}")
+    if args.list:
+        print(f"  {lang} 停用词 ({len(sw)} 个):")
+        print("  " + " ".join(sw[:50]))
+    return 0
+
+
+def cmd_nltk_test(args: argparse.Namespace) -> int:
+    try:
+        import nltk
+        if args.list_corpora:
+            print("  NLTK 语料库:")
+            for name in dir(nltk.corpus):
+                if not name.startswith("_"):
+                    print(f"    - {name}")
+        if args.download:
+            nltk.download(args.download)
+            print(f"  ✅ 已下载 {args.download}")
+        else:
+            print(f"  NLTK 已安装，版本: {nltk.__version__}")
+    except ImportError:
+        print("  ❌ 请安装 NLTK: pip install nltk")
+    return 0
+
+
+def cmd_embedding_dim(args: argparse.Namespace) -> int:
+    text = args.text
+    provider = args.provider
+    if provider == "openai":
+        dim = 1536  # text-embedding-ada-002
+    elif provider == "azure":
+        dim = 1536
+    elif provider == "ollama":
+        dim = 768  # default nomic-embed-text
+    else:
+        dim = 384  # all-MiniLM-L6-v2
+    print(f"  提供商: {provider}")
+    print(f"  默认维度: {dim}")
+    print(f"  输入文本长度: {len(text)} 字符")
+    return 0

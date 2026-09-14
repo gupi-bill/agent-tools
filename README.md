@@ -1,1 +1,86 @@
-IyBhZ2VudC10b29scwoKQWdlbnQg6LaF57qn5bel5YW36ZuGIOKAlCAqKjIwMCsgQ0xJIOWRveS7pO+8jOS4gOS4quWFpeWPoyoqIGBhdGDjgIIKClshW1B5dGhvbl0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9QeXRob24tMy4xMSstMzc3NkFCP2xvZ289cHl0aG9uJmxvZ29Db2xvcj13aGl0ZSldKGh0dHBzOi8vd3d3LnB5dGhvbi5vcmcpClshW0xpY2Vuc2VdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvbGljZW5zZS1NSVQtYmx1ZSldKC4vTElDRU5TRSkKWyFbcHl0ZXN0XShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL3Rlc3RzLTE1X3Bhc3NlZC1ncmVlbildKC4vdGVzdHMpCgotLS0KCiMjIOW/q+mAn+W8gOWniwoKYGBgYmFzaAojIOWuieijhe+8iOW8gOWPkeaooeW8j++8iQpwaXAgaW5zdGFsbCAtZSAuCgojIOafpeeci+aJgOacieWIhuexuwphdCAtLWhlbHAKCiMg5p+l55yL5p+Q5YiG57G75ZG95LukCmF0IGZpbGUgLS1oZWxwCmF0IHNlY3VyaXR5IC0taGVscApgYGAKCiMjIOWRveS7pOaAu+iniAoKfCDliIbnsbsgfCDlkb3ku6TmlbAgfCDmoLjlv4Plip/og70gfAp8LS0tLS0tfC0tLS0tLS0tfC0tLS0tLS0tLXwKfCBgZmlsZWAgfCAzMiB8IOaQnOe0oiAvIOe7n+iuoSAvIGRpZmYgLyDmibnph4/ph43lkb3lkI0gLyDlk4jluIwgLyDlpI3liLYgfAp8IGB0ZXh0YCB8IDM2IHwg5o6S5bqPIC8g5Y676YeNIC8gQmFzZTY0IC8g5q2j5YiZIC8g5YiG6K+NIC8g6L2s572u55+p6Zi1IHwKfCBgZGF0YWAgfCAxNiB8IEpTT04g4oaUIENTViAvIFlBTUwg4oaUIEpTT04gLyBYTUwg6L2s5o2iIC8gU2NoZW1hIOmqjOivgSB8CnwgYGdpdGAgfCAxNSB8IGxvZyAvIGRpZmYgLyBzdGF0cyAvIGJsYW1lIC8g5YiG5pSv566h55CGIC8g5Yay56qB5qOA5rWLIHwKfCBgc2VjdXJpdHlgIHwgMTIgfCDlr4bpkqXmiavmj48gLyBBRVMg5Yqg5a+GIC8g5a+G56CB5ZOI5biMIC8g5a6J5YWo5a6h6K6hIHwKfCBgZGV2YCB8IDIzIHwg5L6d6LWW5YiG5p6QIC8gVE9ETyDmiavmj48gLyBDSEFOR0VMT0cg55Sf5oiQIC8gQ0kg5qih5p2/IHwKfCBgYWlgIHwgMTIgfCBUb2tlbiDkvLDnrpcgLyBSQUcg57Si5byVIC8g5oOF5oSf5YiG5p6QIC8g5YWz6ZSu6K+N5o+Q5Y+WIHwKfCBgaW5mcmFgIHwgMTQgfCDlgaXlurfmo4Dmn6UgLyDnq6/lj6Pmn6Xmib4gLyBDcm9uIOeUn+aIkCAvIOWkh+S7veaBouWkjSB8CnwgYG1ldGFgIHwgOCB8IFJFQURNRSDnlJ/miJAgLyBMaWNlbnNlIOmAieaLqSAvIOeJiOacrOeuoeeQhiB8CnwgYHN5c3RlbWAgfCAxOSB8IOi/m+eoi+euoeeQhiAvIOejgeebmOWGheWtmCAvIOWTiOW4jCAvIOe7iOerr+W3peWFtyB8CnwgYHdlYmAgfCAxMyB8IEhUVFAg5pyN5Yqh5ZmoIC8gSFRNTCDljovnvKkgLyByb2JvdHMudHh0IC8gc2l0ZW1hcCB8CgojIyDluLjnlKjnpLrkvosKCmBgYGJhc2gKIyDmlofku7bmkJzntKIKYXQgZmlsZSBncmVwICJUT0RPIiAvcGF0aC90by9jb2RlCmF0IGZpbGUgZmluZCAiKi5weSIgLS1zaXplICsxTUIKCiMg5a6J5YWo5omr5o+PCmF0IHNlY3VyaXR5IHNjYW4gLi9zcmMgLS1zZXZlcml0eSBISUdICmF0IHNlY3VyaXR5IGhhc2gtcGFzc3dvcmQgIm15cGFzc3dvcmQiCgojIOaVsOaNrui9rOaNogphdCBkYXRhIGpzb24tdG8tY3N2IGlucHV0Lmpzb24gb3V0cHV0LmNzdgphdCBkYXRhIHlhbWwtdG8tanNvbiBjb25maWcueWFtbAoKIyDku6PnoIHliIbmnpAKYXQgZGV2IGRlcHMgLS1maXggLi9yZXF1aXJlbWVudHMudHh0CmF0IGRldiB0b2RvIC4vc3JjCmF0IGdpdCBzdGF0cwpgYGAKCiMjIOi3qOW5s+WPsOaUr+aMgQoKV2luZG93cyAvIG1hY09TIC8gTGludXjvvIznuq/moIflh4blupMgKyDlj6/pgInkvp3otZbjgIIKCioq5Y+v6YCJ5L6d6LWW77yaKioKLSBgY3J5cHRvZ3JhcGh5YCDigJQg5Yqg6Kej5a+G5ZG95LukCi0gYFB5WUFNTGAg4oCUIFlBTUwg6L2s5o2i5ZG95LukCi0gYHBzdXRpbGAg4oCUIOezu+e7n+S/oeaBr+WRveS7pAoKIyMg5byA5Y+RCgpgYGBiYXNoCiMg5a6J6KOF5byA5Y+R5L6d6LWWCnBpcCBpbnN0YWxsIC1lICIuW2Rldl0iCgojIOi/kOihjOa1i+ivlQpweXRlc3QgdGVzdHMvIC12CgojIOexu+Wei+ajgOafpQpweXRob24gLW0gcHlfY29tcGlsZSBhZ2VudF90b29scy8qLnB5IGFnZW50X3Rvb2xzL2NtZC8qLnB5CmBgYAoKIyMgTGljZW5zZQoKTUlUCg==
+# agent-tools
+
+Agent 超级工具集 — **200+ CLI 命令，一个入口** `at`。
+
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org)
+[![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![pytest](https://img.shields.io/badge/tests-15_passed-green)](./tests)
+
+---
+
+## 快速开始
+
+```bash
+# 安装（开发模式）
+pip install -e .
+
+# 查看所有分类
+at --help
+
+# 查看某分类命令
+at file --help
+at security --help
+```
+
+## 命令总览
+
+| 分类 | 命令数 | 核心功能 |
+|------|--------|---------|
+| `file` | 32 | 搜索 / 统计 / diff / 批量重命名 / 哈希 / 复制 |
+| `text` | 36 | 排序 / 去重 / Base64 / 正则 / 分词 / 转置矩阵 |
+| `data` | 16 | JSON ↔ CSV / YAML ↔ JSON / XML 转换 / Schema 验证 |
+| `git` | 15 | log / diff / stats / blame / 分支管理 / 冲突检测 |
+| `security` | 12 | 密钥扫描 / AES 加密 / 密码哈希 / 安全审计 |
+| `dev` | 23 | 依赖分析 / TODO 扫描 / CHANGELOG 生成 / CI 模板 |
+| `ai` | 12 | Token 估算 / RAG 索引 / 情感分析 / 关键词提取 |
+| `infra` | 14 | 健康检查 / 端口查找 / Cron 生成 / 备份恢复 |
+| `meta` | 8 | README 生成 / License 选择 / 版本管理 |
+| `system` | 19 | 进程管理 / 磁盘内存 / 哈希 / 终端工具 |
+| `web` | 13 | HTTP 服务器 / HTML 压缩 / robots.txt / sitemap |
+
+## 常用示例
+
+```bash
+# 文件搜索
+at file grep "TODO" /path/to/code
+at file find "*.py" --size +1MB
+
+# 安全扫描
+at security scan ./src --severity HIGH
+at security hash-password "mypassword"
+
+# 数据转换
+at data json-to-csv input.json output.csv
+at data yaml-to-json config.yaml
+
+# 代码分析
+at dev deps --fix ./requirements.txt
+at dev todo ./src
+at git stats
+```
+
+## 跨平台支持
+
+Windows / macOS / Linux，纯标准库 + 可选依赖。
+
+**可选依赖：**
+- `cryptography` — 加解密命令
+- `PyYAML` — YAML 转换命令
+- `psutil` — 系统信息命令
+
+## 开发
+
+```bash
+# 安装开发依赖
+pip install -e ".[dev]"
+
+# 运行测试
+pytest tests/ -v
+
+# 类型检查
+python -m py_compile agent_tools/*.py agent_tools/cmd/*.py
+```
+
+## License
+
+MIT

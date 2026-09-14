@@ -1,1 +1,335 @@
-IiIidGVzdHMgZm9yIGFnZW50LXRvb2xzIHVuaWZpZWQgQ0xJLiIiIg0KaW1wb3J0IGpzb24NCmltcG9ydCB0ZW1wZmlsZQ0KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoDQpmcm9tIHVuaXR0ZXN0Lm1vY2sgaW1wb3J0IHBhdGNoDQoNCg0KZGVmIHRlc3RfY2xpX2hlbHAoY2Fwc3lzKToNCiAgICAiIiJDTEkg5biu5Yqp5q2j5bi45pi+56S644CCIiIiDQogICAgZnJvbSBhZ2VudF90b29scy5jbGkgaW1wb3J0IG1haW4NCiAgICBpbXBvcnQgc3lzDQogICAgb2xkX2FyZ3YgPSBzeXMuYXJndg0KICAgIHRyeToNCiAgICAgICAgc3lzLmFyZ3YgPSBbImF0IiwgIi0taGVscCJdDQogICAgICAgIG1haW4oKQ0KICAgIGV4Y2VwdCBTeXN0ZW1FeGl0Og0KICAgICAgICBwYXNzDQogICAgZmluYWxseToNCiAgICAgICAgc3lzLmFyZ3YgPSBvbGRfYXJndg0KICAgIGNhcHR1cmVkID0gY2Fwc3lzLnJlYWRvdXRlcnIoKQ0KICAgIGFzc2VydCAiZmlsZSIgaW4gY2FwdHVyZWQub3V0DQogICAgYXNzZXJ0ICJzZWN1cml0eSIgaW4gY2FwdHVyZWQub3V0DQogICAgYXNzZXJ0ICJkZXYiIGluIGNhcHR1cmVkLm91dA0KDQoNCmRlZiB0ZXN0X2ZpbGVfY291bnQodG1wX3BhdGgpOg0KICAgICIiIuaWh+S7tue7n+iuoeOAgiIiIg0KICAgICh0bXBfcGF0aCAvICJ0ZXN0LnB5Iikud3JpdGVfdGV4dCgiaW1wb3J0IG9zXG5wcmludCgnaGknKVxuIiwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC5maWxlIGltcG9ydCBjbWRfY291bnQNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKHBhdGg9c3RyKHRtcF9wYXRoKSwganNvbj1GYWxzZSkNCiAgICByYyA9IGNtZF9jb3VudChhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3RfZmlsZV9ncmVwKHRtcF9wYXRoKToNCiAgICAiIiJncmVwIOaQnOe0ouOAgiIiIg0KICAgICh0bXBfcGF0aCAvICJhLnB5Iikud3JpdGVfdGV4dCgiaGVsbG8gd29ybGRcbmZvbyBiYXJcbiIsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgKHRtcF9wYXRoIC8gImIucHkiKS53cml0ZV90ZXh0KCJoZWxsbyB0aGVyZVxuIiwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC5maWxlIGltcG9ydCBjbWRfZ3JlcA0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UocGF0dGVybj0iaGVsbG8iLCBwYXRoPXN0cih0bXBfcGF0aCksIGV4dD1Ob25lLCBjb3VudD1GYWxzZSwganNvbj1GYWxzZSkNCiAgICByYyA9IGNtZF9ncmVwKGFyZ3MpDQogICAgYXNzZXJ0IHJjID09IDANCg0KDQpkZWYgdGVzdF90ZXh0X3NvcnQoKToNCiAgICAiIiLmlofmnKzmjpLluo/jgIIiIiINCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC50ZXh0IGltcG9ydCBjbWRfc29ydA0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIHdpdGggdGVtcGZpbGUuTmFtZWRUZW1wb3JhcnlGaWxlKG1vZGU9InciLCBzdWZmaXg9Ii50eHQiLCBkZWxldGU9RmFsc2UsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6DQogICAgICAgIGYud3JpdGUoImJhbmFuYVxuYXBwbGVcbmNoZXJyeVxuIikNCiAgICAgICAgZi5mbHVzaCgpDQogICAgICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UoaW5wdXQ9Zi5uYW1lLCBvdXRwdXQ9Tm9uZSwgcmV2ZXJzZT1GYWxzZSwgdW5pcXVlPUZhbHNlKQ0KICAgICAgICBjbWRfc29ydChhcmdzKQ0KICAgICAgICByZXN1bHQgPSBQYXRoKGYubmFtZSkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpDQogICAgICAgIGFzc2VydCAiYXBwbGUiIGluIHJlc3VsdA0KICAgICAgICBhc3NlcnQgImJhbmFuYSIgaW4gcmVzdWx0DQoNCg0KZGVmIHRlc3RfdGV4dF9kZWR1cCgpOg0KICAgICIiIuWOu+mHjeOAgiIiIg0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLnRleHQgaW1wb3J0IGNtZF9kZWR1cA0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIHdpdGggdGVtcGZpbGUuTmFtZWRUZW1wb3JhcnlGaWxlKG1vZGU9InciLCBzdWZmaXg9Ii50eHQiLCBkZWxldGU9RmFsc2UsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6DQogICAgICAgIGYud3JpdGUoImFcbmFcbmJcbmFcbmNcbiIpDQogICAgICAgIGYuZmx1c2goKQ0KICAgICAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKGlucHV0PWYubmFtZSwgb3V0cHV0PU5vbmUsIGtlZXA9ImZpcnN0IikNCiAgICAgICAgY21kX2RlZHVwKGFyZ3MpDQogICAgICAgIHJlc3VsdCA9IFBhdGgoZi5uYW1lKS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikNCiAgICAgICAgbGluZXMgPSBbbCBmb3IgbCBpbiByZXN1bHQuc3RyaXAoKS5zcGxpdCgiXG4iKSBpZiBsXQ0KICAgICAgICBhc3NlcnQgbGVuKGxpbmVzKSA9PSAzDQoNCg0KZGVmIHRlc3Rfc2VjdXJpdHlfc2Nhbih0bXBfcGF0aCk6DQogICAgIiIi5a6J5YWo5omr5o+P44CCIiIiDQogICAgKHRtcF9wYXRoIC8gInNlY3JldC5weSIpLndyaXRlX3RleHQoJ3Bhc3N3b3JkID0gInN1cGVyc2VjcmV0MTIzIlxuYXBpX2tleSA9ICJzay1hYmMxMjMiXG4nLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLnNlY3VyaXR5IGltcG9ydCBjbWRfc2Nhbg0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UoDQogICAgICAgIHBhdGg9c3RyKHRtcF9wYXRoKSwgZXh0PU5vbmUsIHNldmVyaXR5PSJMT1ciLCBqc29uPUZhbHNlLCBleGNsdWRlPU5vbmUNCiAgICApDQogICAgcmMgPSBjbWRfc2NhbihhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAxICAjIOWPkeeOsOWuieWFqOmXrumimA0KDQoNCmRlZiB0ZXN0X3NlY3VyaXR5X2NsZWFuKHRtcF9wYXRoKToNCiAgICAiIiLlubLlh4Dku6PnoIHml6Dlj5HnjrDjgIIiIiINCiAgICAodG1wX3BhdGggLyAic2FmZS5weSIpLndyaXRlX3RleHQoJ2RlZiBoZWxsbygpOlxuICAgIHJldHVybiAid29ybGQiXG4nLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLnNlY3VyaXR5IGltcG9ydCBjbWRfc2Nhbg0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UoDQogICAgICAgIHBhdGg9c3RyKHRtcF9wYXRoKSwgZXh0PU5vbmUsIHNldmVyaXR5PSJMT1ciLCBqc29uPUZhbHNlLCBleGNsdWRlPU5vbmUNCiAgICApDQogICAgcmMgPSBjbWRfc2NhbihhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3RfZGV2X2RlcHModG1wX3BhdGgpOg0KICAgICIiIuS+nei1luWIhuaekOOAgiIiIg0KICAgICh0bXBfcGF0aCAvICJyZXF1aXJlbWVudHMudHh0Iikud3JpdGVfdGV4dCgiZmFzdGFwaT49MC4xMzNcbnJlcXVlc3RzXG5ub25leGlzdGVudC1wa2cteHl6XG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgICh0bXBfcGF0aCAvICJhcHAucHkiKS53cml0ZV90ZXh0KCJpbXBvcnQgZmFzdGFwaVxuZnJvbSBweWRhbnRpYyBpbXBvcnQgQmFzZU1vZGVsXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLmRldiBpbXBvcnQgY21kX2RlcHMNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKHBhdGg9c3RyKHRtcF9wYXRoKSwgZml4PUZhbHNlLCBqc29uPUZhbHNlKQ0KICAgIHJjID0gY21kX2RlcHMoYXJncykNCiAgICBhc3NlcnQgcmMgPT0gMSAgIyDmnInnvLrlpLHkvp3otZYNCg0KDQpkZWYgdGVzdF9kYXRhX2pzb25fZm9ybWF0KCk6DQogICAgIiIiSlNPTiDmoLzlvI/ljJbjgIIiIiINCiAgICBpbXBvcnQganNvbiBhcyBfanNvbg0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLmRhdGEgaW1wb3J0IGNtZF9qc29uX2Zvcm1hdA0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIHdpdGggdGVtcGZpbGUuTmFtZWRUZW1wb3JhcnlGaWxlKG1vZGU9InciLCBzdWZmaXg9Ii5qc29uIiwgZGVsZXRlPUZhbHNlLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOg0KICAgICAgICBmLndyaXRlKCd7ImIiOjIsImEiOjF9JykNCiAgICAgICAgZi5mbHVzaCgpDQogICAgICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UoaW5wdXQ9Zi5uYW1lLCBpbmRlbnQ9Miwgb3V0cHV0PU5vbmUsIG1pbmlmeT1GYWxzZSkNCiAgICAgICAgY21kX2pzb25fZm9ybWF0KGFyZ3MpDQoNCg0KZGVmIHRlc3RfZGF0YV9qc29uX3ZhbGlkYXRlKCk6DQogICAgIiIiSlNPTiDpqozor4HjgIIiIiINCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC5kYXRhIGltcG9ydCBjbWRfanNvbl92YWxpZGF0ZQ0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIHdpdGggdGVtcGZpbGUuTmFtZWRUZW1wb3JhcnlGaWxlKG1vZGU9InciLCBzdWZmaXg9Ii5qc29uIiwgZGVsZXRlPUZhbHNlLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOg0KICAgICAgICBmLndyaXRlKCd7ImEiOjEsImIiOlsxLDIsM119JykNCiAgICAgICAgZi5mbHVzaCgpDQogICAgICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UoaW5wdXQ9Zi5uYW1lKQ0KICAgICAgICByYyA9IGNtZF9qc29uX3ZhbGlkYXRlKGFyZ3MpDQogICAgICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3RfZGV2X3RvZG8odG1wX3BhdGgpOg0KICAgICIiIlRPRE8g5omr5o+P44CCIiIiDQogICAgKHRtcF9wYXRoIC8gImNvZGUucHkiKS53cml0ZV90ZXh0KCcjIFRPRE86IGZpeCB0aGlzXG4jIEZJWE1FOiBidWcgaGVyZVxucHJpbnQoImhlbGxvIilcbicsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgZnJvbSBhZ2VudF90b29scy5jbWQuZGV2IGltcG9ydCBjbWRfdG9kbw0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UocGF0aD1zdHIodG1wX3BhdGgpLCBleHQ9Tm9uZSwganNvbj1GYWxzZSkNCiAgICByYyA9IGNtZF90b2RvKGFyZ3MpDQogICAgYXNzZXJ0IHJjID09IDANCg0KDQpkZWYgdGVzdF9zeXN0ZW1faGFzaCgpOg0KICAgICIiIuWTiOW4jOiuoeeul+OAgiIiIg0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLnN5c3RlbSBpbXBvcnQgY21kX2hhc2gNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKGlucHV0PSJoZWxsbyB3b3JsZCIsIGFsZ289InNoYTI1NiIsIHRleHQ9VHJ1ZSkNCiAgICByYyA9IGNtZF9oYXNoKGFyZ3MpDQogICAgYXNzZXJ0IHJjID09IDANCg0KDQpkZWYgdGVzdF9haV90b2tlbl9jb3VudCgpOg0KICAgICIiIlRva2VuIOS8sOeul+OAgiIiIg0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLmFpIGltcG9ydCBjbWRfdG9rZW5fY291bnQNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKHRleHQ9IkhlbGxvIHdvcmxkIHRoaXMgaXMgYSB0ZXN0IiwgZmlsZT1Ob25lLCBtb2RlbD0iZ3B0LTQiLCBqc29uPUZhbHNlKQ0KICAgIHJjID0gY21kX3Rva2VuX2NvdW50KGFyZ3MpDQogICAgYXNzZXJ0IHJjID09IDANCg0KDQoNCmRlZiB0ZXN0X2luZnJhX3BvcnRfZmluZGVyKCk6DQogICAgIiIi56uv5Y+j5p+l5om+44CCIiIiDQogICAgZnJvbSBhZ2VudF90b29scy5jbWQuaW5mcmEgaW1wb3J0IGNtZF9wb3J0X2ZpbmRlcg0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UocmFuZ2U9IjMwMDAwLTMwMDEwIiwgY291bnQ9MSwganNvbj1GYWxzZSkNCiAgICByYyA9IGNtZF9wb3J0X2ZpbmRlcihhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3RfZGF0YV95YW1sX3RvX2pzb24odG1wX3BhdGgpOg0KICAgICIiIllBTUwg6L2sIEpTT07jgIIiIiINCiAgICAodG1wX3BhdGggLyAidGVzdC55YW1sIikud3JpdGVfdGV4dCgibmFtZTogdGVzdFxudmFsdWU6IDQyXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLmRhdGEgaW1wb3J0IGNtZF95YW1sX3RvX2pzb24NCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBvdXQgPSB0bXBfcGF0aCAvICJvdXQuanNvbiINCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKGlucHV0PXN0cih0bXBfcGF0aCAvICJ0ZXN0LnlhbWwiKSwgb3V0cHV0PXN0cihvdXQpKQ0KICAgIHJjID0gY21kX3lhbWxfdG9fanNvbihhcmdzKQ0KICAgIGFzc2VydCBvdXQuZXhpc3RzKCkNCg0KDQpkZWYgdGVzdF9tYWluX21vZHVsZSgpOg0KICAgICIiInB5dGhvbiAtbSBhZ2VudF90b29scyDlhaXlj6PmraPluLjlt6XkvZzjgIIiIiINCiAgICBpbXBvcnQgc3VicHJvY2Vzcywgc3lzDQogICAgciA9IHN1YnByb2Nlc3MucnVuKFtzeXMuZXhlY3V0YWJsZSwgJy1tJywgJ2FnZW50X3Rvb2xzJywgJy0tdmVyc2lvbiddLA0KICAgICAgICAgICAgICAgICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIHRpbWVvdXQ9NSkNCiAgICBhc3NlcnQgci5yZXR1cm5jb2RlID09IDANCiAgICBhc3NlcnQgJ2FnZW50LXRvb2xzJyBpbiByLnN0ZG91dA0KDQoNCmRlZiB0ZXN0X2F0X2ZpbGVfY291bnQodG1wX3BhdGgsIGNhcHN5cyk6DQogICAgIiIiZmlsZSBjb3VudCDlkb3ku6TjgIIiIiINCiAgICAodG1wX3BhdGggLyAnYS50eHQnKS53cml0ZV90ZXh0KCdoZWxsb1xuJywgZW5jb2Rpbmc9J3V0Zi04JykNCiAgICAodG1wX3BhdGggLyAnYi50eHQnKS53cml0ZV90ZXh0KCd3b3JsZFxuJywgZW5jb2Rpbmc9J3V0Zi04JykNCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC5maWxlIGltcG9ydCBjbWRfY291bnQNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKHBhdGg9c3RyKHRtcF9wYXRoKSwganNvbj1GYWxzZSkNCiAgICByYyA9IGNtZF9jb3VudChhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3RfdGV4dF9zb3J0X2xpbmVzKHRtcF9wYXRoKToNCiAgICAiIiJ0ZXh0IHNvcnQg5ZG95Luk44CCIiIiDQogICAgKHRtcF9wYXRoIC8gJ2lucHV0LnR4dCcpLndyaXRlX3RleHQoJ2JhbmFuYVxuYXBwbGVcbmNoZXJyeVxuJywgZW5jb2Rpbmc9J3V0Zi04JykNCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC50ZXh0IGltcG9ydCBjbWRfc29ydA0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIG91dCA9IHRtcF9wYXRoIC8gJ291dC50eHQnDQogICAgYXJncyA9IGFyZ3BhcnNlLk5hbWVzcGFjZShpbnB1dD1zdHIodG1wX3BhdGggLyAnaW5wdXQudHh0JyksIG91dHB1dD1zdHIob3V0KSwgcmV2ZXJzZT1GYWxzZSwgdW5pcXVlPUZhbHNlKQ0KICAgIGNtZF9zb3J0KGFyZ3MpDQogICAgcmVzdWx0ID0gb3V0LnJlYWRfdGV4dChlbmNvZGluZz0ndXRmLTgnKQ0KICAgIGxpbmVzID0gW2wgZm9yIGwgaW4gcmVzdWx0LnN0cmlwKCkuc3BsaXQoJ1xuJykgaWYgbF0NCiAgICBhc3NlcnQgbGluZXMgPT0gc29ydGVkKGxpbmVzKQ0KDQoNCmRlZiB0ZXN0X3NlY3VyaXR5X21hc2soY2Fwc3lzKToNCiAgICAiIiJzZWN1cml0eSBtYXNrIOWRveS7pOOAgiIiIg0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLnNlY3VyaXR5IGltcG9ydCBjbWRfbWFzaw0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UodGV4dD0ncGFzc3dvcmQ6IGFiYzEyMywga2V5OiBzay14eXonLCB0eXBlPSdtYXNrLWFsbCcpDQogICAgcmMgPSBjbWRfbWFzayhhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCmRlZiB0ZXN0X2ZpbGVfZ3JlcF9wYXR0ZXJuKHRtcF9wYXRoKToNCiAgICAiIiJncmVwIHNlYXJjaC4iIiINCiAgICAodG1wX3BhdGggLyAiYS5weSIpLndyaXRlX3RleHQoImhlbGxvIHdvcmxkXG5mb28gYmFyXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgICh0bXBfcGF0aCAvICJiLnB5Iikud3JpdGVfdGV4dCgiaGVsbG8gdGhlcmVcbiIsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgZnJvbSBhZ2VudF90b29scy5jbWQuZmlsZSBpbXBvcnQgY21kX2dyZXANCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKHBhdHRlcm49ImhlbGxvIiwgcGF0aD1zdHIodG1wX3BhdGgpLCBleHQ9Tm9uZSwgY291bnQ9RmFsc2UsIGpzb249RmFsc2UpDQogICAgcmMgPSBjbWRfZ3JlcChhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3RfZGF0YV9qc29uX3RvX2Nzdih0bXBfcGF0aCk6DQogICAgIiIiSlNPTiB0byBDU1YuIiIiDQogICAgaW1wb3J0IGpzb24NCiAgICBkYXRhID0gW3sibmFtZSI6ICJBbGljZSIsICJhZ2UiOiAiMzAifV0NCiAgICAodG1wX3BhdGggLyAiZGF0YS5qc29uIikud3JpdGVfdGV4dChqc29uLmR1bXBzKGRhdGEpLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIG91dCA9IHRtcF9wYXRoIC8gIm91dC5jc3YiDQogICAgZnJvbSBhZ2VudF90b29scy5jbWQuZGF0YSBpbXBvcnQgY21kX2pzb25fdG9fY3N2DQogICAgaW1wb3J0IGFyZ3BhcnNlDQogICAgYXJncyA9IGFyZ3BhcnNlLk5hbWVzcGFjZShpbnB1dD1zdHIodG1wX3BhdGggLyAiZGF0YS5qc29uIiksIG91dHB1dD1zdHIob3V0KSwga2V5cz1Ob25lLCBzZXA9IiwiKQ0KICAgIHJjID0gY21kX2pzb25fdG9fY3N2KGFyZ3MpDQogICAgYXNzZXJ0IG91dC5leGlzdHMoKQ0KDQoNCmRlZiB0ZXN0X3N5c3RlbV9kaXNrKCk6DQogICAgIiIiRGlzayBpbmZvLiIiIg0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLnN5c3RlbSBpbXBvcnQgY21kX2Rpc2sNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKHBhdGg9Ii8iLCBqc29uPUZhbHNlKQ0KICAgIHJjID0gY21kX2Rpc2soYXJncykNCiAgICBhc3NlcnQgcmMgPT0gMA0KDQoNCmRlZiB0ZXN0X3N5c3RlbV9lbnZfc2hvdygpOg0KICAgICIiIkVudiBzaG93LiIiIg0KICAgIGZyb20gYWdlbnRfdG9vbHMuY21kLnN5c3RlbSBpbXBvcnQgY21kX2Vudl9zaG93DQogICAgaW1wb3J0IGFyZ3BhcnNlDQogICAgYXJncyA9IGFyZ3BhcnNlLk5hbWVzcGFjZShrZXk9Tm9uZSwganNvbj1GYWxzZSkNCiAgICByYyA9IGNtZF9lbnZfc2hvdyhhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3RfbWV0YV9wcm9qZWN0X2luZm8odG1wX3BhdGgpOg0KICAgIGltcG9ydCBweXRlc3QNCiAgICBweXRlc3Quc2tpcCgicmVxdWlyZXMgdG9tbGkiKQ0KDQpkZWYgdGVzdF93ZWJfaGVhZGVycygpOg0KICAgICIiIkhUVFAgaGVhZGVycy4iIiINCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC53ZWIgaW1wb3J0IGNtZF9oZWFkZXJzDQogICAgaW1wb3J0IGFyZ3BhcnNlDQogICAgYXJncyA9IGFyZ3BhcnNlLk5hbWVzcGFjZShoZWFkZXJfc3RyaW5nPSJDb250ZW50LVR5cGU6IHRleHQvaHRtbFxuQXV0aG9yaXphdGlvbjogQmVhcmVyIHRvayIpDQogICAgcmMgPSBjbWRfaGVhZGVycyhhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3Rfd2ViX3VybF9wYXJzZSgpOg0KICAgICIiIlVSTCBwYXJzZS4iIiINCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC53ZWIgaW1wb3J0IGNtZF91cmxfcGFyc2UNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKHVybD0iaHR0cHM6Ly9leGFtcGxlLmNvbS9wYXRoP3E9MSIpDQogICAgcmMgPSBjbWRfdXJsX3BhcnNlKGFyZ3MpDQogICAgYXNzZXJ0IHJjID09IDANCg0KDQpkZWYgdGVzdF9naXRfYnJhbmNoZXMoKToNCiAgICAiIiJHaXQgYnJhbmNoZXMgbGlzdGluZy4iIiINCiAgICBpbXBvcnQgcHl0ZXN0DQogICAgcHl0ZXN0LnNraXAoInJlcXVpcmVzIGdpdCByZXBvIikNCg0KZGVmIHRlc3Rfc2VjdXJpdHlfZ2VuX3NlY3JldCgpOg0KICAgICIiIkdlbmVyYXRlIHJhbmRvbSBzZWNyZXQuIiIiDQogICAgaW1wb3J0IHB5dGVzdA0KICAgIHB5dGVzdC5za2lwKCJjb21wbGV4IHNldHVwIikNCg0KZGVmIHRlc3RfYWlfc2ltaWxhcml0eSgpOg0KICAgICIiIlRleHQgc2ltaWxhcml0eS4iIiINCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC5haSBpbXBvcnQgY21kX3NpbWlsYXJpdHkNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKGE9ImhlbGxvIHdvcmxkIiwgYj0iaGkgdGhlcmUiLCBtZXRob2Q9ImphY2NhcmQiKQ0KICAgIHJjID0gY21kX3NpbWlsYXJpdHkoYXJncykNCiAgICBhc3NlcnQgcmMgPT0gMA0KDQoNCmRlZiB0ZXN0X3RleHRfcmV2ZXJzZSh0bXBfcGF0aCk6DQogICAgIiIiVGV4dCByZXZlcnNlLiIiIg0KICAgICh0bXBfcGF0aCAvICJpbi50eHQiKS53cml0ZV90ZXh0KCJoZWxsb1xud29ybGRcbiIsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgZnJvbSBhZ2VudF90b29scy5jbWQudGV4dCBpbXBvcnQgY21kX3JldmVyc2UNCiAgICBpbXBvcnQgYXJncGFyc2UNCiAgICBhcmdzID0gYXJncGFyc2UuTmFtZXNwYWNlKGlucHV0PXN0cih0bXBfcGF0aCAvICJpbi50eHQiKSwgb3V0cHV0PU5vbmUpDQogICAgcmMgPSBjbWRfcmV2ZXJzZShhcmdzKQ0KICAgIGFzc2VydCByYyA9PSAwDQoNCg0KZGVmIHRlc3RfZmlsZV9maW5kX2VtcHR5KHRtcF9wYXRoKToNCiAgICAiIiJGaW5kIGVtcHR5IGZpbGVzLiIiIg0KICAgIGltcG9ydCBvcw0KICAgICh0bXBfcGF0aCAvICJlbXB0eS50eHQiKS53cml0ZV90ZXh0KCIiLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgICh0bXBfcGF0aCAvICJub3RlbXB0eS50eHQiKS53cml0ZV90ZXh0KCJ4IiwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICBmcm9tIGFnZW50X3Rvb2xzLmNtZC5maWxlIGltcG9ydCBjbWRfZmluZA0KICAgIGltcG9ydCBhcmdwYXJzZQ0KICAgIGFyZ3MgPSBhcmdwYXJzZS5OYW1lc3BhY2UoDQogICAgICAgIHBhdGg9c3RyKHRtcF9wYXRoKSwgbmFtZT1Ob25lLCBleHQ9Tm9uZSwgZW1wdHk9VHJ1ZSwNCiAgICAgICAgc2l6ZV9taW49Tm9uZSwgc2l6ZV9tYXg9Tm9uZSwganNvbj1GYWxzZQ0KICAgICkNCiAgICByYyA9IGNtZF9maW5kKGFyZ3MpDQogICAgYXNzZXJ0IHJjID09IDANCg0KDQpkZWYgdGVzdF9kZXZfY2hhbmdlbG9nKCk6DQogICAgIiIiQ2hhbmdlbG9nIGdlbmVyYXRpb24uIiIiDQogICAgaW1wb3J0IHB5dGVzdA0KICAgIHB5dGVzdC5za2lwKCJyZXF1aXJlcyBnaXQgcmVwbyB3aXRoIGhpc3RvcnkiKQ0K
+"""tests for agent-tools unified CLI."""
+import json
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
+
+
+def test_cli_help(capsys):
+    """CLI 帮助正常显示。"""
+    from agent_tools.cli import main
+    import sys
+    old_argv = sys.argv
+    try:
+        sys.argv = ["at", "--help"]
+        main()
+    except SystemExit:
+        pass
+    finally:
+        sys.argv = old_argv
+    captured = capsys.readouterr()
+    assert "file" in captured.out
+    assert "security" in captured.out
+    assert "dev" in captured.out
+
+
+def test_file_count(tmp_path):
+    """文件统计。"""
+    (tmp_path / "test.py").write_text("import os\nprint('hi')\n", encoding="utf-8")
+    from agent_tools.cmd.file import cmd_count
+    import argparse
+    args = argparse.Namespace(path=str(tmp_path), json=False)
+    rc = cmd_count(args)
+    assert rc == 0
+
+
+def test_file_grep(tmp_path):
+    """grep 搜索。"""
+    (tmp_path / "a.py").write_text("hello world\nfoo bar\n", encoding="utf-8")
+    (tmp_path / "b.py").write_text("hello there\n", encoding="utf-8")
+    from agent_tools.cmd.file import cmd_grep
+    import argparse
+    args = argparse.Namespace(pattern="hello", path=str(tmp_path), ext=None, count=False, json=False)
+    rc = cmd_grep(args)
+    assert rc == 0
+
+
+def test_text_sort():
+    """文本排序。"""
+    from agent_tools.cmd.text import cmd_sort
+    import argparse
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False, encoding="utf-8") as f:
+        f.write("banana\napple\ncherry\n")
+        f.flush()
+        args = argparse.Namespace(input=f.name, output=None, reverse=False, unique=False)
+        cmd_sort(args)
+        result = Path(f.name).read_text(encoding="utf-8")
+        assert "apple" in result
+        assert "banana" in result
+
+
+def test_text_dedup():
+    """去重。"""
+    from agent_tools.cmd.text import cmd_dedup
+    import argparse
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False, encoding="utf-8") as f:
+        f.write("a\na\nb\na\nc\n")
+        f.flush()
+        args = argparse.Namespace(input=f.name, output=None, keep="first")
+        cmd_dedup(args)
+        result = Path(f.name).read_text(encoding="utf-8")
+        lines = [l for l in result.strip().split("\n") if l]
+        assert len(lines) == 3
+
+
+def test_security_scan(tmp_path):
+    """安全扫描。"""
+    (tmp_path / "secret.py").write_text('password = "supersecret123"\napi_key = "sk-abc123"\n', encoding="utf-8")
+    from agent_tools.cmd.security import cmd_scan
+    import argparse
+    args = argparse.Namespace(
+        path=str(tmp_path), ext=None, severity="LOW", json=False, exclude=None
+    )
+    rc = cmd_scan(args)
+    assert rc == 1  # 发现安全问题
+
+
+def test_security_clean(tmp_path):
+    """干净代码无发现。"""
+    (tmp_path / "safe.py").write_text('def hello():\n    return "world"\n', encoding="utf-8")
+    from agent_tools.cmd.security import cmd_scan
+    import argparse
+    args = argparse.Namespace(
+        path=str(tmp_path), ext=None, severity="LOW", json=False, exclude=None
+    )
+    rc = cmd_scan(args)
+    assert rc == 0
+
+
+def test_dev_deps(tmp_path):
+    """依赖分析。"""
+    (tmp_path / "requirements.txt").write_text("fastapi>=0.133\nrequests\nnonexistent-pkg-xyz\n", encoding="utf-8")
+    (tmp_path / "app.py").write_text("import fastapi\nfrom pydantic import BaseModel\n", encoding="utf-8")
+    from agent_tools.cmd.dev import cmd_deps
+    import argparse
+    args = argparse.Namespace(path=str(tmp_path), fix=False, json=False)
+    rc = cmd_deps(args)
+    assert rc == 1  # 有缺失依赖
+
+
+def test_data_json_format():
+    """JSON 格式化。"""
+    import json as _json
+    from agent_tools.cmd.data import cmd_json_format
+    import argparse
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False, encoding="utf-8") as f:
+        f.write('{"b":2,"a":1}')
+        f.flush()
+        args = argparse.Namespace(input=f.name, indent=2, output=None, minify=False)
+        cmd_json_format(args)
+
+
+def test_data_json_validate():
+    """JSON 验证。"""
+    from agent_tools.cmd.data import cmd_json_validate
+    import argparse
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False, encoding="utf-8") as f:
+        f.write('{"a":1,"b":[1,2,3]}')
+        f.flush()
+        args = argparse.Namespace(input=f.name)
+        rc = cmd_json_validate(args)
+        assert rc == 0
+
+
+def test_dev_todo(tmp_path):
+    """TODO 扫描。"""
+    (tmp_path / "code.py").write_text('# TODO: fix this\n# FIXME: bug here\nprint("hello")\n', encoding="utf-8")
+    from agent_tools.cmd.dev import cmd_todo
+    import argparse
+    args = argparse.Namespace(path=str(tmp_path), ext=None, json=False)
+    rc = cmd_todo(args)
+    assert rc == 0
+
+
+def test_system_hash():
+    """哈希计算。"""
+    from agent_tools.cmd.system import cmd_hash
+    import argparse
+    args = argparse.Namespace(input="hello world", algo="sha256", text=True)
+    rc = cmd_hash(args)
+    assert rc == 0
+
+
+def test_ai_token_count():
+    """Token 估算。"""
+    from agent_tools.cmd.ai import cmd_token_count
+    import argparse
+    args = argparse.Namespace(text="Hello world this is a test", file=None, model="gpt-4", json=False)
+    rc = cmd_token_count(args)
+    assert rc == 0
+
+
+
+def test_infra_port_finder():
+    """端口查找。"""
+    from agent_tools.cmd.infra import cmd_port_finder
+    import argparse
+    args = argparse.Namespace(range="30000-30010", count=1, json=False)
+    rc = cmd_port_finder(args)
+    assert rc == 0
+
+
+def test_data_yaml_to_json(tmp_path):
+    """YAML 转 JSON。"""
+    (tmp_path / "test.yaml").write_text("name: test\nvalue: 42\n", encoding="utf-8")
+    from agent_tools.cmd.data import cmd_yaml_to_json
+    import argparse
+    out = tmp_path / "out.json"
+    args = argparse.Namespace(input=str(tmp_path / "test.yaml"), output=str(out))
+    rc = cmd_yaml_to_json(args)
+    assert out.exists()
+
+
+def test_main_module():
+    """python -m agent_tools 入口正常工作。"""
+    import subprocess, sys
+    r = subprocess.run([sys.executable, '-m', 'agent_tools', '--version'],
+                       capture_output=True, text=True, timeout=5)
+    assert r.returncode == 0
+    assert 'agent-tools' in r.stdout
+
+
+def test_at_file_count(tmp_path, capsys):
+    """file count 命令。"""
+    (tmp_path / 'a.txt').write_text('hello\n', encoding='utf-8')
+    (tmp_path / 'b.txt').write_text('world\n', encoding='utf-8')
+    from agent_tools.cmd.file import cmd_count
+    import argparse
+    args = argparse.Namespace(path=str(tmp_path), json=False)
+    rc = cmd_count(args)
+    assert rc == 0
+
+
+def test_text_sort_lines(tmp_path):
+    """text sort 命令。"""
+    (tmp_path / 'input.txt').write_text('banana\napple\ncherry\n', encoding='utf-8')
+    from agent_tools.cmd.text import cmd_sort
+    import argparse
+    out = tmp_path / 'out.txt'
+    args = argparse.Namespace(input=str(tmp_path / 'input.txt'), output=str(out), reverse=False, unique=False)
+    cmd_sort(args)
+    result = out.read_text(encoding='utf-8')
+    lines = [l for l in result.strip().split('\n') if l]
+    assert lines == sorted(lines)
+
+
+def test_security_mask(capsys):
+    """security mask 命令。"""
+    from agent_tools.cmd.security import cmd_mask
+    import argparse
+    args = argparse.Namespace(text='password: abc123, key: sk-xyz', type='mask-all')
+    rc = cmd_mask(args)
+    assert rc == 0
+
+def test_file_grep_pattern(tmp_path):
+    """grep search."""
+    (tmp_path / "a.py").write_text("hello world\nfoo bar\n", encoding="utf-8")
+    (tmp_path / "b.py").write_text("hello there\n", encoding="utf-8")
+    from agent_tools.cmd.file import cmd_grep
+    import argparse
+    args = argparse.Namespace(pattern="hello", path=str(tmp_path), ext=None, count=False, json=False)
+    rc = cmd_grep(args)
+    assert rc == 0
+
+
+def test_data_json_to_csv(tmp_path):
+    """JSON to CSV."""
+    import json
+    data = [{"name": "Alice", "age": "30"}]
+    (tmp_path / "data.json").write_text(json.dumps(data), encoding="utf-8")
+    out = tmp_path / "out.csv"
+    from agent_tools.cmd.data import cmd_json_to_csv
+    import argparse
+    args = argparse.Namespace(input=str(tmp_path / "data.json"), output=str(out), keys=None, sep=",")
+    rc = cmd_json_to_csv(args)
+    assert out.exists()
+
+
+def test_system_disk():
+    """Disk info."""
+    from agent_tools.cmd.system import cmd_disk
+    import argparse
+    args = argparse.Namespace(path="/", json=False)
+    rc = cmd_disk(args)
+    assert rc == 0
+
+
+def test_system_env_show():
+    """Env show."""
+    from agent_tools.cmd.system import cmd_env_show
+    import argparse
+    args = argparse.Namespace(key=None, json=False)
+    rc = cmd_env_show(args)
+    assert rc == 0
+
+
+def test_meta_project_info(tmp_path):
+    import pytest
+    pytest.skip("requires tomli")
+
+def test_web_headers():
+    """HTTP headers."""
+    from agent_tools.cmd.web import cmd_headers
+    import argparse
+    args = argparse.Namespace(header_string="Content-Type: text/html\nAuthorization: Bearer tok")
+    rc = cmd_headers(args)
+    assert rc == 0
+
+
+def test_web_url_parse():
+    """URL parse."""
+    from agent_tools.cmd.web import cmd_url_parse
+    import argparse
+    args = argparse.Namespace(url="https://example.com/path?q=1")
+    rc = cmd_url_parse(args)
+    assert rc == 0
+
+
+def test_git_branches():
+    """Git branches listing."""
+    import pytest
+    pytest.skip("requires git repo")
+
+def test_security_gen_secret():
+    """Generate random secret."""
+    import pytest
+    pytest.skip("complex setup")
+
+def test_ai_similarity():
+    """Text similarity."""
+    from agent_tools.cmd.ai import cmd_similarity
+    import argparse
+    args = argparse.Namespace(a="hello world", b="hi there", method="jaccard")
+    rc = cmd_similarity(args)
+    assert rc == 0
+
+
+def test_text_reverse(tmp_path):
+    """Text reverse."""
+    (tmp_path / "in.txt").write_text("hello\nworld\n", encoding="utf-8")
+    from agent_tools.cmd.text import cmd_reverse
+    import argparse
+    args = argparse.Namespace(input=str(tmp_path / "in.txt"), output=None)
+    rc = cmd_reverse(args)
+    assert rc == 0
+
+
+def test_file_find_empty(tmp_path):
+    """Find empty files."""
+    import os
+    (tmp_path / "empty.txt").write_text("", encoding="utf-8")
+    (tmp_path / "notempty.txt").write_text("x", encoding="utf-8")
+    from agent_tools.cmd.file import cmd_find
+    import argparse
+    args = argparse.Namespace(
+        path=str(tmp_path), name=None, ext=None, empty=True,
+        size_min=None, size_max=None, json=False
+    )
+    rc = cmd_find(args)
+    assert rc == 0
+
+
+def test_dev_changelog():
+    """Changelog generation."""
+    import pytest
+    pytest.skip("requires git repo with history")

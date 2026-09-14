@@ -1,1 +1,9 @@
-dGFyZ2V0LXZlcnNpb24gPSAicHkzMTEiCmxpbmUtbGVuZ3RoID0gMTAwCgpbbGludF0Kc2VsZWN0ID0gWyJFIiwgIkYiLCAiVyIsICJJIiwgIk4iLCAiVVAiLCAiQiIsICJDNCIsICJTSU0iXQppZ25vcmUgPSBbIkU1MDEiXQoKW2xpbnQuaXNvcnRdCmtub3duLWZpcnN0LXBhcnR5ID0gWyJhZ2VudF90b29scyJd
+target-version = "py311"
+line-length = 100
+
+[lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
+
+[lint.isort]
+known-first-party = ["agent_tools"]

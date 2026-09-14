@@ -1,1 +1,26 @@
-IyBDaGFuZ2Vsb2cKCiMjIFsxLjAuMV0gLSAyMDI0LTAxLTE1CgojIyMgRml4ZWQKLSBDTEkg5ZG95Luk5YiG5Y+R77ya5pS55Li65Yqo5oCBIGltcG9ydCDmqKHlvI/vvIzmlK/mjIHmiYDmnIkgMjAwIOS4quWRveS7pOato+W4uOi/kOihjAotIFdpbmRvd3MgR0JLIOe8luegge+8muenu+mZpOaJgOaciSBlbW9qae+8jOehruS/nei3qOW5s+WPsOWFvOWuuQotIOi/nuWtl+espuWRveS7pOWQje+8mmB1cmwtcGFyc2VgIOetieiHquWKqOaYoOWwhOS4uiBgY21kX3VybF9wYXJzZWAKCiMjIyBBZGRlZAotIOaWsOWiniA1IOS4quaWh+acrOWRveS7pO+8mnJlcGVhdCAvIHRyYW5zcG9zZSAvIHdvcmRfd3JhcCAvIGxpbmVfbnVtYmVycyAvIGV4Y2VycHQKLSDmlrDlop4gMiDkuKrlronlhajlkb3ku6TvvJpwYXRoX3RyYXZlcnNhbCAvIGNoZWNrX29wZW4KLSDmlrDlop4gMiDkuKrmlofku7blkb3ku6TvvJpnbG9iX3NlYXJjaCAvIGZpbGVfaW5mbwotIOaWsOWiniAxMyDkuKrmtYvor5XnlKjkvovvvIjlhbEgMzIg5Liq77yJCgojIyMgQ2hhbmdlZAotIFJFQURNRSDlpKfluYXnvo7ljJbvvIzlkKvlronoo4Uv55So5rOVL+WRveS7pOaAu+iniOihqC/npLrkvosKLSDmt7vliqAgTElDRU5TRSAoTUlUKQotIOa3u+WKoCBDT05UUklCVVRJTkcubWQKCiMjIFsxLjAuMF0gLSAyMDI0LTAxLTE0CgojIyMgQWRkZWQKLSAyMDArIENMSSDlkb3ku6TvvIwxMSDlpKfliIbnsbsKLSBhcmdwYXJzZSDlrZDlkb3ku6TmnrbmnoQKLSBweXRlc3Qg5rWL6K+V5qGG5p62
+# Changelog
+
+## [1.0.1] - 2024-01-15
+
+### Fixed
+- CLI 命令分发：改为动态 import 模式，支持所有 200 个命令正常运行
+- Windows GBK 编码：移除所有 emoji，确保跨平台兼容
+- 连字符命令名：`url-parse` 等自动映射为 `cmd_url_parse`
+
+### Added
+- 新增 5 个文本命令：repeat / transpose / word_wrap / line_numbers / excerpt
+- 新增 2 个安全命令：path_traversal / check_open
+- 新增 2 个文件命令：glob_search / file_info
+- 新增 13 个测试用例（共 32 个）
+
+### Changed
+- README 大幅美化，含安装/用法/命令总览表/示例
+- 添加 LICENSE (MIT)
+- 添加 CONTRIBUTING.md
+
+## [1.0.0] - 2024-01-14
+
+### Added
+- 200+ CLI 命令，11 大分类
+- argparse 子命令架构
+- pytest 测试框架

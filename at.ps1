@@ -1,1 +1,4 @@
-77u/IyEvdXNyL2Jpbi9lbnYgcHdzaAojIGFnZW50LXRvb2xzIFBvd2VyU2hlbGwgbGF1bmNoZXIKcGFyYW0oW3N0cmluZ1tdXSRBcmdzKQpweXRob24gLW0gYWdlbnRfdG9vbHMgQEFyZ3M=
+﻿#!/usr/bin/env pwsh
+# agent-tools PowerShell launcher
+param([string[]]$Args)
+python -m agent_tools @Args

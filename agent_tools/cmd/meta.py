@@ -1,1 +1,220 @@
-IiIibWV0YTog6aG555uu5YWD5L+h5oGv55Sf5oiQ44CCIiIiDQpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zDQoNCmltcG9ydCBhcmdwYXJzZQ0KaW1wb3J0IGpzb24NCmltcG9ydCBzeXMNCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lDQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgNCg0KDQpkZWYgcmVnaXN0ZXIocGFyZW50OiBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcikgLT4gTm9uZToNCiAgICBzdWIgPSBwYXJlbnQuYWRkX3N1YnBhcnNlcnMoZGVzdD0iY21kIiwgcmVxdWlyZWQ9VHJ1ZSkNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigicHJvamVjdC1pbmZvIiwgaGVscD0i6aG555uu5L+h5oGv5pGY6KaBIikNCiAgICBwLmFkZF9hcmd1bWVudCgicGF0aCIsIG5hcmdzPSI/IiwgZGVmYXVsdD0iLiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInJlYWRtZS1nZW4iLCBoZWxwPSLnlJ/miJAgUkVBRE1FIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1uYW1lIiwgcmVxdWlyZWQ9VHJ1ZSkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1kZXNjIiwgcmVxdWlyZWQ9VHJ1ZSkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iLCBkZWZhdWx0PSJSRUFETUUubWQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWZlYXR1cmVzIiwgaGVscD0i5Yqf6IO95YiX6KGo77yI6YCX5Y+35YiG6ZqU77yJIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1pbnN0YWxsIiwgaGVscD0i5a6J6KOF5ZG95LukIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS11c2FnZSIsIGhlbHA9IuS9v+eUqOekuuS+iyIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInBhY2thZ2UtanNvbiIsIGhlbHA9IueUn+aIkCBwYWNrYWdlLmpzb24iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW5hbWUiLCByZXF1aXJlZD1UcnVlKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXZlcnNpb24iLCBkZWZhdWx0PSIxLjAuMCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tb3V0cHV0IiwgIi1vIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigicHlwcm9qZWN0LWluZm8iLCBoZWxwPSLop6PmnpAgcHlwcm9qZWN0LnRvbWwiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJwYXRoIiwgbmFyZ3M9Ij8iLCBkZWZhdWx0PSJweXByb2plY3QudG9tbCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImdpdC1pbmZvIiwgaGVscD0iR2l0IOS7k+W6k+S/oeaBryIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcmVwbyIsIG5hcmdzPSI/IiwgZGVmYXVsdD0iLiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImNvbnRyaWJ1dG9ycyIsIGhlbHA9Iui0oeeMruiAhee7n+iuoSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcmVwbyIsIG5hcmdzPSI/IiwgZGVmYXVsdD0iLiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdG9wIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MTApDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInZlcnNpb24tYnVtcCIsIGhlbHA9IueJiOacrOWNh+e6pyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tYnVtcCIsIGNob2ljZXM9WyJtYWpvciIsICJtaW5vciIsICJwYXRjaCJdLCBkZWZhdWx0PSJwYXRjaCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZmlsZSIsIGhlbHA9IueJiOacrOWPt+aWh+S7tiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImxpY2Vuc2UtY2hlY2siLCBoZWxwPSJMaWNlbnNlIOajgOafpSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc2NhbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcmVwb3J0IiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigic3BkeC1jaGVjayIsIGhlbHA9IlNQRFgg6K645Y+v6K+B6aqM6K+BIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1saWNlbnNlIiwgcmVxdWlyZWQ9VHJ1ZSkNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiY2hhbmdlbG9nLWdlbiIsIGhlbHA9IuiHquWKqCBDSEFOR0VMT0ciKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXNpbmNlIiwgaGVscD0i6LW35aeL54mI5pysIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iLCBkZWZhdWx0PSJDSEFOR0VMT0cubWQiKQ0KZGVmIGNtZF9wcm9qZWN0X2luZm8oYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgcm9vdCA9IFBhdGgoYXJncy5wYXRoKS5yZXNvbHZlKCkNCiAgICBmaWxlcyA9IGxpc3Qocm9vdC5yZ2xvYigiKiIpKQ0KICAgIHB5X2ZpbGVzID0gW2YgZm9yIGYgaW4gZmlsZXMgaWYgZi5zdWZmaXggPT0gIi5weSIgYW5kIGYuaXNfZmlsZSgpXQ0KICAgIHJlc3VsdCA9IHsNCiAgICAgICAgInBhdGgiOiBzdHIocm9vdCksDQogICAgICAgICJ0b3RhbF9maWxlcyI6IGxlbihbZiBmb3IgZiBpbiBmaWxlcyBpZiBmLmlzX2ZpbGUoKV0pLA0KICAgICAgICAicHl0aG9uX2ZpbGVzIjogbGVuKHB5X2ZpbGVzKSwNCiAgICAgICAgImRpcmVjdG9yaWVzIjogbGVuKFtmIGZvciBmIGluIGZpbGVzIGlmIGYuaXNfZGlyKCldKSwNCiAgICAgICAgInNpemVfYnl0ZXMiOiBzdW0oZi5zdGF0KCkuc3Rfc2l6ZSBmb3IgZiBpbiBmaWxlcyBpZiBmLmlzX2ZpbGUoKSksDQogICAgICAgICJjcmVhdGVkIjogZGF0ZXRpbWUuZnJvbXRpbWVzdGFtcChyb290LnN0YXQoKS5zdF9jdGltZSkuaXNvZm9ybWF0KCksDQogICAgICAgICJtb2RpZmllZCI6IGRhdGV0aW1lLmZyb210aW1lc3RhbXAocm9vdC5zdGF0KCkuc3RfbXRpbWUpLmlzb2Zvcm1hdCgpLA0KICAgIH0NCiAgICBpZiBhcmdzLmpzb246DQogICAgICAgIHByaW50KGpzb24uZHVtcHMocmVzdWx0LCBpbmRlbnQ9MikpDQogICAgZWxzZToNCiAgICAgICAgcHJpbnQoZiLwn5OBIOmhueebruS/oeaBrzoge3Jlc3VsdFsncGF0aCddfSIpDQogICAgICAgIHByaW50KGYiICAg5oC75paH5Lu2OiB7cmVzdWx0Wyd0b3RhbF9maWxlcyddOix9IikNCiAgICAgICAgcHJpbnQoZiIgICBQeXRob24g5paH5Lu2OiB7cmVzdWx0WydweXRob25fZmlsZXMnXTosfSIpDQogICAgICAgIHByaW50KGYiICAg55uu5b2VOiB7cmVzdWx0WydkaXJlY3RvcmllcyddOix9IikNCiAgICAgICAgcHJpbnQoZiIgICDmgLvlpKflsI86IHtyZXN1bHRbJ3NpemVfYnl0ZXMnXTosfSBieXRlcyIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3JlYWRtZV9nZW4oYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgZmVhdHVyZXMgPSBbZi5zdHJpcCgpIGZvciBmIGluIChhcmdzLmZlYXR1cmVzIG9yICIiKS5zcGxpdCgiLCIpIGlmIGYuc3RyaXAoKV0gaWYgYXJncy5mZWF0dXJlcyBlbHNlIFtdDQogICAgbGluZXMgPSBbDQogICAgICAgIGYiIyB7YXJncy5uYW1lfSIsDQogICAgICAgICIiLA0KICAgICAgICBmIj4ge2FyZ3MuZGVzY30iLA0KICAgICAgICAiIiwNCiAgICAgICAgIiMjIOWuieijhSIsDQogICAgICAgICIiLA0KICAgICAgICBmImBgYGJhc2giLA0KICAgICAgICBhcmdzLmluc3RhbGwgb3IgInBpcCBpbnN0YWxsIC4iLA0KICAgICAgICAiYGBgIiwNCiAgICAgICAgIiIsDQogICAgICAgICIjIyDkvb/nlKgiLA0KICAgICAgICAiIiwNCiAgICAgICAgImBgYGJhc2giLA0KICAgICAgICBhcmdzLnVzYWdlIG9yICJhdCAtLWhlbHAiLA0KICAgICAgICAiYGBgIiwNCiAgICAgICAgIiIsDQogICAgXQ0KICAgIGlmIGZlYXR1cmVzOg0KICAgICAgICBsaW5lcyArPSBbIiMjIOWKn+iDvSIsICIiLCAiIl0NCiAgICAgICAgZm9yIGYgaW4gZmVhdHVyZXM6DQogICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiItIHtmfSIpDQogICAgICAgIGxpbmVzLmFwcGVuZCgiIikNCiAgICBsaW5lcyArPSBbIiMjIOW8gOWPkSIsICIiLCAiYGBgYmFzaCIsICJweXRlc3QgdGVzdHMvIC12IiwgImBgYCIsICIiLCAiIyMgTGljZW5zZSIsICIiLCAiTUlUIl0NCiAgICBvdXRwdXQgPSBQYXRoKGFyZ3Mub3V0cHV0KQ0KICAgIG91dHB1dC53cml0ZV90ZXh0KCJcbiIuam9pbihsaW5lcykgKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIHByaW50KGYi4pyFIFJFQURNRSDlt7LnlJ/miJAg4oaSIHtvdXRwdXR9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfcGFja2FnZV9qc29uKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIHBrZyA9IHsibmFtZSI6IGFyZ3MubmFtZSwgInZlcnNpb24iOiBhcmdzLnZlcnNpb24sICJkZXNjcmlwdGlvbiI6IGFyZ3MubmFtZSwNCiAgICAgICAgICAgIm1haW4iOiAiaW5kZXguanMiLCAic2NyaXB0cyI6IHsidGVzdCI6ICJlY2hvIEVycm9yICYmIGV4aXQgMSJ9LA0KICAgICAgICAgICAibGljZW5zZSI6ICJNSVQifQ0KICAgIG91dHB1dCA9IFBhdGgoYXJncy5vdXRwdXQpIGlmIGFyZ3Mub3V0cHV0IGVsc2UgUGF0aCgicGFja2FnZS5qc29uIikNCiAgICBvdXRwdXQud3JpdGVfdGV4dChqc29uLmR1bXBzKHBrZywgaW5kZW50PTIpLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIHByaW50KGYi4pyFIHBhY2thZ2UuanNvbiDlt7LnlJ/miJAg4oaSIHtvdXRwdXR9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfcHlwcm9qZWN0X2luZm8oYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgdHJ5Og0KICAgICAgICBpbXBvcnQgdG9tbGxpYg0KICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoNCiAgICAgICAgaW1wb3J0IHRvbWxpIGFzIHRvbWxsaWINCiAgICBkYXRhID0gdG9tbGxpYi5sb2FkcyhQYXRoKGFyZ3MucGF0aCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQ0KICAgIHByb2ogPSBkYXRhLmdldCgicHJvamVjdCIsIHt9KQ0KICAgIHJlc3VsdCA9IHsNCiAgICAgICAgIm5hbWUiOiBwcm9qLmdldCgibmFtZSIpLA0KICAgICAgICAidmVyc2lvbiI6IHByb2ouZ2V0KCJ2ZXJzaW9uIiksDQogICAgICAgICJkZXNjcmlwdGlvbiI6IHByb2ouZ2V0KCJkZXNjcmlwdGlvbiIpLA0KICAgICAgICAicHl0aG9uX3JlcXVpcmVzIjogcHJvai5nZXQoInJlcXVpcmVzLXB5dGhvbiIpLA0KICAgICAgICAiZGVwZW5kZW5jaWVzIjogcHJvai5nZXQoImRlcGVuZGVuY2llcyIsIFtdKSwNCiAgICAgICAgIm9wdGlvbmFsX2RlcHMiOiBsaXN0KHByb2ouZ2V0KCJvcHRpb25hbC1kZXBlbmRlbmNpZXMiLCB7fSkua2V5cygpKSwNCiAgICB9DQogICAgaWYgYXJncy5qc29uOg0KICAgICAgICBwcmludChqc29uLmR1bXBzKHJlc3VsdCwgaW5kZW50PTIpKQ0KICAgIGVsc2U6DQogICAgICAgIHByaW50KGYi8J+TpiB7cmVzdWx0WyduYW1lJ119IHZ7cmVzdWx0Wyd2ZXJzaW9uJ119IikNCiAgICAgICAgcHJpbnQoZiIgICDmj4/ov7A6IHtyZXN1bHRbJ2Rlc2NyaXB0aW9uJ119IikNCiAgICAgICAgcHJpbnQoZiIgICBQeXRob246IHtyZXN1bHRbJ3B5dGhvbl9yZXF1aXJlcyddfSIpDQogICAgICAgIHByaW50KGYiICAg5L6d6LWWOiB7bGVuKHJlc3VsdFsnZGVwZW5kZW5jaWVzJ10pfSDkuKoiKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9naXRfaW5mbyhhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbXBvcnQgc3VicHJvY2Vzcw0KICAgIHJlcG8gPSBhcmdzLnJlcG8gb3IgIi4iDQogICAgZGVmIF9naXQoKmNtZCk6DQogICAgICAgIHIgPSBzdWJwcm9jZXNzLnJ1bihbImdpdCIsICpjbWRdLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIGN3ZD1yZXBvKQ0KICAgICAgICByZXR1cm4gci5zdGRvdXQuc3RyaXAoKQ0KICAgIHJlc3VsdCA9IHsNCiAgICAgICAgInJlbW90ZSI6IF9naXQoInJlbW90ZSIsICJnZXQtdXJsIiwgIm9yaWdpbiIpLA0KICAgICAgICAiYnJhbmNoIjogX2dpdCgiYnJhbmNoIiwgIi0tc2hvdy1jdXJyZW50IiksDQogICAgICAgICJjb21taXRzIjogX2dpdCgicmV2LWxpc3QiLCAiLS1hbGwiLCAiLS1jb3VudCIpLA0KICAgICAgICAidGFncyI6IF9naXQoInRhZyIsICItLXNvcnQ9LXZlcnNpb246cmVmbmFtZSIpLA0KICAgICAgICAibGFzdF9jb21taXQiOiBfZ2l0KCJsb2ciLCAiLTEiLCAiLS1mb3JtYXQ9JWggJWFkICVzIiwgIi0tZGF0ZT1zaG9ydCIpLA0KICAgIH0NCiAgICBpZiBhcmdzLmpzb246DQogICAgICAgIHByaW50KGpzb24uZHVtcHMocmVzdWx0LCBpbmRlbnQ9MikpDQogICAgZWxzZToNCiAgICAgICAgcHJpbnQoZiLwn5OKIEdpdCDku5PlupPkv6Hmga86IHtyZXBvfSIpDQogICAgICAgIHByaW50KGYiICAg5YiG5pSvOiB7cmVzdWx0WydicmFuY2gnXX0iKQ0KICAgICAgICBwcmludChmIiAgIOaPkOS6pDoge3Jlc3VsdFsnY29tbWl0cyddfSDmrKEiKQ0KICAgICAgICBwcmludChmIiAgIOacgOaWsDoge3Jlc3VsdFsnbGFzdF9jb21taXQnXX0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9jb250cmlidXRvcnMoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgaW1wb3J0IHN1YnByb2Nlc3MNCiAgICByZXBvID0gYXJncy5yZXBvIG9yICIuIg0KICAgIG91dHB1dCA9IHN1YnByb2Nlc3MucnVuKFsiZ2l0IiwgIi1DIiwgcmVwbywgInNob3J0bG9nIiwgIi1zbmUiLCBmIi0tYWxsIiwgZiItLW1heC1jb3VudD17YXJncy50b3B9Il0sDQogICAgICAgICAgICAgICAgICAgICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUpLnN0ZG91dA0KICAgIHJlc3VsdCA9IFtdDQogICAgZm9yIGxpbmUgaW4gb3V0cHV0LnNwbGl0bGluZXMoKToNCiAgICAgICAgcGFydHMgPSBsaW5lLnN0cmlwKCkuc3BsaXQoIlx0IiwgMSkNCiAgICAgICAgaWYgbGVuKHBhcnRzKSA9PSAyOg0KICAgICAgICAgICAgcmVzdWx0LmFwcGVuZCh7ImNvbW1pdHMiOiBpbnQocGFydHNbMF0pLCAiYXV0aG9yIjogcGFydHNbMV19KQ0KICAgIGlmIGFyZ3MuanNvbjoNCiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyhyZXN1bHQsIGluZGVudD0yKSkNCiAgICBlbHNlOg0KICAgICAgICBwcmludChmIvCfkaUg6LSh54yu6ICFIFRvcCB7YXJncy50b3B9IikNCiAgICAgICAgZm9yIHIgaW4gcmVzdWx0Og0KICAgICAgICAgICAgcHJpbnQoZiIgIHtyWydjb21taXRzJ106PjZ9ICB7clsnYXV0aG9yJ119IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfdmVyc2lvbl9idW1wKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIHZlcnNpb25fZmlsZSA9IFBhdGgoYXJncy5maWxlKSBpZiBhcmdzLmZpbGUgZWxzZSBOb25lDQogICAgY3VycmVudCA9ICIwLjEuMCINCiAgICBpZiB2ZXJzaW9uX2ZpbGUgYW5kIHZlcnNpb25fZmlsZS5leGlzdHMoKToNCiAgICAgICAgY3VycmVudCA9IHZlcnNpb25fZmlsZS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04Iikuc3RyaXAoKQ0KICAgIHBhcnRzID0gY3VycmVudC5zcGxpdCgiLiIpDQogICAgbWFqb3IsIG1pbm9yLCBwYXRjaCA9IGludChwYXJ0c1swXSksIGludChwYXJ0c1sxXSksIGludChwYXJ0c1syXSkNCiAgICBpZiBhcmdzLmJ1bXAgPT0gIm1ham9yIjoNCiAgICAgICAgbWFqb3IgKz0gMTsgbWlub3IgPSAwOyBwYXRjaCA9IDANCiAgICBlbGlmIGFyZ3MuYnVtcCA9PSAibWlub3IiOg0KICAgICAgICBtaW5vciArPSAxOyBwYXRjaCA9IDANCiAgICBlbHNlOg0KICAgICAgICBwYXRjaCArPSAxDQogICAgbmV3X3ZlcnNpb24gPSBmInttYWpvcn0ue21pbm9yfS57cGF0Y2h9Ig0KICAgIGlmIHZlcnNpb25fZmlsZToNCiAgICAgICAgdmVyc2lvbl9maWxlLndyaXRlX3RleHQobmV3X3ZlcnNpb24gKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIHByaW50KGYiICB7Y3VycmVudH0g4oaSIHtuZXdfdmVyc2lvbn0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9zcGR4X2NoZWNrKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIHZhbGlkID0geyJNSVQiLCAiQXBhY2hlLTIuMCIsICJHUEwtMy4wIiwgIkJTRC0yLUNsYXVzZSIsICJCU0QtMy1DbGF1c2UiLCAiTVBMLTIuMCIsICJBR1BMLTMuMCIsDQogICAgICAgICAgICAgIklTQyIsICJMR1BMLTIuMSIsICJMR1BMLTMuMCIsICJFUEwtMi4wIiwgIlVubGljZW5zZSIsICIwQlNEIiwgIkNDMC0xLjAifQ0KICAgIGlmIGFyZ3MubGljZW5zZSBpbiB2YWxpZDoNCiAgICAgICAgcHJpbnQoZiIgIOKchSDmnInmlYjnmoQgU1BEWCDorrjlj6/or4E6IHthcmdzLmxpY2Vuc2V9IikNCiAgICAgICAgcmV0dXJuIDANCiAgICBwcmludChmIiAg4pqg77iPICDmnKrnn6Xorrjlj6/or4E6IHthcmdzLmxpY2Vuc2V9IikNCiAgICBwcmludChmIiAg5Y+v55SoOiB7JywgJy5qb2luKHNvcnRlZCh2YWxpZCkpfSIpDQogICAgcmV0dXJuIDENCg==
+"""meta: 项目元信息生成。"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from datetime import datetime
+from pathlib import Path
+
+
+def register(parent: argparse.ArgumentParser) -> None:
+    sub = parent.add_subparsers(dest="cmd", required=True)
+
+    p = sub.add_parser("project-info", help="项目信息摘要")
+    p.add_argument("path", nargs="?", default=".")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("readme-gen", help="生成 README")
+    p.add_argument("--name", required=True)
+    p.add_argument("--desc", required=True)
+    p.add_argument("--output", "-o", default="README.md")
+    p.add_argument("--features", help="功能列表（逗号分隔）")
+    p.add_argument("--install", help="安装命令")
+    p.add_argument("--usage", help="使用示例")
+
+    p = sub.add_parser("package-json", help="生成 package.json")
+    p.add_argument("--name", required=True)
+    p.add_argument("--version", default="1.0.0")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("pyproject-info", help="解析 pyproject.toml")
+    p.add_argument("path", nargs="?", default="pyproject.toml")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("git-info", help="Git 仓库信息")
+    p.add_argument("--repo", nargs="?", default=".")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("contributors", help="贡献者统计")
+    p.add_argument("--repo", nargs="?", default=".")
+    p.add_argument("--top", type=int, default=10)
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("version-bump", help="版本升级")
+    p.add_argument("--bump", choices=["major", "minor", "patch"], default="patch")
+    p.add_argument("--file", help="版本号文件")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("license-check", help="License 检查")
+    p.add_argument("--scan", action="store_true")
+    p.add_argument("--report", action="store_true")
+
+    p = sub.add_parser("spdx-check", help="SPDX 许可证验证")
+    p.add_argument("--license", required=True)
+
+    p = sub.add_parser("changelog-gen", help="自动 CHANGELOG")
+    p.add_argument("--since", help="起始版本")
+    p.add_argument("--output", "-o", default="CHANGELOG.md")
+def cmd_project_info(args: argparse.Namespace) -> int:
+    root = Path(args.path).resolve()
+    files = list(root.rglob("*"))
+    py_files = [f for f in files if f.suffix == ".py" and f.is_file()]
+    result = {
+        "path": str(root),
+        "total_files": len([f for f in files if f.is_file()]),
+        "python_files": len(py_files),
+        "directories": len([f for f in files if f.is_dir()]),
+        "size_bytes": sum(f.stat().st_size for f in files if f.is_file()),
+        "created": datetime.fromtimestamp(root.stat().st_ctime).isoformat(),
+        "modified": datetime.fromtimestamp(root.stat().st_mtime).isoformat(),
+    }
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        print(f"📁 项目信息: {result['path']}")
+        print(f"   总文件: {result['total_files']:,}")
+        print(f"   Python 文件: {result['python_files']:,}")
+        print(f"   目录: {result['directories']:,}")
+        print(f"   总大小: {result['size_bytes']:,} bytes")
+    return 0
+
+
+def cmd_readme_gen(args: argparse.Namespace) -> int:
+    features = [f.strip() for f in (args.features or "").split(",") if f.strip()] if args.features else []
+    lines = [
+        f"# {args.name}",
+        "",
+        f"> {args.desc}",
+        "",
+        "## 安装",
+        "",
+        f"```bash",
+        args.install or "pip install .",
+        "```",
+        "",
+        "## 使用",
+        "",
+        "```bash",
+        args.usage or "at --help",
+        "```",
+        "",
+    ]
+    if features:
+        lines += ["## 功能", "", ""]
+        for f in features:
+            lines.append(f"- {f}")
+        lines.append("")
+    lines += ["## 开发", "", "```bash", "pytest tests/ -v", "```", "", "## License", "", "MIT"]
+    output = Path(args.output)
+    output.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"✅ README 已生成 → {output}")
+    return 0
+
+
+def cmd_package_json(args: argparse.Namespace) -> int:
+    pkg = {"name": args.name, "version": args.version, "description": args.name,
+           "main": "index.js", "scripts": {"test": "echo Error && exit 1"},
+           "license": "MIT"}
+    output = Path(args.output) if args.output else Path("package.json")
+    output.write_text(json.dumps(pkg, indent=2), encoding="utf-8")
+    print(f"✅ package.json 已生成 → {output}")
+    return 0
+
+
+def cmd_pyproject_info(args: argparse.Namespace) -> int:
+    try:
+        import tomllib
+    except ImportError:
+        import tomli as tomllib
+    data = tomllib.loads(Path(args.path).read_text(encoding="utf-8"))
+    proj = data.get("project", {})
+    result = {
+        "name": proj.get("name"),
+        "version": proj.get("version"),
+        "description": proj.get("description"),
+        "python_requires": proj.get("requires-python"),
+        "dependencies": proj.get("dependencies", []),
+        "optional_deps": list(proj.get("optional-dependencies", {}).keys()),
+    }
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        print(f"📦 {result['name']} v{result['version']}")
+        print(f"   描述: {result['description']}")
+        print(f"   Python: {result['python_requires']}")
+        print(f"   依赖: {len(result['dependencies'])} 个")
+    return 0
+
+
+def cmd_git_info(args: argparse.Namespace) -> int:
+    import subprocess
+    repo = args.repo or "."
+    def _git(*cmd):
+        r = subprocess.run(["git", *cmd], capture_output=True, text=True, cwd=repo)
+        return r.stdout.strip()
+    result = {
+        "remote": _git("remote", "get-url", "origin"),
+        "branch": _git("branch", "--show-current"),
+        "commits": _git("rev-list", "--all", "--count"),
+        "tags": _git("tag", "--sort=-version:refname"),
+        "last_commit": _git("log", "-1", "--format=%h %ad %s", "--date=short"),
+    }
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        print(f"📊 Git 仓库信息: {repo}")
+        print(f"   分支: {result['branch']}")
+        print(f"   提交: {result['commits']} 次")
+        print(f"   最新: {result['last_commit']}")
+    return 0
+
+
+def cmd_contributors(args: argparse.Namespace) -> int:
+    import subprocess
+    repo = args.repo or "."
+    output = subprocess.run(["git", "-C", repo, "shortlog", "-sne", f"--all", f"--max-count={args.top}"],
+                           capture_output=True, text=True).stdout
+    result = []
+    for line in output.splitlines():
+        parts = line.strip().split("\t", 1)
+        if len(parts) == 2:
+            result.append({"commits": int(parts[0]), "author": parts[1]})
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        print(f"👥 贡献者 Top {args.top}")
+        for r in result:
+            print(f"  {r['commits']:>6}  {r['author']}")
+    return 0
+
+
+def cmd_version_bump(args: argparse.Namespace) -> int:
+    version_file = Path(args.file) if args.file else None
+    current = "0.1.0"
+    if version_file and version_file.exists():
+        current = version_file.read_text(encoding="utf-8").strip()
+    parts = current.split(".")
+    major, minor, patch = int(parts[0]), int(parts[1]), int(parts[2])
+    if args.bump == "major":
+        major += 1; minor = 0; patch = 0
+    elif args.bump == "minor":
+        minor += 1; patch = 0
+    else:
+        patch += 1
+    new_version = f"{major}.{minor}.{patch}"
+    if version_file:
+        version_file.write_text(new_version + "\n", encoding="utf-8")
+    print(f"  {current} → {new_version}")
+    return 0
+
+
+def cmd_spdx_check(args: argparse.Namespace) -> int:
+    valid = {"MIT", "Apache-2.0", "GPL-3.0", "BSD-2-Clause", "BSD-3-Clause", "MPL-2.0", "AGPL-3.0",
+             "ISC", "LGPL-2.1", "LGPL-3.0", "EPL-2.0", "Unlicense", "0BSD", "CC0-1.0"}
+    if args.license in valid:
+        print(f"  ✅ 有效的 SPDX 许可证: {args.license}")
+        return 0
+    print(f"  ⚠️  未知许可证: {args.license}")
+    print(f"  可用: {', '.join(sorted(valid))}")
+    return 1

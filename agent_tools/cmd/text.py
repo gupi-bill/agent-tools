@@ -1,1 +1,527 @@
-IiIidGV4dDog5paH5pys5aSE55CG5bel5YW344CCIiIiDQpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zDQoNCmltcG9ydCBhcmdwYXJzZQ0KaW1wb3J0IHJlDQppbXBvcnQgc3lzDQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgNCg0KDQpkZWYgcmVnaXN0ZXIocGFyZW50OiBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcikgLT4gTm9uZToNCiAgICBzdWIgPSBwYXJlbnQuYWRkX3N1YnBhcnNlcnMoZGVzdD0iY21kIiwgcmVxdWlyZWQ9VHJ1ZSkNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiY291bnQiLCBoZWxwPSLnu5/orqHlrZfmlbAv6KGM5pWwL+Wtl+espuaVsCIpDQogICAgcC5hZGRfYXJndW1lbnQoImZpbGVzIiwgbmFyZ3M9IisiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWpzb24iLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJzb3J0IiwgaGVscD0i5o6S5bqP5paH5Lu26KGMIikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcmV2ZXJzZSIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdW5pcXVlIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigidW5pcSIsIGhlbHA9IuWOu+mHjei/nue7remHjeWkjeihjCIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJyZXZlcnNlIiwgaGVscD0i5Y+N6L2s5paH5Lu26KGMIikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInN0cmlwIiwgaGVscD0i5Y676Zmk6KGM5bC+56m655m9IikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImRlZHVwIiwgaGVscD0i5YWo5bGA5Y676YeN6KGMIikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0ta2VlcCIsIGNob2ljZXM9WyJmaXJzdCIsICJsYXN0Il0sIGRlZmF1bHQ9ImZpcnN0IikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigidHJ1bmNhdGUiLCBoZWxwPSLmiKrmlq3mlofku7bliLAgTiDooYwiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJpbnB1dCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbGluZXMiLCB0eXBlPWludCwgcmVxdWlyZWQ9VHJ1ZSkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJoZWFkIiwgaGVscD0i5Y+W5YmNIE4g6KGMIikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW4iLCB0eXBlPWludCwgZGVmYXVsdD0xMCkNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigidGFpbCIsIGhlbHA9IuWPluWQjiBOIOihjCIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1uIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MTApDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInNsaWNlIiwgaGVscD0i5Y+W6KGM6IyD5Zu0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXN0YXJ0IiwgdHlwZT1pbnQsIHJlcXVpcmVkPVRydWUpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZW5kIiwgdHlwZT1pbnQsIHJlcXVpcmVkPVRydWUpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tb3V0cHV0IiwgIi1vIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigic2h1ZmZsZSIsIGhlbHA9Iumaj+acuuaJk+S5seihjCIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXNlZWQiLCB0eXBlPWludCwgZGVmYXVsdD00MikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiY2h1bmsiLCBoZWxwPSLliIblibLmlofku7bkuLrlnZciKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJpbnB1dCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc2l6ZSIsIHR5cGU9aW50LCBkZWZhdWx0PTEwMCwgaGVscD0i5q+P5Z2X6KGM5pWwIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQtZGlyIiwgZGVmYXVsdD0iLiIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImZsYXR0ZW4iLCBoZWxwPSLmiYHlubPljJbltYzlpZcgSlNPTi/mlbDnu4QiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJpbnB1dCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0ta2V5IiwgaGVscD0i5o+Q5Y+W55qE5a2X5q615ZCNIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigidHJhbnNmb3JtIiwgaGVscD0i5a+55q+P6KGM5bqU55So5Y+Y5o2iIikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXVwcGVyIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1sb3dlciIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdHJpbSIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZmlsdGVyIiwgaGVscD0i5q2j5YiZ6L+H5ruk5L+d55WZ6KGMIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJ6aXAiLCBoZWxwPSLmlofku7bljovnvKkiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJmaWxlcyIsIG5hcmdzPSIrIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iLCByZXF1aXJlZD1UcnVlKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXBhc3N3b3JkIiwgaGVscD0i5Yqg5a+G5a+G56CBIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigidW56aXAiLCBoZWxwPSLop6Pljovmlofku7YiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJpbnB1dCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tb3V0cHV0IiwgIi1vIiwgZGVmYXVsdD0iLiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcGFzc3dvcmQiLCBoZWxwPSLop6Plr4blr4bnoIEiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJiYXNlNjQtZW5jb2RlIiwgaGVscD0iQmFzZTY0IOe8lueggSIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJiYXNlNjQtZGVjb2RlIiwgaGVscD0iQmFzZTY0IOino+eggSIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJ1cmwtZW5jb2RlIiwgaGVscD0iVVJMIOe8lueggSIpDQogICAgcC5hZGRfYXJndW1lbnQoInRleHQiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJ1cmwtZGVjb2RlIiwgaGVscD0iVVJMIOino+eggSIpDQogICAgcC5hZGRfYXJndW1lbnQoInRleHQiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJzbHVnaWZ5IiwgaGVscD0i55Sf5oiQIFVSTCDlj4vlpb0gc2x1ZyIpDQogICAgcC5hZGRfYXJndW1lbnQoInRleHQiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJ1dWlkIiwgaGVscD0i55Sf5oiQIFVVSUQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWNvdW50IiwgdHlwZT1pbnQsIGRlZmF1bHQ9MSkNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigibWQ1IiwgaGVscD0i6K6h566X5paH5pysIE1ENSIpDQogICAgcC5hZGRfYXJndW1lbnQoInRleHQiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJjYXNlIiwgaGVscD0i5aSn5bCP5YaZ6L2s5o2iIikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXRpdGxlIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1jYW1lbCIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc25ha2UiLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWtlYmFiIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJ3b3JkZnJlcSIsIGhlbHA9Iuivjemikee7n+iuoSIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS10b3AiLCB0eXBlPWludCwgZGVmYXVsdD0yMCkNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigidGFibGUiLCBoZWxwPSLmlofmnKzovawgTWFya2Rvd24g6KGo5qC8IikNCiAgICBwLmFkZF9hcmd1bWVudCgiaW5wdXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWhlYWRlciIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZGVsaW1pdGVyIiwgZGVmYXVsdD0iXHQiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJyZWdleC10ZXN0IiwgaGVscD0i5rWL6K+V5q2j5YiZ6KGo6L6+5byPIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1wYXR0ZXJuIiwgcmVxdWlyZWQ9VHJ1ZSkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS10ZXh0IiwgcmVxdWlyZWQ9VHJ1ZSkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1mbGFncyIsIGhlbHA9InJlIOagh+W/l++8jOWmgiBpLG0scyIpDQoNCg0KZGVmIGNtZF9jb3VudChhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBmcm9tIC4udXRpbHMgaW1wb3J0IGNvdW50X2xpbmVzDQogICAgZm9yIGYgaW4gYXJncy5maWxlczoNCiAgICAgICAgcCA9IFBhdGgoZikNCiAgICAgICAgc3RhdHMgPSBjb3VudF9saW5lcyhwKQ0KICAgICAgICBwcmludChmIiAge3N0YXRzWydsaW5lcyddOj44fSBsaW5lcyAge3N0YXRzWydjaGFycyddOj44fSBjaGFycyAge3N0YXRzWyd3b3JkcyddOj44fSB3b3JkcyAge3B9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfc29ydChhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbnAgPSBQYXRoKGFyZ3MuaW5wdXQpDQogICAgbGluZXMgPSBpbnAucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnNwbGl0bGluZXMoKQ0KICAgIGxpbmVzLnNvcnQocmV2ZXJzZT1hcmdzLnJldmVyc2UpDQogICAgaWYgYXJncy51bmlxdWU6DQogICAgICAgIGxpbmVzID0gbGlzdChkaWN0LmZyb21rZXlzKGxpbmVzKSkNCiAgICBvdXQgPSBhcmdzLm91dHB1dCBhbmQgUGF0aChhcmdzLm91dHB1dCkgb3IgaW5wDQogICAgb3V0LndyaXRlX3RleHQoIlxuIi5qb2luKGxpbmVzKSArICJcbiIsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgcHJpbnQoZiLmjpLluo/lrozmiJDvvIx7bGVuKGxpbmVzKX0g6KGMIikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfdW5pcShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbnAgPSBQYXRoKGFyZ3MuaW5wdXQpDQogICAgbGluZXMgPSBpbnAucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnNwbGl0bGluZXMoKQ0KICAgIG91dF9saW5lcyA9IFtdDQogICAgbGFzdCA9IE5vbmUNCiAgICBmb3IgbGluZSBpbiBsaW5lczoNCiAgICAgICAgaWYgbGluZSAhPSBsYXN0Og0KICAgICAgICAgICAgb3V0X2xpbmVzLmFwcGVuZChsaW5lKQ0KICAgICAgICBsYXN0ID0gbGluZQ0KICAgIG91dCA9IFBhdGgoYXJncy5vdXRwdXQpIGlmIGFyZ3Mub3V0cHV0IGVsc2UgaW5wDQogICAgb3V0LndyaXRlX3RleHQoIlxuIi5qb2luKG91dF9saW5lcykgKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIHByaW50KGYi5Y676YeNOiB7bGVuKGxpbmVzKX0g4oaSIHtsZW4ob3V0X2xpbmVzKX0g6KGMIikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfcmV2ZXJzZShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbnAgPSBQYXRoKGFyZ3MuaW5wdXQpDQogICAgbGluZXMgPSBpbnAucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnNwbGl0bGluZXMoKVs6Oi0xXQ0KICAgIG91dCA9IFBhdGgoYXJncy5vdXRwdXQpIGlmIGFyZ3Mub3V0cHV0IGVsc2UgaW5wDQogICAgb3V0LndyaXRlX3RleHQoIlxuIi5qb2luKGxpbmVzKSArICJcbiIsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3N0cmlwKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGlucCA9IFBhdGgoYXJncy5pbnB1dCkNCiAgICB0ZXh0ID0gaW5wLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKQ0KICAgIGZpeGVkID0gcmUuc3ViKHIiWyBcdF0rJCIsICIiLCB0ZXh0LCBmbGFncz1yZS5NVUxUSUxJTkUpDQogICAgb3V0ID0gUGF0aChhcmdzLm91dHB1dCkgaWYgYXJncy5vdXRwdXQgZWxzZSBpbnANCiAgICBvdXQud3JpdGVfdGV4dChmaXhlZCwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfZGVkdXAoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgaW5wID0gUGF0aChhcmdzLmlucHV0KQ0KICAgIGxpbmVzID0gaW5wLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zcGxpdGxpbmVzKCkNCiAgICBzZWVuOiBzZXRbc3RyXSA9IHNldCgpDQogICAgb3V0ID0gW10NCiAgICBmb3IgbGluZSBpbiByZXZlcnNlZChsaW5lcykgaWYgYXJncy5rZWVwID09ICJsYXN0IiBlbHNlIGxpbmVzOg0KICAgICAgICBpZiBsaW5lIG5vdCBpbiBzZWVuOg0KICAgICAgICAgICAgc2Vlbi5hZGQobGluZSkNCiAgICAgICAgICAgIG91dC5hcHBlbmQobGluZSkNCiAgICBpZiBhcmdzLmtlZXAgPT0gImxhc3QiOg0KICAgICAgICBvdXQucmV2ZXJzZSgpDQogICAgb3V0X3BhdGggPSBQYXRoKGFyZ3Mub3V0cHV0KSBpZiBhcmdzLm91dHB1dCBlbHNlIGlucA0KICAgIG91dF9wYXRoLndyaXRlX3RleHQoIlxuIi5qb2luKG91dCkgKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIHByaW50KGYi5Y676YeNOiB7bGVuKGxpbmVzKX0g4oaSIHtsZW4ob3V0KX0g6KGMIikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfdHJ1bmNhdGUoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgaW5wID0gUGF0aChhcmdzLmlucHV0KQ0KICAgIGxpbmVzID0gaW5wLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zcGxpdGxpbmVzKClbOiBhcmdzLmxpbmVzXQ0KICAgIG91dCA9IFBhdGgoYXJncy5vdXRwdXQpIGlmIGFyZ3Mub3V0cHV0IGVsc2UgaW5wDQogICAgb3V0LndyaXRlX3RleHQoIlxuIi5qb2luKGxpbmVzKSArICgiXG4iIGlmIGxpbmVzIGVsc2UgIiIpLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIHByaW50KGYi5oiq5pat5YiwIHtsZW4obGluZXMpfSDooYwiKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9oZWFkKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGxpbmVzID0gUGF0aChhcmdzLmlucHV0KS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04Iikuc3BsaXRsaW5lcygpWzogYXJncy5uXQ0KICAgIHByaW50KCJcbiIuam9pbihsaW5lcykpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3RhaWwoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgbGluZXMgPSBQYXRoKGFyZ3MuaW5wdXQpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zcGxpdGxpbmVzKClbLWFyZ3MubjpdDQogICAgcHJpbnQoIlxuIi5qb2luKGxpbmVzKSkNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfc2xpY2UoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgbGluZXMgPSBQYXRoKGFyZ3MuaW5wdXQpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zcGxpdGxpbmVzKCkNCiAgICBjaHVuayA9IGxpbmVzW2FyZ3Muc3RhcnQgLSAxIDogYXJncy5lbmRdDQogICAgaWYgYXJncy5vdXRwdXQ6DQogICAgICAgIFBhdGgoYXJncy5vdXRwdXQpLndyaXRlX3RleHQoIlxuIi5qb2luKGNodW5rKSArICJcbiIsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgZWxzZToNCiAgICAgICAgcHJpbnQoIlxuIi5qb2luKGNodW5rKSkNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfc2h1ZmZsZShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbXBvcnQgcmFuZG9tDQogICAgbGluZXMgPSBQYXRoKGFyZ3MuaW5wdXQpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zcGxpdGxpbmVzKCkNCiAgICBybmcgPSByYW5kb20uUmFuZG9tKGFyZ3Muc2VlZCkNCiAgICBybmcuc2h1ZmZsZShsaW5lcykNCiAgICBvdXQgPSBQYXRoKGFyZ3Mub3V0cHV0KSBpZiBhcmdzLm91dHB1dCBlbHNlIFBhdGgoYXJncy5pbnB1dCkNCiAgICBvdXQud3JpdGVfdGV4dCgiXG4iLmpvaW4obGluZXMpICsgIlxuIiwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfY2h1bmsoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgaW5wID0gUGF0aChhcmdzLmlucHV0KQ0KICAgIGxpbmVzID0gaW5wLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zcGxpdGxpbmVzKCkNCiAgICBvdXRfZGlyID0gUGF0aChhcmdzLm91dHB1dF9kaXIpDQogICAgb3V0X2Rpci5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpDQogICAgZm9yIGkgaW4gcmFuZ2UoMCwgbGVuKGxpbmVzKSwgYXJncy5zaXplKToNCiAgICAgICAgY2h1bmsgPSBsaW5lc1tpOmkgKyBhcmdzLnNpemVdDQogICAgICAgIG91dCA9IG91dF9kaXIgLyBmImNodW5rX3tpIC8vIGFyZ3Muc2l6ZSArIDE6MDRkfS50eHQiDQogICAgICAgIG91dC53cml0ZV90ZXh0KCJcbiIuam9pbihjaHVuaykgKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgICAgICBwcmludChmIiAge291dH0iKQ0KICAgIHByaW50KGYiXG7mi4bliIblrozmiJDvvIzlhbEge2xlbihsaW5lcyl9IOihjCIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3RyYW5zZm9ybShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBsaW5lcyA9IFBhdGgoYXJncy5pbnB1dCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnNwbGl0bGluZXMoKQ0KICAgIG91dCA9IFtdDQogICAgZm9yIGxpbmUgaW4gbGluZXM6DQogICAgICAgIGlmIGFyZ3MudXBwZXI6DQogICAgICAgICAgICBsaW5lID0gbGluZS51cHBlcigpDQogICAgICAgIGlmIGFyZ3MubG93ZXI6DQogICAgICAgICAgICBsaW5lID0gbGluZS5sb3dlcigpDQogICAgICAgIGlmIGFyZ3MudHJpbToNCiAgICAgICAgICAgIGxpbmUgPSBsaW5lLnN0cmlwKCkNCiAgICAgICAgaWYgYXJncy5maWx0ZXIgYW5kIG5vdCByZS5zZWFyY2goYXJncy5maWx0ZXIsIGxpbmUpOg0KICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgb3V0LmFwcGVuZChsaW5lKQ0KICAgIHJlc3VsdCA9ICJcbiIuam9pbihvdXQpICsgKCJcbiIgaWYgb3V0IGVsc2UgIiIpDQogICAgaWYgYXJncy5vdXRwdXQ6DQogICAgICAgIFBhdGgoYXJncy5vdXRwdXQpLndyaXRlX3RleHQocmVzdWx0LCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIGVsc2U6DQogICAgICAgIHByaW50KHJlc3VsdCwgZW5kPSIiKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF96aXAoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgaW1wb3J0IHppcGZpbGUNCiAgICBvdXQgPSB6aXBmaWxlLlppcEZpbGUoYXJncy5vdXRwdXQsICJ3IiwgemlwZmlsZS5aSVBfREVGTEFURUQpDQogICAgZm9yIGYgaW4gYXJncy5maWxlczoNCiAgICAgICAgb3V0LndyaXRlKGYpDQogICAgb3V0LmNsb3NlKCkNCiAgICBwcmludChmIuW3suWOi+e8qSB7bGVuKGFyZ3MuZmlsZXMpfSDkuKrmlofku7YiKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF91bnppcChhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbXBvcnQgemlwZmlsZQ0KICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKGFyZ3MuaW5wdXQsICJyIikgYXMgejoNCiAgICAgICAgaWYgYXJncy5wYXNzd29yZDoNCiAgICAgICAgICAgIHouZXh0cmFjdGFsbChQYXRoKGFyZ3Mub3V0cHV0KSwgcHdkPWFyZ3MucGFzc3dvcmQuZW5jb2RlKCkpDQogICAgICAgIGVsc2U6DQogICAgICAgICAgICB6LmV4dHJhY3RhbGwoUGF0aChhcmdzLm91dHB1dCkpDQogICAgICAgIHByaW50KGYi5bey6Kej5Y6LIHtsZW4oei5uYW1lbGlzdCgpKX0g5Liq5paH5Lu2IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfYmFzZTY0X2VuY29kZShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbXBvcnQgYmFzZTY0DQogICAgZGF0YSA9IFBhdGgoYXJncy5pbnB1dCkucmVhZF9ieXRlcygpDQogICAgZW5jb2RlZCA9IGJhc2U2NC5iNjRlbmNvZGUoZGF0YSkuZGVjb2RlKCkNCiAgICBvdXQgPSBQYXRoKGFyZ3Mub3V0cHV0KSBpZiBhcmdzLm91dHB1dCBlbHNlIFBhdGgoYXJncy5pbnB1dCkud2l0aF9zdWZmaXgoIi5iNjQiKQ0KICAgIG91dC53cml0ZV90ZXh0KGVuY29kZWQsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgcHJpbnQoZiLlt7LnvJbnoIHliLAge291dH0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9iYXNlNjRfZGVjb2RlKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGltcG9ydCBiYXNlNjQNCiAgICBkYXRhID0gUGF0aChhcmdzLmlucHV0KS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikNCiAgICBkZWNvZGVkID0gYmFzZTY0LmI2NGRlY29kZShkYXRhKQ0KICAgIG91dCA9IFBhdGgoYXJncy5vdXRwdXQpIGlmIGFyZ3Mub3V0cHV0IGVsc2UgUGF0aChhcmdzLmlucHV0KS53aXRoX3N1ZmZpeCgiIikNCiAgICBvdXQud3JpdGVfYnl0ZXMoZGVjb2RlZCkNCiAgICBwcmludChmIuW3suino+eggeWIsCB7b3V0fSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3VybF9lbmNvZGUoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgaW1wb3J0IHVybGxpYi5wYXJzZQ0KICAgIHByaW50KHVybGxpYi5wYXJzZS5xdW90ZShhcmdzLnRleHQpKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF91cmxfZGVjb2RlKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGltcG9ydCB1cmxsaWIucGFyc2UNCiAgICBwcmludCh1cmxsaWIucGFyc2UudW5xdW90ZShhcmdzLnRleHQpKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9zbHVnaWZ5KGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIHRleHQgPSBhcmdzLnRleHQubG93ZXIoKS5zdHJpcCgpDQogICAgdGV4dCA9IHJlLnN1YihyIlteXHdccy1dIiwgIiIsIHRleHQpDQogICAgdGV4dCA9IHJlLnN1YihyIltcc19dKyIsICItIiwgdGV4dCkNCiAgICB0ZXh0ID0gcmUuc3ViKHIiLSsiLCAiLSIsIHRleHQpLnN0cmlwKCItIikNCiAgICBwcmludCh0ZXh0KQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF91dWlkKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGltcG9ydCB1dWlkDQogICAgZm9yIF8gaW4gcmFuZ2UoYXJncy5jb3VudCk6DQogICAgICAgIHByaW50KHV1aWQudXVpZDQoKSkNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfbWQ1KGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGltcG9ydCBoYXNobGliDQogICAgcHJpbnQoaGFzaGxpYi5tZDUoYXJncy50ZXh0LmVuY29kZSgpKS5oZXhkaWdlc3QoKSkNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfY2FzZShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICB0ZXh0ID0gUGF0aChhcmdzLmlucHV0KS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04Iikuc3RyaXAoKQ0KICAgIGlmIGFyZ3MudGl0bGU6DQogICAgICAgIHJlc3VsdCA9IHRleHQudGl0bGUoKQ0KICAgIGVsaWYgYXJncy5jYW1lbDoNCiAgICAgICAgd29yZHMgPSByZS5maW5kYWxsKHIiW2EtekEtWl0rIiwgdGV4dCkNCiAgICAgICAgcmVzdWx0ID0gd29yZHNbMF0ubG93ZXIoKSArICIiLmpvaW4ody5jYXBpdGFsaXplKCkgZm9yIHcgaW4gd29yZHNbMTpdKQ0KICAgIGVsaWYgYXJncy5zbmFrZToNCiAgICAgICAgcmVzdWx0ID0gcmUuc3ViKHIiW1xzLV0rIiwgIl8iLCB0ZXh0KS5sb3dlcigpDQogICAgZWxpZiBhcmdzLmtlYmFiOg0KICAgICAgICByZXN1bHQgPSByZS5zdWIociJbXHNfXSsiLCAiLSIsIHRleHQpLmxvd2VyKCkNCiAgICBlbHNlOg0KICAgICAgICByZXN1bHQgPSB0ZXh0DQogICAgaWYgYXJncy5vdXRwdXQ6DQogICAgICAgIFBhdGgoYXJncy5vdXRwdXQpLndyaXRlX3RleHQocmVzdWx0LCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIGVsc2U6DQogICAgICAgIHByaW50KHJlc3VsdCkNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfd29yZGZyZXEoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgaW1wb3J0IHJlDQogICAgdGV4dCA9IFBhdGgoYXJncy5pbnB1dCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpDQogICAgd29yZHMgPSByZS5maW5kYWxsKHIiW2EtekEtWjAtOVx1NGUwMC1cdTlmZmZdKyIsIHRleHQubG93ZXIoKSkNCiAgICBmcmVxOiBkaWN0W3N0ciwgaW50XSA9IHt9DQogICAgZm9yIHcgaW4gd29yZHM6DQogICAgICAgIGZyZXFbd10gPSBmcmVxLmdldCh3LCAwKSArIDENCiAgICBzb3J0ZWRfd29yZHMgPSBzb3J0ZWQoZnJlcS5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKVs6IGFyZ3MudG9wXQ0KICAgIGZvciB3LCBuIGluIHNvcnRlZF93b3JkczoNCiAgICAgICAgYmFyID0gIuKWiCIgKiBtaW4obiwgNDApDQogICAgICAgIHByaW50KGYiICB7bjo+NX0gIHtiYXJ9ICB7d30iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF90YWJsZShhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBsaW5lcyA9IFBhdGgoYXJncy5pbnB1dCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnNwbGl0bGluZXMoKQ0KICAgIGRlbGltaXRlciA9IGFyZ3MuZGVsaW1pdGVyDQogICAgcm93cyA9IFtsaW5lLnNwbGl0KGRlbGltaXRlcikgZm9yIGxpbmUgaW4gbGluZXMgaWYgbGluZS5zdHJpcCgpXQ0KICAgIGlmIG5vdCByb3dzOg0KICAgICAgICBwcmludCgiKOepuuaWh+S7tikiKQ0KICAgICAgICByZXR1cm4gMA0KICAgIGNvbF93aWR0aHMgPSBbbWF4KGxlbihjZWxsKSBmb3IgY2VsbCBpbiByb3cpIGZvciByb3cgaW4gemlwKCpyb3dzKV0NCiAgICBoZWFkZXIgPSByb3dzWzBdIGlmIGFyZ3MuaGVhZGVyIGVsc2Ugcm93c1s6MV0NCiAgICBib2R5ID0gcm93c1sxOl0gaWYgYXJncy5oZWFkZXIgZWxzZSByb3dzDQogICAgZGVmIGZtdF9yb3coY2VsbHM6IGxpc3Rbc3RyXSkgLT4gc3RyOg0KICAgICAgICByZXR1cm4gIiB8ICIuam9pbihjLmxqdXN0KHcpIGZvciBjLCB3IGluIHppcChjZWxscywgY29sX3dpZHRocykpDQogICAgcHJpbnQoZm10X3JvdyhoZWFkZXIpKQ0KICAgIGlmIGFyZ3MuaGVhZGVyOg0KICAgICAgICBwcmludCgifCIuam9pbigiLSIgKiAodyArIDIpIGZvciB3IGluIGNvbF93aWR0aHMpKQ0KICAgIGZvciByb3cgaW4gYm9keToNCiAgICAgICAgcGFkZGVkID0gcm93ICsgWyIiXSAqIChsZW4oY29sX3dpZHRocykgLSBsZW4ocm93KSkNCiAgICAgICAgcHJpbnQoZm10X3JvdyhwYWRkZWRbOmxlbihjb2xfd2lkdGhzKV0pKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9yZWdleF90ZXN0KGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGZsYWdzID0gMA0KICAgIGlmICJpIiBpbiAoYXJncy5mbGFncyBvciAiIik6DQogICAgICAgIGZsYWdzIHw9IHJlLklHTk9SRUNBU0UNCiAgICBpZiAibSIgaW4gKGFyZ3MuZmxhZ3Mgb3IgIiIpOg0KICAgICAgICBmbGFncyB8PSByZS5NVUxUSUxJTkUNCiAgICBpZiAicyIgaW4gKGFyZ3MuZmxhZ3Mgb3IgIiIpOg0KICAgICAgICBmbGFncyB8PSByZS5ET1RBTEwNCiAgICBwYXQgPSByZS5jb21waWxlKGFyZ3MucGF0dGVybiwgZmxhZ3MpDQogICAgbWF0Y2hlcyA9IGxpc3QocGF0LmZpbmRpdGVyKGFyZ3MudGV4dCkpDQogICAgcHJpbnQoZiLmraPliJk6IHthcmdzLnBhdHRlcm59IikNCiAgICBwcmludChmIuWMuemFjeaVsDoge2xlbihtYXRjaGVzKX0iKQ0KICAgIGZvciBtIGluIG1hdGNoZXNbOjIwXToNCiAgICAgICAgcHJpbnQoZiIgIFt7bS5zdGFydCgpfS17bS5lbmQoKX1dIHttLmdyb3VwKCkhcn0iKQ0KICAgIGlmIGxlbihtYXRjaGVzKSA+IDIwOg0KICAgICAgICBwcmludChmIiAgLi4uIOi/mOaciSB7bGVuKG1hdGNoZXMpIC0gMjB9IOWkhCIpDQogICAgcmV0dXJuIDANCg0KZGVmIGNtZF9yZXBlYXQoYXJncyk6DQogICAgbiA9IGdldGF0dHIoYXJncywgJ2NvdW50JywgMSkNCiAgICB0ZXh0ID0gZ2V0YXR0cihhcmdzLCAndGV4dCcsICcnKQ0KICAgIHNlcCA9IGdldGF0dHIoYXJncywgJ3NlcGFyYXRvcicsIGNocigxMCkpDQogICAgcHJpbnQoc2VwLmpvaW4oW3RleHRdICogbikpDQogICAgcmV0dXJuIDANCg0KZGVmIGNtZF90cmFuc3Bvc2UoYXJncyk6DQogICAgbGluZXMgPSBQYXRoKGFyZ3MuaW5wdXQpLnJlYWRfdGV4dChlbmNvZGluZz0ndXRmLTgnKS5zcGxpdGxpbmVzKCkNCiAgICBpZiBub3QgbGluZXM6DQogICAgICAgIHJldHVybiAwDQogICAgY29scyA9IG1heChsZW4obC5zcGxpdCgpKSBmb3IgbCBpbiBsaW5lcykNCiAgICByb3dzID0gbGVuKGxpbmVzKQ0KICAgIGZvciBjIGluIHJhbmdlKGNvbHMpOg0KICAgICAgICByb3cgPSBbXQ0KICAgICAgICBmb3IgciBpbiByYW5nZShyb3dzKToNCiAgICAgICAgICAgIHBhcnRzID0gbGluZXNbcl0uc3BsaXQoKQ0KICAgICAgICAgICAgcm93LmFwcGVuZChwYXJ0c1tjXSBpZiBjIDwgbGVuKHBhcnRzKSBlbHNlICcnKQ0KICAgICAgICBwcmludCgnICcuam9pbihyb3cpKQ0KICAgIHJldHVybiAwDQoNCmRlZiBjbWRfd29yZF93cmFwKGFyZ3MpOg0KICAgIGltcG9ydCB0ZXh0d3JhcA0KICAgIHRleHQgPSBQYXRoKGFyZ3MuaW5wdXQpLnJlYWRfdGV4dChlbmNvZGluZz0ndXRmLTgnKQ0KICAgIHdpZHRoID0gZ2V0YXR0cihhcmdzLCAnd2lkdGgnLCA4MCkNCiAgICB3cmFwcGVkID0gdGV4dHdyYXAuZmlsbCh0ZXh0LCB3aWR0aD13aWR0aCkNCiAgICBwcmludCh3cmFwcGVkKQ0KICAgIHJldHVybiAwDQoNCmRlZiBjbWRfbGluZV9udW1iZXJzKGFyZ3MpOg0KICAgIGxpbmVzID0gUGF0aChhcmdzLmlucHV0KS5yZWFkX3RleHQoZW5jb2Rpbmc9J3V0Zi04Jykuc3BsaXRsaW5lcygpDQogICAgZm9yIGksIGxpbmUgaW4gZW51bWVyYXRlKGxpbmVzLCAxKToNCiAgICAgICAgcHJpbnQoZid7aTo+Nn0gIHtsaW5lfScpDQogICAgcmV0dXJuIDANCg0KZGVmIGNtZF9leGNlcnB0KGFyZ3MpOg0KICAgIGxpbmVzID0gUGF0aChhcmdzLmlucHV0KS5yZWFkX3RleHQoZW5jb2Rpbmc9J3V0Zi04Jykuc3BsaXRsaW5lcygpDQogICAgc3RhcnQgPSBtYXgoMCwgZ2V0YXR0cihhcmdzLCAnc3RhcnQnLCAwKSAtIDEpDQogICAgZW5kID0gbWluKGxlbihsaW5lcyksIGdldGF0dHIoYXJncywgJ2VuZCcsIGxlbihsaW5lcykpKQ0KICAgIGN0eCA9IGdldGF0dHIoYXJncywgJ2NvbnRleHQnLCAwKQ0KICAgIGZvciBpIGluIHJhbmdlKG1heCgwLCBzdGFydCAtIGN0eCksIG1pbihsZW4obGluZXMpLCBlbmQgKyBjdHgpKToNCiAgICAgICAgcHJlZml4ID0gJy4uLicgaWYgaSA8IHN0YXJ0IGVsc2UgJyAgICcNCiAgICAgICAgc3VmZml4ID0gJy4uLicgaWYgaSA+PSBlbmQgZWxzZSAnICAgJw0KICAgICAgICBwcmludChmJ3twcmVmaXh9e2krMTo+NH0ge2xpbmVzW2ldfXtzdWZmaXh9JykNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfbGluZV9udW1iZXJzKGFyZ3MpOg0KICAgICIiIue7meaWh+S7tua3u+WKoOihjOWPt+OAgiIiIg0KICAgIGxpbmVzID0gUGF0aChhcmdzLmlucHV0KS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04Iikuc3BsaXRsaW5lcygpDQogICAgZm9yIGksIGxpbmUgaW4gZW51bWVyYXRlKGxpbmVzLCAxKToNCiAgICAgICAgcHJpbnQoZiJ7aTo+Nn0gIHtsaW5lfSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3dvcmRfd3JhcChhcmdzKToNCiAgICAiIiLmlofmnKzoh6rliqjmjaLooYzliLDmjIflrprlrr3luqbjgIIiIiINCiAgICBpbXBvcnQgdGV4dHdyYXANCiAgICB0ZXh0ID0gUGF0aChhcmdzLmlucHV0KS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikNCiAgICB3aWR0aCA9IGdldGF0dHIoYXJncywgIndpZHRoIiwgODApDQogICAgcHJpbnQodGV4dHdyYXAuZmlsbCh0ZXh0LCB3aWR0aD13aWR0aCkpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX2V4Y2VycHQoYXJncyk6DQogICAgIiIi5o+Q5Y+W5paH5Lu25oyH5a6a6KGM6IyD5Zu044CCIiIiDQogICAgbGluZXMgPSBQYXRoKGFyZ3MuaW5wdXQpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zcGxpdGxpbmVzKCkNCiAgICBzdGFydCA9IG1heCgwLCBnZXRhdHRyKGFyZ3MsICJzdGFydCIsIDApIC0gMSkNCiAgICBlbmQgPSBtaW4obGVuKGxpbmVzKSwgZ2V0YXR0cihhcmdzLCAiZW5kIiwgbGVuKGxpbmVzKSkpDQogICAgZm9yIGkgaW4gcmFuZ2Uoc3RhcnQsIGVuZCk6DQogICAgICAgIHByaW50KGYie2krMTo+Nn06IHtsaW5lc1tpXX0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9yZXBlYXQoYXJncyk6DQogICAgIiIi6YeN5aSN5paH5pysIE4g5qyh44CCIiIiDQogICAgbiA9IGdldGF0dHIoYXJncywgImNvdW50IiwgMSkNCiAgICB0ZXh0ID0gZ2V0YXR0cihhcmdzLCAidGV4dCIsICIiKQ0KICAgIHNlcCA9IGdldGF0dHIoYXJncywgInNlcGFyYXRvciIsICJcbiIpDQogICAgcHJpbnQoc2VwLmpvaW4oW3RleHRdICogbikpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3RyYW5zcG9zZShhcmdzKToNCiAgICAiIiLovaznva7nn6npmLXvvIjooYzlj5jliJfvvInjgIIiIiINCiAgICBsaW5lcyA9IFBhdGgoYXJncy5pbnB1dCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnNwbGl0bGluZXMoKQ0KICAgIGlmIG5vdCBsaW5lczoNCiAgICAgICAgcmV0dXJuIDANCiAgICBjb2xzID0gbWF4KGxlbihsLnNwbGl0KCkpIGZvciBsIGluIGxpbmVzKQ0KICAgIHJvd3MgPSBsZW4obGluZXMpDQogICAgZm9yIGMgaW4gcmFuZ2UoY29scyk6DQogICAgICAgIHJvdyA9IFtdDQogICAgICAgIGZvciByIGluIHJhbmdlKHJvd3MpOg0KICAgICAgICAgICAgcGFydHMgPSBsaW5lc1tyXS5zcGxpdCgpDQogICAgICAgICAgICByb3cuYXBwZW5kKHBhcnRzW2NdIGlmIGMgPCBsZW4ocGFydHMpIGVsc2UgIiIpDQogICAgICAgIHByaW50KCIgIi5qb2luKHJvdykpDQogICAgcmV0dXJuIDANCg==
+"""text: 文本处理工具。"""
+from __future__ import annotations
+
+import argparse
+import re
+import sys
+from pathlib import Path
+
+
+def register(parent: argparse.ArgumentParser) -> None:
+    sub = parent.add_subparsers(dest="cmd", required=True)
+
+    p = sub.add_parser("count", help="统计字数/行数/字符数")
+    p.add_argument("files", nargs="+")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("sort", help="排序文件行")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+    p.add_argument("--reverse", action="store_true")
+    p.add_argument("--unique", action="store_true")
+
+    p = sub.add_parser("uniq", help="去重连续重复行")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("reverse", help="反转文件行")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("strip", help="去除行尾空白")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("dedup", help="全局去重行")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+    p.add_argument("--keep", choices=["first", "last"], default="first")
+
+    p = sub.add_parser("truncate", help="截断文件到 N 行")
+    p.add_argument("input")
+    p.add_argument("--lines", type=int, required=True)
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("head", help="取前 N 行")
+    p.add_argument("input")
+    p.add_argument("--n", type=int, default=10)
+
+    p = sub.add_parser("tail", help="取后 N 行")
+    p.add_argument("input")
+    p.add_argument("--n", type=int, default=10)
+
+    p = sub.add_parser("slice", help="取行范围")
+    p.add_argument("input")
+    p.add_argument("--start", type=int, required=True)
+    p.add_argument("--end", type=int, required=True)
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("shuffle", help="随机打乱行")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+    p.add_argument("--seed", type=int, default=42)
+
+    p = sub.add_parser("chunk", help="分割文件为块")
+    p.add_argument("input")
+    p.add_argument("--size", type=int, default=100, help="每块行数")
+    p.add_argument("--output-dir", default=".")
+
+    p = sub.add_parser("flatten", help="扁平化嵌套 JSON/数组")
+    p.add_argument("input")
+    p.add_argument("--key", help="提取的字段名")
+
+    p = sub.add_parser("transform", help="对每行应用变换")
+    p.add_argument("input")
+    p.add_argument("--upper", action="store_true")
+    p.add_argument("--lower", action="store_true")
+    p.add_argument("--trim", action="store_true")
+    p.add_argument("--filter", help="正则过滤保留行")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("zip", help="文件压缩")
+    p.add_argument("files", nargs="+")
+    p.add_argument("--output", "-o", required=True)
+    p.add_argument("--password", help="加密密码")
+
+    p = sub.add_parser("unzip", help="解压文件")
+    p.add_argument("input")
+    p.add_argument("--output", "-o", default=".")
+    p.add_argument("--password", help="解密密码")
+
+    p = sub.add_parser("base64-encode", help="Base64 编码")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("base64-decode", help="Base64 解码")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("url-encode", help="URL 编码")
+    p.add_argument("text")
+
+    p = sub.add_parser("url-decode", help="URL 解码")
+    p.add_argument("text")
+
+    p = sub.add_parser("slugify", help="生成 URL 友好 slug")
+    p.add_argument("text")
+
+    p = sub.add_parser("uuid", help="生成 UUID")
+    p.add_argument("--count", type=int, default=1)
+
+    p = sub.add_parser("md5", help="计算文本 MD5")
+    p.add_argument("text")
+
+    p = sub.add_parser("case", help="大小写转换")
+    p.add_argument("input")
+    p.add_argument("--title", action="store_true")
+    p.add_argument("--camel", action="store_true")
+    p.add_argument("--snake", action="store_true")
+    p.add_argument("--kebab", action="store_true")
+    p.add_argument("--output", "-o")
+
+    p = sub.add_parser("wordfreq", help="词频统计")
+    p.add_argument("input")
+    p.add_argument("--top", type=int, default=20)
+
+    p = sub.add_parser("table", help="文本转 Markdown 表格")
+    p.add_argument("input")
+    p.add_argument("--header", action="store_true")
+    p.add_argument("--delimiter", default="\t")
+
+    p = sub.add_parser("regex-test", help="测试正则表达式")
+    p.add_argument("--pattern", required=True)
+    p.add_argument("--text", required=True)
+    p.add_argument("--flags", help="re 标志，如 i,m,s")
+
+
+def cmd_count(args: argparse.Namespace) -> int:
+    from ..utils import count_lines
+    for f in args.files:
+        p = Path(f)
+        stats = count_lines(p)
+        print(f"  {stats['lines']:>8} lines  {stats['chars']:>8} chars  {stats['words']:>8} words  {p}")
+    return 0
+
+
+def cmd_sort(args: argparse.Namespace) -> int:
+    inp = Path(args.input)
+    lines = inp.read_text(encoding="utf-8").splitlines()
+    lines.sort(reverse=args.reverse)
+    if args.unique:
+        lines = list(dict.fromkeys(lines))
+    out = args.output and Path(args.output) or inp
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"排序完成，{len(lines)} 行")
+    return 0
+
+
+def cmd_uniq(args: argparse.Namespace) -> int:
+    inp = Path(args.input)
+    lines = inp.read_text(encoding="utf-8").splitlines()
+    out_lines = []
+    last = None
+    for line in lines:
+        if line != last:
+            out_lines.append(line)
+        last = line
+    out = Path(args.output) if args.output else inp
+    out.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
+    print(f"去重: {len(lines)} → {len(out_lines)} 行")
+    return 0
+
+
+def cmd_reverse(args: argparse.Namespace) -> int:
+    inp = Path(args.input)
+    lines = inp.read_text(encoding="utf-8").splitlines()[::-1]
+    out = Path(args.output) if args.output else inp
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return 0
+
+
+def cmd_strip(args: argparse.Namespace) -> int:
+    inp = Path(args.input)
+    text = inp.read_text(encoding="utf-8")
+    fixed = re.sub(r"[ \t]+$", "", text, flags=re.MULTILINE)
+    out = Path(args.output) if args.output else inp
+    out.write_text(fixed, encoding="utf-8")
+    return 0
+
+
+def cmd_dedup(args: argparse.Namespace) -> int:
+    inp = Path(args.input)
+    lines = inp.read_text(encoding="utf-8").splitlines()
+    seen: set[str] = set()
+    out = []
+    for line in reversed(lines) if args.keep == "last" else lines:
+        if line not in seen:
+            seen.add(line)
+            out.append(line)
+    if args.keep == "last":
+        out.reverse()
+    out_path = Path(args.output) if args.output else inp
+    out_path.write_text("\n".join(out) + "\n", encoding="utf-8")
+    print(f"去重: {len(lines)} → {len(out)} 行")
+    return 0
+
+
+def cmd_truncate(args: argparse.Namespace) -> int:
+    inp = Path(args.input)
+    lines = inp.read_text(encoding="utf-8").splitlines()[: args.lines]
+    out = Path(args.output) if args.output else inp
+    out.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+    print(f"截断到 {len(lines)} 行")
+    return 0
+
+
+def cmd_head(args: argparse.Namespace) -> int:
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()[: args.n]
+    print("\n".join(lines))
+    return 0
+
+
+def cmd_tail(args: argparse.Namespace) -> int:
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()[-args.n:]
+    print("\n".join(lines))
+    return 0
+
+
+def cmd_slice(args: argparse.Namespace) -> int:
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()
+    chunk = lines[args.start - 1 : args.end]
+    if args.output:
+        Path(args.output).write_text("\n".join(chunk) + "\n", encoding="utf-8")
+    else:
+        print("\n".join(chunk))
+    return 0
+
+
+def cmd_shuffle(args: argparse.Namespace) -> int:
+    import random
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()
+    rng = random.Random(args.seed)
+    rng.shuffle(lines)
+    out = Path(args.output) if args.output else Path(args.input)
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return 0
+
+
+def cmd_chunk(args: argparse.Namespace) -> int:
+    inp = Path(args.input)
+    lines = inp.read_text(encoding="utf-8").splitlines()
+    out_dir = Path(args.output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for i in range(0, len(lines), args.size):
+        chunk = lines[i:i + args.size]
+        out = out_dir / f"chunk_{i // args.size + 1:04d}.txt"
+        out.write_text("\n".join(chunk) + "\n", encoding="utf-8")
+        print(f"  {out}")
+    print(f"\n拆分完成，共 {len(lines)} 行")
+    return 0
+
+
+def cmd_transform(args: argparse.Namespace) -> int:
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()
+    out = []
+    for line in lines:
+        if args.upper:
+            line = line.upper()
+        if args.lower:
+            line = line.lower()
+        if args.trim:
+            line = line.strip()
+        if args.filter and not re.search(args.filter, line):
+            continue
+        out.append(line)
+    result = "\n".join(out) + ("\n" if out else "")
+    if args.output:
+        Path(args.output).write_text(result, encoding="utf-8")
+    else:
+        print(result, end="")
+    return 0
+
+
+def cmd_zip(args: argparse.Namespace) -> int:
+    import zipfile
+    out = zipfile.ZipFile(args.output, "w", zipfile.ZIP_DEFLATED)
+    for f in args.files:
+        out.write(f)
+    out.close()
+    print(f"已压缩 {len(args.files)} 个文件")
+    return 0
+
+
+def cmd_unzip(args: argparse.Namespace) -> int:
+    import zipfile
+    with zipfile.ZipFile(args.input, "r") as z:
+        if args.password:
+            z.extractall(Path(args.output), pwd=args.password.encode())
+        else:
+            z.extractall(Path(args.output))
+        print(f"已解压 {len(z.namelist())} 个文件")
+    return 0
+
+
+def cmd_base64_encode(args: argparse.Namespace) -> int:
+    import base64
+    data = Path(args.input).read_bytes()
+    encoded = base64.b64encode(data).decode()
+    out = Path(args.output) if args.output else Path(args.input).with_suffix(".b64")
+    out.write_text(encoded, encoding="utf-8")
+    print(f"已编码到 {out}")
+    return 0
+
+
+def cmd_base64_decode(args: argparse.Namespace) -> int:
+    import base64
+    data = Path(args.input).read_text(encoding="utf-8")
+    decoded = base64.b64decode(data)
+    out = Path(args.output) if args.output else Path(args.input).with_suffix("")
+    out.write_bytes(decoded)
+    print(f"已解码到 {out}")
+    return 0
+
+
+def cmd_url_encode(args: argparse.Namespace) -> int:
+    import urllib.parse
+    print(urllib.parse.quote(args.text))
+    return 0
+
+
+def cmd_url_decode(args: argparse.Namespace) -> int:
+    import urllib.parse
+    print(urllib.parse.unquote(args.text))
+    return 0
+
+
+def cmd_slugify(args: argparse.Namespace) -> int:
+    text = args.text.lower().strip()
+    text = re.sub(r"[^\w\s-]", "", text)
+    text = re.sub(r"[\s_]+", "-", text)
+    text = re.sub(r"-+", "-", text).strip("-")
+    print(text)
+    return 0
+
+
+def cmd_uuid(args: argparse.Namespace) -> int:
+    import uuid
+    for _ in range(args.count):
+        print(uuid.uuid4())
+    return 0
+
+
+def cmd_md5(args: argparse.Namespace) -> int:
+    import hashlib
+    print(hashlib.md5(args.text.encode()).hexdigest())
+    return 0
+
+
+def cmd_case(args: argparse.Namespace) -> int:
+    text = Path(args.input).read_text(encoding="utf-8").strip()
+    if args.title:
+        result = text.title()
+    elif args.camel:
+        words = re.findall(r"[a-zA-Z]+", text)
+        result = words[0].lower() + "".join(w.capitalize() for w in words[1:])
+    elif args.snake:
+        result = re.sub(r"[\s-]+", "_", text).lower()
+    elif args.kebab:
+        result = re.sub(r"[\s_]+", "-", text).lower()
+    else:
+        result = text
+    if args.output:
+        Path(args.output).write_text(result, encoding="utf-8")
+    else:
+        print(result)
+    return 0
+
+
+def cmd_wordfreq(args: argparse.Namespace) -> int:
+    import re
+    text = Path(args.input).read_text(encoding="utf-8")
+    words = re.findall(r"[a-zA-Z0-9\u4e00-\u9fff]+", text.lower())
+    freq: dict[str, int] = {}
+    for w in words:
+        freq[w] = freq.get(w, 0) + 1
+    sorted_words = sorted(freq.items(), key=lambda x: -x[1])[: args.top]
+    for w, n in sorted_words:
+        bar = "█" * min(n, 40)
+        print(f"  {n:>5}  {bar}  {w}")
+    return 0
+
+
+def cmd_table(args: argparse.Namespace) -> int:
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()
+    delimiter = args.delimiter
+    rows = [line.split(delimiter) for line in lines if line.strip()]
+    if not rows:
+        print("(空文件)")
+        return 0
+    col_widths = [max(len(cell) for cell in row) for row in zip(*rows)]
+    header = rows[0] if args.header else rows[:1]
+    body = rows[1:] if args.header else rows
+    def fmt_row(cells: list[str]) -> str:
+        return " | ".join(c.ljust(w) for c, w in zip(cells, col_widths))
+    print(fmt_row(header))
+    if args.header:
+        print("|".join("-" * (w + 2) for w in col_widths))
+    for row in body:
+        padded = row + [""] * (len(col_widths) - len(row))
+        print(fmt_row(padded[:len(col_widths)]))
+    return 0
+
+
+def cmd_regex_test(args: argparse.Namespace) -> int:
+    flags = 0
+    if "i" in (args.flags or ""):
+        flags |= re.IGNORECASE
+    if "m" in (args.flags or ""):
+        flags |= re.MULTILINE
+    if "s" in (args.flags or ""):
+        flags |= re.DOTALL
+    pat = re.compile(args.pattern, flags)
+    matches = list(pat.finditer(args.text))
+    print(f"正则: {args.pattern}")
+    print(f"匹配数: {len(matches)}")
+    for m in matches[:20]:
+        print(f"  [{m.start()}-{m.end()}] {m.group()!r}")
+    if len(matches) > 20:
+        print(f"  ... 还有 {len(matches) - 20} 处")
+    return 0
+
+def cmd_repeat(args):
+    n = getattr(args, 'count', 1)
+    text = getattr(args, 'text', '')
+    sep = getattr(args, 'separator', chr(10))
+    print(sep.join([text] * n))
+    return 0
+
+def cmd_transpose(args):
+    lines = Path(args.input).read_text(encoding='utf-8').splitlines()
+    if not lines:
+        return 0
+    cols = max(len(l.split()) for l in lines)
+    rows = len(lines)
+    for c in range(cols):
+        row = []
+        for r in range(rows):
+            parts = lines[r].split()
+            row.append(parts[c] if c < len(parts) else '')
+        print(' '.join(row))
+    return 0
+
+def cmd_word_wrap(args):
+    import textwrap
+    text = Path(args.input).read_text(encoding='utf-8')
+    width = getattr(args, 'width', 80)
+    wrapped = textwrap.fill(text, width=width)
+    print(wrapped)
+    return 0
+
+def cmd_line_numbers(args):
+    lines = Path(args.input).read_text(encoding='utf-8').splitlines()
+    for i, line in enumerate(lines, 1):
+        print(f'{i:>6}  {line}')
+    return 0
+
+def cmd_excerpt(args):
+    lines = Path(args.input).read_text(encoding='utf-8').splitlines()
+    start = max(0, getattr(args, 'start', 0) - 1)
+    end = min(len(lines), getattr(args, 'end', len(lines)))
+    ctx = getattr(args, 'context', 0)
+    for i in range(max(0, start - ctx), min(len(lines), end + ctx)):
+        prefix = '...' if i < start else '   '
+        suffix = '...' if i >= end else '   '
+        print(f'{prefix}{i+1:>4} {lines[i]}{suffix}')
+    return 0
+
+
+def cmd_line_numbers(args):
+    """给文件添加行号。"""
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()
+    for i, line in enumerate(lines, 1):
+        print(f"{i:>6}  {line}")
+    return 0
+
+
+def cmd_word_wrap(args):
+    """文本自动换行到指定宽度。"""
+    import textwrap
+    text = Path(args.input).read_text(encoding="utf-8")
+    width = getattr(args, "width", 80)
+    print(textwrap.fill(text, width=width))
+    return 0
+
+
+def cmd_excerpt(args):
+    """提取文件指定行范围。"""
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()
+    start = max(0, getattr(args, "start", 0) - 1)
+    end = min(len(lines), getattr(args, "end", len(lines)))
+    for i in range(start, end):
+        print(f"{i+1:>6}: {lines[i]}")
+    return 0
+
+
+def cmd_repeat(args):
+    """重复文本 N 次。"""
+    n = getattr(args, "count", 1)
+    text = getattr(args, "text", "")
+    sep = getattr(args, "separator", "\n")
+    print(sep.join([text] * n))
+    return 0
+
+
+def cmd_transpose(args):
+    """转置矩阵（行变列）。"""
+    lines = Path(args.input).read_text(encoding="utf-8").splitlines()
+    if not lines:
+        return 0
+    cols = max(len(l.split()) for l in lines)
+    rows = len(lines)
+    for c in range(cols):
+        row = []
+        for r in range(rows):
+            parts = lines[r].split()
+            row.append(parts[c] if c < len(parts) else "")
+        print(" ".join(row))
+    return 0

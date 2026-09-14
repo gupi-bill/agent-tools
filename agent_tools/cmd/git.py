@@ -1,1 +1,412 @@
-IiIiZ2l0OiBHaXQg5aKe5by65bel5YW344CCIiIiDQpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zDQoNCmltcG9ydCBhcmdwYXJzZQ0KaW1wb3J0IGpzb24NCmltcG9ydCBzdWJwcm9jZXNzDQppbXBvcnQgc3lzDQpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQ0KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoDQoNCg0KZGVmIHJlZ2lzdGVyKHBhcmVudDogYXJncGFyc2UuQXJndW1lbnRQYXJzZXIpIC0+IE5vbmU6DQogICAgc3ViID0gcGFyZW50LmFkZF9zdWJwYXJzZXJzKGRlc3Q9ImNtZCIsIHJlcXVpcmVkPVRydWUpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImxvZyIsIGhlbHA9IkdpdCBsb2ciKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW1heC1jb3VudCIsIHR5cGU9aW50LCBkZWZhdWx0PTIwKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWF1dGhvciIsIGhlbHA9IuS9nOiAhei/h+a7pCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc2luY2UiLCBoZWxwPSLotbflp4vml6XmnJ8gWVlZWS1NTS1ERCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdW50aWwiLCBoZWxwPSLmiKrmraLml6XmnJ8iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW9uZWxpbmUiLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWpzb24iLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJkaWZmIiwgaGVscD0i5p+l55yLIGRpZmYiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWJhc2UiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSLln7rlh4YgY29tbWl0L2JyYW5jaCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0taGVhZCIsIHJlcXVpcmVkPVRydWUsIGhlbHA9IuebruaghyBjb21taXQvYnJhbmNoIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1zdGF0IiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1maWxlcy1vbmx5IiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1qc29uIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigic3RhdHMiLCBoZWxwPSLku5PlupPnu5/orqEiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXJlcG8iLCBuYXJncz0iPyIsIGRlZmF1bHQ9Ii4iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWpzb24iLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJicmFuY2hlcyIsIGhlbHA9IuWIl+WHuuWIhuaUryIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbWVyZ2VkIiwgYWN0aW9uPSJzdG9yZV90cnVlIiwgaGVscD0i5Y+q5pi+56S65bey5ZCI5bm2IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS11bm1lcmdlZCIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsIGhlbHA9IuWPquaYvuekuuacquWQiOW5tiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInRhZ3MiLCBoZWxwPSLliJflh7rmoIfnrb4iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLXNvcnQiLCBjaG9pY2VzPVsiZGF0ZSIsICJ2ZXJzaW9uIiwgIm5hbWUiXSwgZGVmYXVsdD0iZGF0ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImJsYW1lIiwgaGVscD0i6KGM57qnIGJsYW1lIikNCiAgICBwLmFkZF9hcmd1bWVudCgiZmlsZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tbGluZS1yYW5nZSIsIGhlbHA9IuWmgiAxMC0yMCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tYnktYXV0aG9yIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiZmlyc3QtbGFzdCIsIGhlbHA9IummluacqyBjb21taXQiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWZpbGUiLCBoZWxwPSLmjIflrprmlofku7YiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWpzb24iLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJyZWNlbnQtY2hhbmdlcyIsIGhlbHA9IuacgOi/keWPmOabtOaWh+S7tiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZGF5cyIsIHR5cGU9aW50LCBkZWZhdWx0PTcpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdG9wIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MjApDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImF1dGhvci1zdGF0cyIsIGhlbHA9IuS9nOiAhei0oeeMrue7n+iuoSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tdG9wIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MTApDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInNob3ciLCBoZWxwPSLmn6XnnIsgY29tbWl0IOivpuaDhSIpDQogICAgcC5hZGRfYXJndW1lbnQoImNvbW1pdCIsIG5hcmdzPSI/IiwgZGVmYXVsdD0iSEVBRCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc3RhdCIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcGF0Y2giLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJzdGF0dXMtc3VtbWFyeSIsIGhlbHA9IueKtuaAgeaRmOimgSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tc2hvcnQiLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJtZXJnZWQtYnJhbmNoZXMiLCBoZWxwPSLlt7LlkIjlubbliIbmlK8iKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWV4Y2x1ZGUtbWFpbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInN0YWxlLWJyYW5jaGVzIiwgaGVscD0i6L+H5pe25YiG5pSv77yIMzDlpKnml6DmtLvliqjvvIkiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWRheXMiLCB0eXBlPWludCwgZGVmYXVsdD0zMCkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1qc29uIiwgYWN0aW9uPSJzdG9yZV90cnVlIikNCg0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiY29uZmxpY3QtZmlsZXMiLCBoZWxwPSLmib7lhrLnqoHmlofku7YiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLWpzb24iLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJjbGVhbnVwIiwgaGVscD0i5riF55CG6L+H5pyf5YiG5pSvIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1kYXlzIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MzApDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZHJ5LXJ1biIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQoNCg0KZGVmIF9naXQoKmFyZ3M6IHN0cikgLT4gc3RyOg0KICAgIHIgPSBzdWJwcm9jZXNzLnJ1bihbImdpdCIsICphcmdzXSwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGV4dD1UcnVlLCBjaGVjaz1GYWxzZSkNCiAgICByZXR1cm4gci5zdGRvdXQuc3RyaXAoKQ0KDQoNCmRlZiBjbWRfbG9nKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGNtZCA9IFsibG9nIiwgZiItLW1heC1jb3VudD17YXJncy5tYXhfY291bnR9Il0NCiAgICBpZiBhcmdzLmF1dGhvcjoNCiAgICAgICAgY21kICs9IFsiLS1hdXRob3I9IiArIGFyZ3MuYXV0aG9yXQ0KICAgIGlmIGFyZ3Muc2luY2U6DQogICAgICAgIGNtZCArPSBbIi0tc2luY2U9IiArIGFyZ3Muc2luY2VdDQogICAgaWYgYXJncy51bnRpbDoNCiAgICAgICAgY21kICs9IFsiLS11bnRpbD0iICsgYXJncy51bnRpbF0NCiAgICBpZiBhcmdzLm9uZWxpbmU6DQogICAgICAgIGNtZCArPSBbIi0tb25lbGluZSJdDQogICAgZWxzZToNCiAgICAgICAgY21kICs9IFsiLS1mb3JtYXQ9JUglbiVhbiVuJWFkJW4lcyIsICItLWRhdGU9c2hvcnQiXQ0KICAgIG91dHB1dCA9IF9naXQoKmNtZCkNCiAgICBpZiBhcmdzLmpzb246DQogICAgICAgIGVudHJpZXMgPSBbXQ0KICAgICAgICBsaW5lcyA9IG91dHB1dC5zcGxpdCgiXG4iKQ0KICAgICAgICBpID0gMA0KICAgICAgICB3aGlsZSBpIDwgbGVuKGxpbmVzKToNCiAgICAgICAgICAgIGlmIGxlbihsaW5lcykgLSBpID49IDQgYW5kIG5vdCBsaW5lc1tpXS5zdGFydHN3aXRoKCJjb21taXQiKToNCiAgICAgICAgICAgICAgICBlbnRyaWVzLmFwcGVuZCh7DQogICAgICAgICAgICAgICAgICAgICJoYXNoIjogbGluZXNbaV0sDQogICAgICAgICAgICAgICAgICAgICJhdXRob3IiOiBsaW5lc1tpKzFdLA0KICAgICAgICAgICAgICAgICAgICAiZGF0ZSI6IGxpbmVzW2krMl0sDQogICAgICAgICAgICAgICAgICAgICJtZXNzYWdlIjogbGluZXNbaSszXSwNCiAgICAgICAgICAgICAgICB9KQ0KICAgICAgICAgICAgICAgIGkgKz0gNA0KICAgICAgICAgICAgZWxzZToNCiAgICAgICAgICAgICAgICBpICs9IDENCiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyhlbnRyaWVzLCBpbmRlbnQ9MikpDQogICAgZWxzZToNCiAgICAgICAgcHJpbnQob3V0cHV0KQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9kaWZmKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGlmIGFyZ3Muc3RhdDoNCiAgICAgICAgb3V0cHV0ID0gX2dpdCgiZGlmZiIsIGYiLS1zdGF0PXthcmdzLmJhc2V9Li57YXJncy5oZWFkfSIpDQogICAgICAgIHByaW50KG91dHB1dCkNCiAgICBlbGlmIGFyZ3MuZmlsZXNfb25seToNCiAgICAgICAgb3V0cHV0ID0gX2dpdCgiZGlmZiIsICItLW5hbWUtb25seSIsIGYie2FyZ3MuYmFzZX0uLnthcmdzLmhlYWR9IikNCiAgICAgICAgcHJpbnQob3V0cHV0KQ0KICAgIGVsc2U6DQogICAgICAgIG91dHB1dCA9IF9naXQoImRpZmYiLCBmInthcmdzLmJhc2V9Li57YXJncy5oZWFkfSIpDQogICAgICAgIHByaW50KG91dHB1dCkNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfc3RhdHMoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgcmVwbyA9IGFyZ3MucmVwbyBvciAiLiINCiAgICB0b3RhbF9jb21taXRzID0gX2dpdCgiLUMiLCByZXBvLCAicmV2LWxpc3QiLCAiLS1hbGwiLCAiLS1jb3VudCIpDQogICAgYnJhbmNoZXMgPSBfZ2l0KCItQyIsIHJlcG8sICJicmFuY2giLCAiLS1saXN0Iikuc3BsaXRsaW5lcygpDQogICAgdGFncyA9IF9naXQoIi1DIiwgcmVwbywgInRhZyIsICItLWxpc3QiKS5zcGxpdGxpbmVzKCkNCiAgICBmaWxlcyA9IHN1bSgxIGZvciBfIGluIFBhdGgocmVwbykucmdsb2IoIioiKSBpZiBfLmlzX2ZpbGUoKSkNCiAgICByZXN1bHQgPSB7DQogICAgICAgICJyZXBvIjogcmVwbywNCiAgICAgICAgInRvdGFsX2NvbW1pdHMiOiBpbnQodG90YWxfY29tbWl0cykgaWYgdG90YWxfY29tbWl0cyBlbHNlIDAsDQogICAgICAgICJicmFuY2hlcyI6IGxlbihbYiBmb3IgYiBpbiBicmFuY2hlcyBpZiBiLnN0cmlwKCldKSwNCiAgICAgICAgInRhZ3MiOiBsZW4odGFncyksDQogICAgICAgICJmaWxlcyI6IGZpbGVzLA0KICAgIH0NCiAgICBpZiBhcmdzLmpzb246DQogICAgICAgIHByaW50KGpzb24uZHVtcHMocmVzdWx0LCBpbmRlbnQ9MikpDQogICAgZWxzZToNCiAgICAgICAgcHJpbnQoZiLwn5OKIHtyZXBvfSIpDQogICAgICAgIHByaW50KGYiICAg5o+Q5LqkOiB7cmVzdWx0Wyd0b3RhbF9jb21taXRzJ106LH0iKQ0KICAgICAgICBwcmludChmIiAgIOWIhuaUrzoge3Jlc3VsdFsnYnJhbmNoZXMnXX0iKQ0KICAgICAgICBwcmludChmIiAgIOagh+etvjoge3Jlc3VsdFsndGFncyddfSIpDQogICAgICAgIHByaW50KGYiICAg5paH5Lu2OiB7cmVzdWx0WydmaWxlcyddOix9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfYnJhbmNoZXMoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgY3VycmVudCA9IF9naXQoImJyYW5jaCIsICItLXNob3ctY3VycmVudCIpLnN0cmlwKCkNCiAgICBhbGxfYnJhbmNoZXMgPSBfZ2l0KCJicmFuY2giKS5zcGxpdGxpbmVzKCkNCiAgICByZXN1bHQgPSBbXQ0KICAgIGZvciBiIGluIGFsbF9icmFuY2hlczoNCiAgICAgICAgYiA9IGIuc3RyaXAoKQ0KICAgICAgICBpZiBub3QgYjoNCiAgICAgICAgICAgIGNvbnRpbnVlDQogICAgICAgIG1hcmtlciA9ICIgKiIgaWYgYi5zdGFydHN3aXRoKCIqICIpIGVsc2UgIiINCiAgICAgICAgcmVzdWx0LmFwcGVuZCh7Im5hbWUiOiBiLmxzdHJpcCgiICoiKSwgImN1cnJlbnQiOiBiLnN0YXJ0c3dpdGgoIioiKX0pDQogICAgaWYgYXJncy5tZXJnZWQ6DQogICAgICAgIG1lcmdlZCA9IF9naXQoImJyYW5jaCIsICItLW1lcmdlZCIpLnNwbGl0bGluZXMoKQ0KICAgICAgICByZXN1bHQgPSBbciBmb3IgciBpbiByZXN1bHQgaWYgclsibmFtZSJdIGluIFttLnN0cmlwKCkubHN0cmlwKCIqICIpIGZvciBtIGluIG1lcmdlZF1dDQogICAgaWYgYXJncy51bm1lcmdlZDoNCiAgICAgICAgdW5tZXJnZWQgPSBfZ2l0KCJicmFuY2giLCAiLS1uby1tZXJnZWQiLCAibWFpbiIsICItLW5vLW1lcmdlZCIsICJtYXN0ZXIiKS5zcGxpdGxpbmVzKCkNCiAgICAgICAgcmVzdWx0ID0gW3IgZm9yIHIgaW4gcmVzdWx0IGlmIHJbIm5hbWUiXSBpbiBbbS5zdHJpcCgpLmxzdHJpcCgiKiAiKSBmb3IgbSBpbiB1bm1lcmdlZF1dDQogICAgaWYgYXJncy5qc29uOg0KICAgICAgICBwcmludChqc29uLmR1bXBzKHJlc3VsdCwgaW5kZW50PTIpKQ0KICAgIGVsc2U6DQogICAgICAgIGZvciByIGluIHJlc3VsdDoNCiAgICAgICAgICAgIGljb24gPSAi4oaSICIgaWYgclsiY3VycmVudCJdIGVsc2UgIiAgIg0KICAgICAgICAgICAgcHJpbnQoZiIgIHtpY29ufXtyWyduYW1lJ119IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfdGFncyhhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICB0YWdzID0gX2dpdCgidGFnIiwgIi0tc29ydD0iICsgYXJncy5zb3J0KS5zcGxpdGxpbmVzKCkNCiAgICBpZiBhcmdzLmpzb246DQogICAgICAgIHByaW50KGpzb24uZHVtcHModGFncywgaW5kZW50PTIpKQ0KICAgIGVsc2U6DQogICAgICAgIGZvciB0IGluIHRhZ3M6DQogICAgICAgICAgICBwcmludChmIiAge3R9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfYmxhbWUoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgZmlsZV9hcmcgPSBhcmdzLmZpbGUNCiAgICBjbWQgPSBbImJsYW1lIiwgIi0tbGluZS1wb3JjZWxhaW4iLCBmaWxlX2FyZ10NCiAgICBpZiBhcmdzLmxpbmVfcmFuZ2U6DQogICAgICAgIHN0YXJ0LCBlbmQgPSBhcmdzLmxpbmVfcmFuZ2Uuc3BsaXQoIi0iKQ0KICAgICAgICBjbWQgKz0gW2Yie3N0YXJ0fS17ZW5kfSJdDQogICAgb3V0cHV0ID0gX2dpdCgqY21kKQ0KICAgIGlmIGFyZ3MuYnlfYXV0aG9yOg0KICAgICAgICBhdXRob3JzOiBkaWN0W3N0ciwgaW50XSA9IHt9DQogICAgICAgIGZvciBsaW5lIGluIG91dHB1dC5zcGxpdCgiXG4iKToNCiAgICAgICAgICAgIGlmIGxpbmUuc3RhcnRzd2l0aCgiYXV0aG9yICIpOg0KICAgICAgICAgICAgICAgIGEgPSBsaW5lWzc6XQ0KICAgICAgICAgICAgICAgIGF1dGhvcnNbYV0gPSBhdXRob3JzLmdldChhLCAwKSArIDENCiAgICAgICAgZm9yIGEsIG4gaW4gc29ydGVkKGF1dGhvcnMuaXRlbXMoKSwga2V5PWxhbWJkYSB4OiAteFsxXSk6DQogICAgICAgICAgICBwcmludChmIiAge246PjZ9ICB7YX0iKQ0KICAgIGVsc2U6DQogICAgICAgICMg566A5YyW6L6T5Ye6DQogICAgICAgIGxpbmVzID0gX2dpdCgiYmxhbWUiLCAiLS1saW5lLWJ1ZmZlciIsIGZpbGVfYXJnKS5zcGxpdCgiXG4iKQ0KICAgICAgICBmb3IgbGluZSBpbiBsaW5lc1s6NTBdOg0KICAgICAgICAgICAgaWYgbGluZS5zdHJpcCgpOg0KICAgICAgICAgICAgICAgIHByaW50KGYiICB7bGluZX0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9maXJzdF9sYXN0KGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGlmIGFyZ3MuZmlsZToNCiAgICAgICAgZmlyc3QgPSBfZ2l0KCJsb2ciLCAiLS1yZXZlcnNlIiwgIi0tZm9ybWF0PSVIICVhZCIsICItLWRpZmYtZmlsdGVyPUEiLCAiLS0iLCBhcmdzLmZpbGUpDQogICAgICAgIGxhc3QgPSBfZ2l0KCJsb2ciLCAiLTEiLCAiLS1mb3JtYXQ9JUggJWFkICVzIiwgIi0tIiwgYXJncy5maWxlKQ0KICAgIGVsc2U6DQogICAgICAgIGZpcnN0ID0gX2dpdCgibG9nIiwgIi0tcmV2ZXJzZSIsICItLWZvcm1hdD0lSCAlYWQiLCAiLTEiKQ0KICAgICAgICBsYXN0ID0gX2dpdCgibG9nIiwgIi0xIiwgIi0tZm9ybWF0PSVIICVhZCAlcyIpDQogICAgcmVzdWx0OiBkaWN0ID0ge30NCiAgICBpZiBmaXJzdDoNCiAgICAgICAgcGFydHMgPSBmaXJzdC5zcGxpdCgpDQogICAgICAgIHJlc3VsdFsiZmlyc3RfY29tbWl0Il0gPSBwYXJ0c1swXSBpZiBwYXJ0cyBlbHNlICIiDQogICAgICAgIHJlc3VsdFsiZmlyc3RfZGF0ZSJdID0gcGFydHNbMV0gaWYgbGVuKHBhcnRzKSA+IDEgZWxzZSAiIg0KICAgIGlmIGxhc3Q6DQogICAgICAgIHBhcnRzID0gbGFzdC5zcGxpdCgpDQogICAgICAgIHJlc3VsdFsibGFzdF9jb21taXQiXSA9IHBhcnRzWzBdIGlmIHBhcnRzIGVsc2UgIiINCiAgICAgICAgcmVzdWx0WyJsYXN0X2RhdGUiXSA9IHBhcnRzWzFdIGlmIGxlbihwYXJ0cykgPiAxIGVsc2UgIiINCiAgICAgICAgcmVzdWx0WyJsYXN0X21lc3NhZ2UiXSA9ICIgIi5qb2luKHBhcnRzWzI6XSkgaWYgbGVuKHBhcnRzKSA+IDIgZWxzZSAiIg0KICAgIGlmIGFyZ3MuanNvbjoNCiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyhyZXN1bHQsIGluZGVudD0yKSkNCiAgICBlbHNlOg0KICAgICAgICBmb3IgaywgdiBpbiByZXN1bHQuaXRlbXMoKToNCiAgICAgICAgICAgIHByaW50KGYiICB7a306IHt2fSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3JlY2VudF9jaGFuZ2VzKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIHNpbmNlID0gZiItLXNpbmNlPXthcmdzLmRheXN9IGRheXMgYWdvIg0KICAgIG91dHB1dCA9IF9naXQoImRpZmYiLCAiLS1uYW1lLXN0YXR1cyIsIGYiSEVBRCBAe3NpbmNlfSIsICIuLkhFQUQiKQ0KICAgIHJlc3VsdDogZGljdFtzdHIsIGludF0gPSB7fQ0KICAgIGZvciBsaW5lIGluIG91dHB1dC5zcGxpdGxpbmVzKCk6DQogICAgICAgIHBhcnRzID0gbGluZS5zcGxpdCgpDQogICAgICAgIGlmIGxlbihwYXJ0cykgPj0gMjoNCiAgICAgICAgICAgIHN0YXR1cyA9IHBhcnRzWzBdDQogICAgICAgICAgICBmbmFtZSA9IHBhcnRzWzFdDQogICAgICAgICAgICByZXN1bHQuc2V0ZGVmYXVsdChmbmFtZSwgMCkNCiAgICAgICAgICAgIHJlc3VsdFtmbmFtZV0gKz0gMQ0KICAgIHNvcnRlZF9maWxlcyA9IHNvcnRlZChyZXN1bHQuaXRlbXMoKSwga2V5PWxhbWJkYSB4OiAteFsxXSlbOiBhcmdzLnRvcF0NCiAgICBpZiBhcmdzLmpzb246DQogICAgICAgIHByaW50KGpzb24uZHVtcHMoc29ydGVkX2ZpbGVzLCBpbmRlbnQ9MikpDQogICAgZWxzZToNCiAgICAgICAgZm9yIGYsIG4gaW4gc29ydGVkX2ZpbGVzOg0KICAgICAgICAgICAgcHJpbnQoZiIgIHtuOj40fSAge2Z9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfYXV0aG9yX3N0YXRzKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIG91dHB1dCA9IF9naXQoInNob3J0bG9nIiwgIi1zbmUiLCBmIi0tYWxsIiwgZiItLW1heC1jb3VudD17YXJncy50b3B9IikNCiAgICByZXN1bHQ6IGxpc3RbZGljdF0gPSBbXQ0KICAgIGZvciBsaW5lIGluIG91dHB1dC5zcGxpdGxpbmVzKCk6DQogICAgICAgIHBhcnRzID0gbGluZS5zdHJpcCgpLnNwbGl0KCJcdCIsIDEpDQogICAgICAgIGlmIGxlbihwYXJ0cykgPT0gMjoNCiAgICAgICAgICAgIGNvdW50ID0gaW50KHBhcnRzWzBdLnN0cmlwKCkpDQogICAgICAgICAgICBhdXRob3IgPSBwYXJ0c1sxXS5zdHJpcCgpDQogICAgICAgICAgICByZXN1bHQuYXBwZW5kKHsiYXV0aG9yIjogYXV0aG9yLCAiY29tbWl0cyI6IGNvdW50fSkNCiAgICBpZiBhcmdzLmpzb246DQogICAgICAgIHByaW50KGpzb24uZHVtcHMocmVzdWx0LCBpbmRlbnQ9MikpDQogICAgZWxzZToNCiAgICAgICAgZm9yIHIgaW4gcmVzdWx0Og0KICAgICAgICAgICAgcHJpbnQoZiIgIHtyWydjb21taXRzJ106PjZ9ICB7clsnYXV0aG9yJ119IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfc2hvdyhhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBjb21taXQgPSBhcmdzLmNvbW1pdCBvciAiSEVBRCINCiAgICBpZiBhcmdzLnN0YXQ6DQogICAgICAgIG91dHB1dCA9IF9naXQoInNob3ciLCAiLS1zdGF0IiwgY29tbWl0KQ0KICAgICAgICBwcmludChvdXRwdXQpDQogICAgZWxpZiBhcmdzLnBhdGNoOg0KICAgICAgICBvdXRwdXQgPSBfZ2l0KCJzaG93IiwgIi0tcGF0Y2giLCBjb21taXQpDQogICAgICAgIHByaW50KG91dHB1dCkNCiAgICBlbHNlOg0KICAgICAgICBvdXRwdXQgPSBfZ2l0KCJzaG93IiwgIi0tZm9ybWF0PSVIJW4lYW4gPCVhZT4lbiVhZCVuJXMlbiVuJWIiLCAiLS1kYXRlPXNob3J0IiwgY29tbWl0KQ0KICAgICAgICBwcmludChvdXRwdXQpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX3N0YXR1c19zdW1tYXJ5KGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIG1vZGlmaWVkID0gX2dpdCgic3RhdHVzIiwgIi0tc2hvcnQiKS5zcGxpdGxpbmVzKCkNCiAgICBzdGFnZWQgPSBfZ2l0KCJkaWZmIiwgIi0tY2FjaGVkIiwgIi0tbmFtZS1vbmx5Iikuc3BsaXRsaW5lcygpDQogICAgdW50cmFja2VkID0gX2dpdCgibHMtZmlsZXMiLCAiLS1vdGhlcnMiLCAiLS1leGNsdWRlLXN0YW5kYXJkIikuc3BsaXRsaW5lcygpDQogICAgcmVzdWx0ID0gew0KICAgICAgICAibW9kaWZpZWQiOiBsZW4oW20gZm9yIG0gaW4gbW9kaWZpZWQgaWYgbSBhbmQgbm90IG0uc3RhcnRzd2l0aCgiPz8iKV0pLA0KICAgICAgICAic3RhZ2VkIjogbGVuKHN0YWdlZCksDQogICAgICAgICJ1bnRyYWNrZWQiOiBsZW4odW50cmFja2VkKSwNCiAgICAgICAgImJyYW5jaCI6IF9naXQoImJyYW5jaCIsICItLXNob3ctY3VycmVudCIpLnN0cmlwKCksDQogICAgfQ0KICAgIGlmIGFyZ3Muc2hvcnQ6DQogICAgICAgIHByaW50KGYie3Jlc3VsdFsnYnJhbmNoJ119IHwgbW9kaWZpZWQ6e3Jlc3VsdFsnbW9kaWZpZWQnXX0gc3RhZ2VkOntyZXN1bHRbJ3N0YWdlZCddfSB1bnRyYWNrZWQ6e3Jlc3VsdFsndW50cmFja2VkJ119IikNCiAgICBlbHNlOg0KICAgICAgICBwcmludChmIvCfk40g5YiG5pSvOiB7cmVzdWx0WydicmFuY2gnXX0iKQ0KICAgICAgICBwcmludChmIiAgIOW3suS/ruaUuToge3Jlc3VsdFsnbW9kaWZpZWQnXX0g5Liq5paH5Lu2IikNCiAgICAgICAgcHJpbnQoZiIgICDlt7LmmoLlrZg6IHtyZXN1bHRbJ3N0YWdlZCddfSDkuKrmlofku7YiKQ0KICAgICAgICBwcmludChmIiAgIOacqui3n+i4qjoge3Jlc3VsdFsndW50cmFja2VkJ119IOS4quaWh+S7tiIpDQogICAgICAgIGlmIG1vZGlmaWVkOg0KICAgICAgICAgICAgcHJpbnQoIlxu5L+u5pS555qE5paH5Lu2OiIpDQogICAgICAgICAgICBmb3IgbSBpbiBtb2RpZmllZFs6MjBdOg0KICAgICAgICAgICAgICAgIHByaW50KGYiICB7bX0iKQ0KICAgIHJldHVybiAwDQoNCg0KZGVmIGNtZF9tZXJnZWRfYnJhbmNoZXMoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgY3VycmVudCA9IF9naXQoImJyYW5jaCIsICItLXNob3ctY3VycmVudCIpLnN0cmlwKCkNCiAgICBtZXJnZWQgPSBfZ2l0KCJicmFuY2giLCAiLS1tZXJnZWQiKS5zcGxpdGxpbmVzKCkNCiAgICByZXN1bHQgPSBbXQ0KICAgIGZvciBiIGluIG1lcmdlZDoNCiAgICAgICAgYiA9IGIuc3RyaXAoKS5sc3RyaXAoIiogIikNCiAgICAgICAgaWYgYiBhbmQgYiAhPSBjdXJyZW50Og0KICAgICAgICAgICAgaWYgYXJncy5leGNsdWRlX21haW4gYW5kIGIgaW4gKCJtYWluIiwgIm1hc3RlciIpOg0KICAgICAgICAgICAgICAgIGNvbnRpbnVlDQogICAgICAgICAgICByZXN1bHQuYXBwZW5kKGIpDQogICAgaWYgYXJncy5qc29uOg0KICAgICAgICBwcmludChqc29uLmR1bXBzKHJlc3VsdCwgaW5kZW50PTIpKQ0KICAgIGVsc2U6DQogICAgICAgIGZvciBiIGluIHJlc3VsdDoNCiAgICAgICAgICAgIHByaW50KGYiICDinJMge2J9IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfc3RhbGVfYnJhbmNoZXMoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6DQogICAgY3VycmVudCA9IF9naXQoImJyYW5jaCIsICItLXNob3ctY3VycmVudCIpLnN0cmlwKCkNCiAgICBvdXRwdXQgPSBfZ2l0KCJmb3ItZWFjaC1yZWYiLCAiLS1zb3J0PS1jb21taXR0ZXJkYXRlIiwgInJlZnMvaGVhZHMvIiwNCiAgICAgICAgICAgICAgICAgICAiLS1mb3JtYXQ9JShyZWZuYW1lOnNob3J0KSAlKGNvbW1pdHRlcmRhdGU6cmVsYXRpdmUpICUoY29tbWl0dGVyZGF0ZTpzaG9ydCkiKQ0KICAgIHJlc3VsdDogbGlzdFtkaWN0XSA9IFtdDQogICAgY3V0b2ZmID0gZGF0ZXRpbWUubm93KCkgLSBfX2ltcG9ydF9fKCJkYXRldGltZSIpLnRpbWVkZWx0YShkYXlzPWFyZ3MuZGF5cykNCiAgICBmb3IgbGluZSBpbiBvdXRwdXQuc3BsaXRsaW5lcygpOg0KICAgICAgICBwYXJ0cyA9IGxpbmUuc3BsaXQoKQ0KICAgICAgICBpZiBsZW4ocGFydHMpIDwgMzoNCiAgICAgICAgICAgIGNvbnRpbnVlDQogICAgICAgIG5hbWUgPSBwYXJ0c1swXQ0KICAgICAgICBpZiBuYW1lID09IGN1cnJlbnQ6DQogICAgICAgICAgICBjb250aW51ZQ0KICAgICAgICBkYXRlX3N0ciA9ICIgIi5qb2luKHBhcnRzWzE6M10pDQogICAgICAgIHRyeToNCiAgICAgICAgICAgICMg566A5Y2V5qOA5p+lOiDljIXlkKsgImFnbyIg5LiU5aSp5pWwIDwgYXJncy5kYXlzDQogICAgICAgICAgICBpZiAiYWdvIiBpbiBsaW5lOg0KICAgICAgICAgICAgICAgIGltcG9ydCByZQ0KICAgICAgICAgICAgICAgIG0gPSByZS5zZWFyY2gociIoXGQrKVxzKihkYXl8d2Vla3xtb250aClzP1xzKmFnbyIsIGxpbmUpDQogICAgICAgICAgICAgICAgaWYgbToNCiAgICAgICAgICAgICAgICAgICAgbnVtID0gaW50KG0uZ3JvdXAoMSkpDQogICAgICAgICAgICAgICAgICAgIHVuaXQgPSBtLmdyb3VwKDIpDQogICAgICAgICAgICAgICAgICAgIGRheXMgPSBudW0gKiAoMzY1IGlmIHVuaXQgPT0gIm1vbnRoIiBlbHNlIDMwIGlmIHVuaXQgPT0gIndlZWsiIGVsc2UgMSkNCiAgICAgICAgICAgICAgICAgICAgaWYgZGF5cyA+IGFyZ3MuZGF5czoNCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdC5hcHBlbmQoeyJuYW1lIjogbmFtZSwgImRheXNfYWdvIjogZGF5c30pDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246DQogICAgICAgICAgICBwYXNzDQogICAgaWYgYXJncy5qc29uOg0KICAgICAgICBwcmludChqc29uLmR1bXBzKHJlc3VsdCwgaW5kZW50PTIpKQ0KICAgIGVsc2U6DQogICAgICAgIGZvciByIGluIHJlc3VsdDoNCiAgICAgICAgICAgIHByaW50KGYiICDij7Age3JbJ25hbWUnXX0gICh7clsnZGF5c19hZ28nXX0g5aSp5YmNKSIpDQogICAgcmV0dXJuIDANCg0KDQpkZWYgY21kX2NvbmZsaWN0X2ZpbGVzKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50Og0KICAgIGNvbmZsaWN0cyA9IF9naXQoImRpZmYiLCAiLS1uYW1lLW9ubHkiLCAiLS1kaWZmLWZpbHRlcj1VIikuc3BsaXRsaW5lcygpDQogICAgaWYgYXJncy5qc29uOg0KICAgICAgICBwcmludChqc29uLmR1bXBzKGNvbmZsaWN0cywgaW5kZW50PTIpKQ0KICAgIGVsc2U6DQogICAgICAgIGlmIGNvbmZsaWN0czoNCiAgICAgICAgICAgIHByaW50KCLwn5S0IOWPkeeOsOWGsueqgeaWh+S7tjoiKQ0KICAgICAgICAgICAgZm9yIGMgaW4gY29uZmxpY3RzOg0KICAgICAgICAgICAgICAgIHByaW50KGYiICDinJcge2N9IikNCiAgICAgICAgZWxzZToNCiAgICAgICAgICAgIHByaW50KCLinIUg5peg5Yay56qB5paH5Lu2IikNCiAgICByZXR1cm4gMA0KDQoNCmRlZiBjbWRfY2xlYW51cChhcmdzOiBhcmdwYXJzZS5OYW1lc3BhY2UpIC0+IGludDoNCiAgICBpbXBvcnQgcmUNCiAgICBmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZWRlbHRhDQogICAgY3VycmVudCA9IF9naXQoImJyYW5jaCIsICItLXNob3ctY3VycmVudCIpLnN0cmlwKCkNCiAgICBhbGxfYnJhbmNoZXMgPSBfZ2l0KCJicmFuY2giKS5zcGxpdGxpbmVzKCkNCiAgICByZW1vdmVkID0gMA0KICAgIGZvciBiIGluIGFsbF9icmFuY2hlczoNCiAgICAgICAgYiA9IGIuc3RyaXAoKS5sc3RyaXAoIiogIikNCiAgICAgICAgaWYgbm90IGIgb3IgYiA9PSBjdXJyZW50Og0KICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgbGFzdF9jb21taXQgPSBfZ2l0KCJsb2ciLCAiLTEiLCAiLS1mb3JtYXQ9JWN0IiwgYikNCiAgICAgICAgaWYgbm90IGxhc3RfY29tbWl0Og0KICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgY29tbWl0X3RpbWUgPSBkYXRldGltZS5mcm9tdGltZXN0YW1wKGludChsYXN0X2NvbW1pdCkpDQogICAgICAgICAgICBpZiBkYXRldGltZS5ub3coKSAtIGNvbW1pdF90aW1lID4gdGltZWRlbHRhKGRheXM9YXJncy5kYXlzKToNCiAgICAgICAgICAgICAgICBpZiBhcmdzLmRyeV9ydW46DQogICAgICAgICAgICAgICAgICAgIHByaW50KGYiICBbRFJZXSDliKDpmaQ6IHtifSIpDQogICAgICAgICAgICAgICAgZWxzZToNCiAgICAgICAgICAgICAgICAgICAgX2dpdCgiYnJhbmNoIiwgIi1kIiwgYikNCiAgICAgICAgICAgICAgICAgICAgcHJpbnQoZiIgIOKckyDliKDpmaQ6IHtifSIpDQogICAgICAgICAgICAgICAgcmVtb3ZlZCArPSAxDQogICAgICAgIGV4Y2VwdCAoVmFsdWVFcnJvciwgT1NFcnJvcik6DQogICAgICAgICAgICBwYXNzDQogICAgcHJpbnQoZiJcbua4heeQhuS6hiB7cmVtb3ZlZH0g5Liq6L+H5pe25YiG5pSvIikNCiAgICByZXR1cm4gMA==
+"""git: Git 增强工具。"""
+from __future__ import annotations
+
+import argparse
+import json
+import subprocess
+import sys
+from datetime import datetime
+from pathlib import Path
+
+
+def register(parent: argparse.ArgumentParser) -> None:
+    sub = parent.add_subparsers(dest="cmd", required=True)
+
+    p = sub.add_parser("log", help="Git log")
+    p.add_argument("--max-count", type=int, default=20)
+    p.add_argument("--author", help="作者过滤")
+    p.add_argument("--since", help="起始日期 YYYY-MM-DD")
+    p.add_argument("--until", help="截止日期")
+    p.add_argument("--oneline", action="store_true")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("diff", help="查看 diff")
+    p.add_argument("--base", required=True, help="基准 commit/branch")
+    p.add_argument("--head", required=True, help="目标 commit/branch")
+    p.add_argument("--stat", action="store_true")
+    p.add_argument("--files-only", action="store_true")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("stats", help="仓库统计")
+    p.add_argument("--repo", nargs="?", default=".")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("branches", help="列出分支")
+    p.add_argument("--merged", action="store_true", help="只显示已合并")
+    p.add_argument("--unmerged", action="store_true", help="只显示未合并")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("tags", help="列出标签")
+    p.add_argument("--sort", choices=["date", "version", "name"], default="date")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("blame", help="行级 blame")
+    p.add_argument("file")
+    p.add_argument("--line-range", help="如 10-20")
+    p.add_argument("--by-author", action="store_true")
+
+    p = sub.add_parser("first-last", help="首末 commit")
+    p.add_argument("--file", help="指定文件")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("recent-changes", help="最近变更文件")
+    p.add_argument("--days", type=int, default=7)
+    p.add_argument("--top", type=int, default=20)
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("author-stats", help="作者贡献统计")
+    p.add_argument("--top", type=int, default=10)
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("show", help="查看 commit 详情")
+    p.add_argument("commit", nargs="?", default="HEAD")
+    p.add_argument("--stat", action="store_true")
+    p.add_argument("--patch", action="store_true")
+
+    p = sub.add_parser("status-summary", help="状态摘要")
+    p.add_argument("--short", action="store_true")
+
+    p = sub.add_parser("merged-branches", help="已合并分支")
+    p.add_argument("--exclude-main", action="store_true")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("stale-branches", help="过时分支（30天无活动）")
+    p.add_argument("--days", type=int, default=30)
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("conflict-files", help="找冲突文件")
+    p.add_argument("--json", action="store_true")
+
+    p = sub.add_parser("cleanup", help="清理过期分支")
+    p.add_argument("--days", type=int, default=30)
+    p.add_argument("--dry-run", action="store_true")
+
+
+def _git(*args: str) -> str:
+    r = subprocess.run(["git", *args], capture_output=True, text=True, check=False)
+    return r.stdout.strip()
+
+
+def cmd_log(args: argparse.Namespace) -> int:
+    cmd = ["log", f"--max-count={args.max_count}"]
+    if args.author:
+        cmd += ["--author=" + args.author]
+    if args.since:
+        cmd += ["--since=" + args.since]
+    if args.until:
+        cmd += ["--until=" + args.until]
+    if args.oneline:
+        cmd += ["--oneline"]
+    else:
+        cmd += ["--format=%H%n%an%n%ad%n%s", "--date=short"]
+    output = _git(*cmd)
+    if args.json:
+        entries = []
+        lines = output.split("\n")
+        i = 0
+        while i < len(lines):
+            if len(lines) - i >= 4 and not lines[i].startswith("commit"):
+                entries.append({
+                    "hash": lines[i],
+                    "author": lines[i+1],
+                    "date": lines[i+2],
+                    "message": lines[i+3],
+                })
+                i += 4
+            else:
+                i += 1
+        print(json.dumps(entries, indent=2))
+    else:
+        print(output)
+    return 0
+
+
+def cmd_diff(args: argparse.Namespace) -> int:
+    if args.stat:
+        output = _git("diff", f"--stat={args.base}..{args.head}")
+        print(output)
+    elif args.files_only:
+        output = _git("diff", "--name-only", f"{args.base}..{args.head}")
+        print(output)
+    else:
+        output = _git("diff", f"{args.base}..{args.head}")
+        print(output)
+    return 0
+
+
+def cmd_stats(args: argparse.Namespace) -> int:
+    repo = args.repo or "."
+    total_commits = _git("-C", repo, "rev-list", "--all", "--count")
+    branches = _git("-C", repo, "branch", "--list").splitlines()
+    tags = _git("-C", repo, "tag", "--list").splitlines()
+    files = sum(1 for _ in Path(repo).rglob("*") if _.is_file())
+    result = {
+        "repo": repo,
+        "total_commits": int(total_commits) if total_commits else 0,
+        "branches": len([b for b in branches if b.strip()]),
+        "tags": len(tags),
+        "files": files,
+    }
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        print(f"📊 {repo}")
+        print(f"   提交: {result['total_commits']:,}")
+        print(f"   分支: {result['branches']}")
+        print(f"   标签: {result['tags']}")
+        print(f"   文件: {result['files']:,}")
+    return 0
+
+
+def cmd_branches(args: argparse.Namespace) -> int:
+    current = _git("branch", "--show-current").strip()
+    all_branches = _git("branch").splitlines()
+    result = []
+    for b in all_branches:
+        b = b.strip()
+        if not b:
+            continue
+        marker = " *" if b.startswith("* ") else ""
+        result.append({"name": b.lstrip(" *"), "current": b.startswith("*")})
+    if args.merged:
+        merged = _git("branch", "--merged").splitlines()
+        result = [r for r in result if r["name"] in [m.strip().lstrip("* ") for m in merged]]
+    if args.unmerged:
+        unmerged = _git("branch", "--no-merged", "main", "--no-merged", "master").splitlines()
+        result = [r for r in result if r["name"] in [m.strip().lstrip("* ") for m in unmerged]]
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        for r in result:
+            icon = "→ " if r["current"] else "  "
+            print(f"  {icon}{r['name']}")
+    return 0
+
+
+def cmd_tags(args: argparse.Namespace) -> int:
+    tags = _git("tag", "--sort=" + args.sort).splitlines()
+    if args.json:
+        print(json.dumps(tags, indent=2))
+    else:
+        for t in tags:
+            print(f"  {t}")
+    return 0
+
+
+def cmd_blame(args: argparse.Namespace) -> int:
+    file_arg = args.file
+    cmd = ["blame", "--line-porcelain", file_arg]
+    if args.line_range:
+        start, end = args.line_range.split("-")
+        cmd += [f"{start}-{end}"]
+    output = _git(*cmd)
+    if args.by_author:
+        authors: dict[str, int] = {}
+        for line in output.split("\n"):
+            if line.startswith("author "):
+                a = line[7:]
+                authors[a] = authors.get(a, 0) + 1
+        for a, n in sorted(authors.items(), key=lambda x: -x[1]):
+            print(f"  {n:>6}  {a}")
+    else:
+        # 简化输出
+        lines = _git("blame", "--line-buffer", file_arg).split("\n")
+        for line in lines[:50]:
+            if line.strip():
+                print(f"  {line}")
+    return 0
+
+
+def cmd_first_last(args: argparse.Namespace) -> int:
+    if args.file:
+        first = _git("log", "--reverse", "--format=%H %ad", "--diff-filter=A", "--", args.file)
+        last = _git("log", "-1", "--format=%H %ad %s", "--", args.file)
+    else:
+        first = _git("log", "--reverse", "--format=%H %ad", "-1")
+        last = _git("log", "-1", "--format=%H %ad %s")
+    result: dict = {}
+    if first:
+        parts = first.split()
+        result["first_commit"] = parts[0] if parts else ""
+        result["first_date"] = parts[1] if len(parts) > 1 else ""
+    if last:
+        parts = last.split()
+        result["last_commit"] = parts[0] if parts else ""
+        result["last_date"] = parts[1] if len(parts) > 1 else ""
+        result["last_message"] = " ".join(parts[2:]) if len(parts) > 2 else ""
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        for k, v in result.items():
+            print(f"  {k}: {v}")
+    return 0
+
+
+def cmd_recent_changes(args: argparse.Namespace) -> int:
+    since = f"--since={args.days} days ago"
+    output = _git("diff", "--name-status", f"HEAD @{since}", "..HEAD")
+    result: dict[str, int] = {}
+    for line in output.splitlines():
+        parts = line.split()
+        if len(parts) >= 2:
+            status = parts[0]
+            fname = parts[1]
+            result.setdefault(fname, 0)
+            result[fname] += 1
+    sorted_files = sorted(result.items(), key=lambda x: -x[1])[: args.top]
+    if args.json:
+        print(json.dumps(sorted_files, indent=2))
+    else:
+        for f, n in sorted_files:
+            print(f"  {n:>4}  {f}")
+    return 0
+
+
+def cmd_author_stats(args: argparse.Namespace) -> int:
+    output = _git("shortlog", "-sne", f"--all", f"--max-count={args.top}")
+    result: list[dict] = []
+    for line in output.splitlines():
+        parts = line.strip().split("\t", 1)
+        if len(parts) == 2:
+            count = int(parts[0].strip())
+            author = parts[1].strip()
+            result.append({"author": author, "commits": count})
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        for r in result:
+            print(f"  {r['commits']:>6}  {r['author']}")
+    return 0
+
+
+def cmd_show(args: argparse.Namespace) -> int:
+    commit = args.commit or "HEAD"
+    if args.stat:
+        output = _git("show", "--stat", commit)
+        print(output)
+    elif args.patch:
+        output = _git("show", "--patch", commit)
+        print(output)
+    else:
+        output = _git("show", "--format=%H%n%an <%ae>%n%ad%n%s%n%n%b", "--date=short", commit)
+        print(output)
+    return 0
+
+
+def cmd_status_summary(args: argparse.Namespace) -> int:
+    modified = _git("status", "--short").splitlines()
+    staged = _git("diff", "--cached", "--name-only").splitlines()
+    untracked = _git("ls-files", "--others", "--exclude-standard").splitlines()
+    result = {
+        "modified": len([m for m in modified if m and not m.startswith("??")]),
+        "staged": len(staged),
+        "untracked": len(untracked),
+        "branch": _git("branch", "--show-current").strip(),
+    }
+    if args.short:
+        print(f"{result['branch']} | modified:{result['modified']} staged:{result['staged']} untracked:{result['untracked']}")
+    else:
+        print(f"📍 分支: {result['branch']}")
+        print(f"   已修改: {result['modified']} 个文件")
+        print(f"   已暂存: {result['staged']} 个文件")
+        print(f"   未跟踪: {result['untracked']} 个文件")
+        if modified:
+            print("\n修改的文件:")
+            for m in modified[:20]:
+                print(f"  {m}")
+    return 0
+
+
+def cmd_merged_branches(args: argparse.Namespace) -> int:
+    current = _git("branch", "--show-current").strip()
+    merged = _git("branch", "--merged").splitlines()
+    result = []
+    for b in merged:
+        b = b.strip().lstrip("* ")
+        if b and b != current:
+            if args.exclude_main and b in ("main", "master"):
+                continue
+            result.append(b)
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        for b in result:
+            print(f"  ✓ {b}")
+    return 0
+
+
+def cmd_stale_branches(args: argparse.Namespace) -> int:
+    current = _git("branch", "--show-current").strip()
+    output = _git("for-each-ref", "--sort=-committerdate", "refs/heads/",
+                   "--format=%(refname:short) %(committerdate:relative) %(committerdate:short)")
+    result: list[dict] = []
+    cutoff = datetime.now() - __import__("datetime").timedelta(days=args.days)
+    for line in output.splitlines():
+        parts = line.split()
+        if len(parts) < 3:
+            continue
+        name = parts[0]
+        if name == current:
+            continue
+        date_str = " ".join(parts[1:3])
+        try:
+            # 简单检查: 包含 "ago" 且天数 < args.days
+            if "ago" in line:
+                import re
+                m = re.search(r"(\d+)\s*(day|week|month)s?\s*ago", line)
+                if m:
+                    num = int(m.group(1))
+                    unit = m.group(2)
+                    days = num * (365 if unit == "month" else 30 if unit == "week" else 1)
+                    if days > args.days:
+                        result.append({"name": name, "days_ago": days})
+        except Exception:
+            pass
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        for r in result:
+            print(f"  ⏰ {r['name']}  ({r['days_ago']} 天前)")
+    return 0
+
+
+def cmd_conflict_files(args: argparse.Namespace) -> int:
+    conflicts = _git("diff", "--name-only", "--diff-filter=U").splitlines()
+    if args.json:
+        print(json.dumps(conflicts, indent=2))
+    else:
+        if conflicts:
+            print("🔴 发现冲突文件:")
+            for c in conflicts:
+                print(f"  ✗ {c}")
+        else:
+            print("✅ 无冲突文件")
+    return 0
+
+
+def cmd_cleanup(args: argparse.Namespace) -> int:
+    import re
+    from datetime import datetime, timedelta
+    current = _git("branch", "--show-current").strip()
+    all_branches = _git("branch").splitlines()
+    removed = 0
+    for b in all_branches:
+        b = b.strip().lstrip("* ")
+        if not b or b == current:
+            continue
+        last_commit = _git("log", "-1", "--format=%ct", b)
+        if not last_commit:
+            continue
+        try:
+            commit_time = datetime.fromtimestamp(int(last_commit))
+            if datetime.now() - commit_time > timedelta(days=args.days):
+                if args.dry_run:
+                    print(f"  [DRY] 删除: {b}")
+                else:
+                    _git("branch", "-d", b)
+                    print(f"  ✓ 删除: {b}")
+                removed += 1
+        except (ValueError, OSError):
+            pass
+    print(f"\n清理了 {removed} 个过时分支")
+    return 0

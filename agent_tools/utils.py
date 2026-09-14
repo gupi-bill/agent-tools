@@ -1,1 +1,171 @@
-IiIi6YCa55So5ZG95Luk6KGM5bel5YW35Ye95pWw44CCIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBqc29uCmltcG9ydCBzaHV0aWwKaW1wb3J0IHN5cwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKCmRlZiBlcnIobXNnOiBzdHIpIC0+IE5vbmU6CiAgICBwcmludChmIlwwMzNbMzFt4p2MIHttc2d9XDAzM1swbSIsIGZpbGU9c3lzLnN0ZGVycikKCgpkZWYgb2sobXNnOiBzdHIpIC0+IE5vbmU6CiAgICBwcmludChmIlwwMzNbMzJt4pyFIHttc2d9XDAzM1swbSIpCgoKZGVmIHdhcm4obXNnOiBzdHIpIC0+IE5vbmU6CiAgICBwcmludChmIlwwMzNbMzNt4pqg77iPICB7bXNnfVwwMzNbMG0iKQoKCmRlZiBpbmZvKG1zZzogc3RyKSAtPiBOb25lOgogICAgcHJpbnQoZiLihLnvuI8gICB7bXNnfSIpCgoKZGVmIHJlYWRfanNvbihwYXRoOiBQYXRoKSAtPiBBbnk6CiAgICByZXR1cm4ganNvbi5sb2FkcyhwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKCgpkZWYgd3JpdGVfanNvbihwYXRoOiBQYXRoLCBkYXRhOiBBbnkpIC0+IE5vbmU6CiAgICBwYXRoLndyaXRlX3RleHQoanNvbi5kdW1wcyhkYXRhLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKSwgZW5jb2Rpbmc9InV0Zi04IikKCgpkZWYgcGFyc2VfZGF0ZShzOiBzdHIpIC0+IGRhdGV0aW1lIHwgTm9uZToKICAgIGZvciBmbXQgaW4gKCIlWS0lbS0lZCIsICIlWS8lbS8lZCIsICIlZC0lbS0lWSIsICIlWS0lbS0lZFQlSDolTSIpOgogICAgICAgIHRyeToKICAgICAgICAgICAgcmV0dXJuIGRhdGV0aW1lLnN0cnB0aW1lKHMsIGZtdCkKICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgY29udGludWUKICAgIHJldHVybiBOb25lCgoKZGVmIGlzX3ByaXZhdGVfaXAoaG9zdDogc3RyKSAtPiBib29sOgogICAgcmV0dXJuICgKICAgICAgICBob3N0LnN0YXJ0c3dpdGgoIjEwLiIpCiAgICAgICAgb3IgaG9zdC5zdGFydHN3aXRoKCIxOTIuMTY4LiIpCiAgICAgICAgb3IgaG9zdC5zdGFydHN3aXRoKCIxNzIuIikKICAgICAgICBvciBob3N0IGluICgibG9jYWxob3N0IiwgIjEyNy4wLjAuMSIsICI6OjEiKQogICAgKQoKCmRlZiBtYXNrX3NlY3JldCh2YWx1ZTogc3RyLCBzaG93OiBpbnQgPSAzKSAtPiBzdHI6CiAgICBpZiBsZW4odmFsdWUpIDw9IHNob3c6CiAgICAgICAgcmV0dXJuICIqIiAqIGxlbih2YWx1ZSkKICAgIHJldHVybiB2YWx1ZVs6c2hvd10gKyAiKiIgKiAobGVuKHZhbHVlKSAtIHNob3cpCgoKZGVmIGNvdW50X2xpbmVzKHBhdGg6IFBhdGgpIC0+IGRpY3Rbc3RyLCBpbnRdOgogICAgdHJ5OgogICAgICAgIHRleHQgPSBwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpCiAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICByZXR1cm4geyJsaW5lcyI6IDAsICJjaGFycyI6IDAsICJ3b3JkcyI6IDB9CiAgICBsaW5lcyA9IHRleHQuY291bnQoIlxuIikKICAgIGNoYXJzID0gbGVuKHRleHQpCiAgICB3b3JkcyA9IGxlbih0ZXh0LnNwbGl0KCkpCiAgICByZXR1cm4geyJsaW5lcyI6IGxpbmVzLCAiY2hhcnMiOiBjaGFycywgIndvcmRzIjogd29yZHN9CgoKZGVmIGZpbmRfZmlsZXMocm9vdDogUGF0aCwgcGF0dGVybjogc3RyID0gIioiLCBleHRlbnNpb25zOiB0dXBsZVtzdHIsIC4uLl0gfCBOb25lID0gTm9uZSkgLT4gbGlzdFtQYXRoXToKICAgIHJlc3VsdHMgPSBbXQogICAgZXh0X2ZpbHRlciA9IHNldChleHRlbnNpb25zKSBpZiBleHRlbnNpb25zIGVsc2UgTm9uZQogICAgZm9yIGYgaW4gc29ydGVkKHJvb3Qucmdsb2IocGF0dGVybikpOgogICAgICAgIGlmIGYuaXNfZmlsZSgpOgogICAgICAgICAgICBpZiBleHRfZmlsdGVyIGlzIE5vbmUgb3IgZi5zdWZmaXgubG93ZXIoKSBpbiBleHRfZmlsdGVyOgogICAgICAgICAgICAgICAgcmVzdWx0cy5hcHBlbmQoZikKICAgIHJldHVybiByZXN1bHRzCgoKZGVmIGZpbmRfcHl0aG9uX2ZpbGVzKHJvb3Q6IFBhdGgpIC0+IGxpc3RbUGF0aF06CiAgICByZXR1cm4gZmluZF9maWxlcyhyb290LCBwYXR0ZXJuPSIqLnB5IikKCgpkZWYgZGV0ZWN0X2ZyYW1ld29yayhwcm9qZWN0X3Jvb3Q6IFBhdGgpIC0+IHN0cjoKICAgIHJlcXVpcmVtZW50cyA9IHByb2plY3Rfcm9vdCAvICJyZXF1aXJlbWVudHMudHh0IgogICAgaWYgbm90IHJlcXVpcmVtZW50cy5leGlzdHMoKToKICAgICAgICByZXR1cm4gInVua25vd24iCiAgICBjb250ZW50ID0gcmVxdWlyZW1lbnRzLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5sb3dlcigpCiAgICBmb3IgbmFtZSBpbiAoImZhc3RhcGkiLCAiZmxhc2siLCAiZGphbmdvIiwgImNsaWNrIiwgInB5dGVzdCIpOgogICAgICAgIGlmIG5hbWUgaW4gY29udGVudDoKICAgICAgICAgICAgcmV0dXJuIG5hbWUKICAgIHJldHVybiAidW5rbm93biIKCgpkZWYgZGV0ZWN0X2xhbmd1YWdlKHJvb3Q6IFBhdGgpIC0+IHN0cjoKICAgIHB5ID0gbGVuKGxpc3Qocm9vdC5yZ2xvYigiKi5weSIpKSkKICAgIGpzID0gbGVuKGxpc3Qocm9vdC5yZ2xvYigiKi5qcyIpKSkgKyBsZW4obGlzdChyb290LnJnbG9iKCIqLnRzIikpKQogICAgZ28gPSBsZW4obGlzdChyb290LnJnbG9iKCIqLmdvIikpKQogICAgcnMgPSBsZW4obGlzdChyb290LnJnbG9iKCIqLnJzIikpKQogICAgaWYgcHkgPj0ganMgYW5kIHB5ID49IGdvIGFuZCBweSA+PSByczoKICAgICAgICByZXR1cm4gInB5dGhvbiIKICAgIGlmIGpzID49IGdvIGFuZCBqcyA+PSByczoKICAgICAgICByZXR1cm4gInR5cGVzY3JpcHQiCiAgICBpZiBnbyA+PSByczoKICAgICAgICByZXR1cm4gImdvIgogICAgcmV0dXJuICJydXN0IgoKCmRlZiBlbnN1cmVfZGlyKHBhdGg6IFBhdGgpIC0+IFBhdGg6CiAgICBwYXRoLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHJldHVybiBwYXRoCgoKZGVmIGh1bWFuX3NpemUobjogaW50KSAtPiBzdHI6CiAgICBmb3IgdW5pdCBpbiAoIkIiLCAiS0IiLCAiTUIiLCAiR0IiKToKICAgICAgICBpZiBuIDwgMTAyNDoKICAgICAgICAgICAgcmV0dXJuIGYie246LjFmfSB7dW5pdH0iCiAgICAgICAgbiAvPSAxMDI0CiAgICByZXR1cm4gZiJ7bjouMWZ9IFRCIgoKCmRlZiB0ZXJtaW5hbF93aWR0aCgpIC0+IGludDoKICAgIHRyeToKICAgICAgICBjb2xzLCBfID0gc2h1dGlsLmdldF90ZXJtaW5hbF9zaXplKCg4MCwpKQogICAgICAgIHJldHVybiBjb2xzCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiA4MAoKCmRlZiBjb2xvcih0ZXh0OiBzdHIsIGNvZGU6IGludCkgLT4gc3RyOgogICAgcmV0dXJuIGYiXDAzM1t7Y29kZX1te3RleHR9XDAzM1swbSIKCgpkZWYgeWVsbG93KHRleHQ6IHN0cikgLT4gc3RyOgogICAgcmV0dXJuIGNvbG9yKHRleHQsIDMzKQoKCmRlZiBncmVlbih0ZXh0OiBzdHIpIC0+IHN0cjoKICAgIHJldHVybiBjb2xvcih0ZXh0LCAzMikKCgpkZWYgcmVkKHRleHQ6IHN0cikgLT4gc3RyOgogICAgcmV0dXJuIGNvbG9yKHRleHQsIDMxKQoKCmRlZiBibHVlKHRleHQ6IHN0cikgLT4gc3RyOgogICAgcmV0dXJuIGNvbG9yKHRleHQsIDM0KQoKCmRlZiBjeWFuKHRleHQ6IHN0cikgLT4gc3RyOgogICAgcmV0dXJuIGNvbG9yKHRleHQsIDM2KQoKCmRlZiBib2xkKHRleHQ6IHN0cikgLT4gc3RyOgogICAgcmV0dXJuIGNvbG9yKHRleHQsIDEpCgoKZGVmIGRpbSh0ZXh0OiBzdHIpIC0+IHN0cjoKICAgIHJldHVybiBjb2xvcih0ZXh0LCAyKQoKCmRlZiBib3godGl0bGU6IHN0ciwgY29udGVudDogc3RyLCB3aWR0aDogaW50ID0gNzApIC0+IHN0cjoKICAgIGxpbmVzID0gY29udGVudC5zcGxpdCgiXG4iKQogICAgYm9yZGVyID0gIuKVrSIgKyAi4pSAIiAqICh3aWR0aCAtIDIpICsgIuKVriIKICAgIGZvb3RlciA9ICLilbAiICsgIuKUgCIgKiAod2lkdGggLSAyKSArICLila8iCiAgICByZXN1bHQgPSBbYm9yZGVyLCBmIuKUgiB7Ym9sZCh0aXRsZSk6PHt3aWR0aCAtIDR9fSDilIIiXQogICAgZm9yIGxpbmUgaW4gbGluZXM6CiAgICAgICAgcmVzdWx0LmFwcGVuZChmIuKUgiB7bGluZTo8e3dpZHRoIC0gNH19IOKUgiIpCiAgICByZXN1bHQuYXBwZW5kKGZvb3RlcikKICAgIHJldHVybiAiXG4iLmpvaW4ocmVzdWx0KQo=
+"""通用命令行工具函数。"""
+from __future__ import annotations
+
+import json
+import shutil
+import sys
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+
+def err(msg: str) -> None:
+    print(f"\033[31m❌ {msg}\033[0m", file=sys.stderr)
+
+
+def ok(msg: str) -> None:
+    print(f"\033[32m✅ {msg}\033[0m")
+
+
+def warn(msg: str) -> None:
+    print(f"\033[33m⚠️  {msg}\033[0m")
+
+
+def info(msg: str) -> None:
+    print(f"ℹ️   {msg}")
+
+
+def read_json(path: Path) -> Any:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_json(path: Path, data: Any) -> None:
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def parse_date(s: str) -> datetime | None:
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%d-%m-%Y", "%Y-%m-%dT%H:%M"):
+        try:
+            return datetime.strptime(s, fmt)
+        except ValueError:
+            continue
+    return None
+
+
+def is_private_ip(host: str) -> bool:
+    return (
+        host.startswith("10.")
+        or host.startswith("192.168.")
+        or host.startswith("172.")
+        or host in ("localhost", "127.0.0.1", "::1")
+    )
+
+
+def mask_secret(value: str, show: int = 3) -> str:
+    if len(value) <= show:
+        return "*" * len(value)
+    return value[:show] + "*" * (len(value) - show)
+
+
+def count_lines(path: Path) -> dict[str, int]:
+    try:
+        text = path.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return {"lines": 0, "chars": 0, "words": 0}
+    lines = text.count("\n")
+    chars = len(text)
+    words = len(text.split())
+    return {"lines": lines, "chars": chars, "words": words}
+
+
+def find_files(root: Path, pattern: str = "*", extensions: tuple[str, ...] | None = None) -> list[Path]:
+    results = []
+    ext_filter = set(extensions) if extensions else None
+    for f in sorted(root.rglob(pattern)):
+        if f.is_file():
+            if ext_filter is None or f.suffix.lower() in ext_filter:
+                results.append(f)
+    return results
+
+
+def find_python_files(root: Path) -> list[Path]:
+    return find_files(root, pattern="*.py")
+
+
+def detect_framework(project_root: Path) -> str:
+    requirements = project_root / "requirements.txt"
+    if not requirements.exists():
+        return "unknown"
+    content = requirements.read_text(encoding="utf-8").lower()
+    for name in ("fastapi", "flask", "django", "click", "pytest"):
+        if name in content:
+            return name
+    return "unknown"
+
+
+def detect_language(root: Path) -> str:
+    py = len(list(root.rglob("*.py")))
+    js = len(list(root.rglob("*.js"))) + len(list(root.rglob("*.ts")))
+    go = len(list(root.rglob("*.go")))
+    rs = len(list(root.rglob("*.rs")))
+    if py >= js and py >= go and py >= rs:
+        return "python"
+    if js >= go and js >= rs:
+        return "typescript"
+    if go >= rs:
+        return "go"
+    return "rust"
+
+
+def ensure_dir(path: Path) -> Path:
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def human_size(n: int) -> str:
+    for unit in ("B", "KB", "MB", "GB"):
+        if n < 1024:
+            return f"{n:.1f} {unit}"
+        n /= 1024
+    return f"{n:.1f} TB"
+
+
+def terminal_width() -> int:
+    try:
+        cols, _ = shutil.get_terminal_size((80,))
+        return cols
+    except Exception:
+        return 80
+
+
+def color(text: str, code: int) -> str:
+    return f"\033[{code}m{text}\033[0m"
+
+
+def yellow(text: str) -> str:
+    return color(text, 33)
+
+
+def green(text: str) -> str:
+    return color(text, 32)
+
+
+def red(text: str) -> str:
+    return color(text, 31)
+
+
+def blue(text: str) -> str:
+    return color(text, 34)
+
+
+def cyan(text: str) -> str:
+    return color(text, 36)
+
+
+def bold(text: str) -> str:
+    return color(text, 1)
+
+
+def dim(text: str) -> str:
+    return color(text, 2)
+
+
+def box(title: str, content: str, width: int = 70) -> str:
+    lines = content.split("\n")
+    border = "╭" + "─" * (width - 2) + "╮"
+    footer = "╰" + "─" * (width - 2) + "╯"
+    result = [border, f"│ {bold(title):<{width - 4}} │"]
+    for line in lines:
+        result.append(f"│ {line:<{width - 4}} │")
+    result.append(footer)
+    return "\n".join(result)

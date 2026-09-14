@@ -1,1 +1,175 @@
-IiIid2ViOiBXZWIg5bel5YW344CCIiIiDQpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zDQppbXBvcnQgYXJncGFyc2UsIGpzb24sIHJlLCBzeXMsIHRpbWUNCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aA0KDQpkZWYgcmVnaXN0ZXIocGFyZW50KToNCiAgICBzdWIgPSBwYXJlbnQuYWRkX3N1YnBhcnNlcnMoZGVzdD0iY21kIiwgcmVxdWlyZWQ9VHJ1ZSkNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInNlcnZlIiwgaGVscD0i566A5piTIEhUVFAg5pyN5Yqh5ZmoIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1kaXIiLCBkZWZhdWx0PSIuIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1wb3J0IiwgdHlwZT1pbnQsIGRlZmF1bHQ9ODA4MCkNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImhlYWRlcnMiLCBoZWxwPSJIVFRQIEhlYWRlciDop6PmnpAiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJoZWFkZXJfc3RyaW5nIikNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInVybC1wYXJzZSIsIGhlbHA9IlVSTCDop6PmnpAiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJ1cmwiKQ0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiaHRtbC1taW5pZnkiLCBoZWxwPSJIVE1MIOWOi+e8qSIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiY3NzLW1pbmlmeSIsIGhlbHA9IkNTUyDljovnvKkiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJpbnB1dCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tb3V0cHV0IiwgIi1vIikNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoImpzLW1pbmlmeSIsIGhlbHA9IkpTIOWOi+e8qSIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iKQ0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiY29ycy1jaGVjayIsIGhlbHA9IkNPUlMg5aS05qOA5p+lIikNCiAgICBwLmFkZF9hcmd1bWVudCgidXJsIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1tZXRob2QiLCBkZWZhdWx0PSJHRVQiKQ0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiaHR0cC1zdGF0dXMiLCBoZWxwPSJIVFRQIOeKtuaAgeeggeivtOaYjiIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tY29kZSIsIHR5cGU9aW50LCByZXF1aXJlZD1UcnVlKQ0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigibWltZS10eXBlIiwgaGVscD0iTUlNRSDnsbvlnovmn6Xor6IiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCJleHRlbnNpb24iKQ0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigic2NyZWVuc2hvdC11cmwiLCBoZWxwPSLnlJ/miJDmiKrlm74gVVJMIikNCiAgICBwLmFkZF9hcmd1bWVudCgidXJsIikNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInJvYm90cy10eHQiLCBoZWxwPSLnlJ/miJAgcm9ib3RzLnR4dCIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tZGlzYWxsb3ciLCBuYXJncz0iKiIsIGRlZmF1bHQ9WyIvYWRtaW4iLCAiL3ByaXZhdGUiXSkNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1vdXRwdXQiLCAiLW8iLCBkZWZhdWx0PSJyb2JvdHMudHh0IikNCiAgICBwID0gc3ViLmFkZF9wYXJzZXIoInNpdGVtYXAtZ2VuIiwgaGVscD0i55Sf5oiQIHNpdGVtYXAueG1sIikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS1iYXNlLXVybCIsIHJlcXVpcmVkPVRydWUpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcGF0aHMiLCBuYXJncz0iKiIsIGRlZmF1bHQ9WyIvIl0pDQogICAgcC5hZGRfYXJndW1lbnQoIi0tb3V0cHV0IiwgIi1vIiwgZGVmYXVsdD0ic2l0ZW1hcC54bWwiKQ0KICAgIHAgPSBzdWIuYWRkX3BhcnNlcigiaHRhY2Nlc3MtZ2VuIiwgaGVscD0i55Sf5oiQIC5odGFjY2VzcyIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tcmV3cml0ZSIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpDQogICAgcC5hZGRfYXJndW1lbnQoIi0tY2FjaGUiLCBhY3Rpb249InN0b3JlX3RydWUiKQ0KICAgIHAuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIsIGRlZmF1bHQ9Ii5odGFjY2VzcyIpDQogICAgcCA9IHN1Yi5hZGRfcGFyc2VyKCJnemlwLXRlc3QiLCBoZWxwPSJHemlwIOWOi+e8qea1i+ivlSIpDQogICAgcC5hZGRfYXJndW1lbnQoImlucHV0IikNCiAgICBwLmFkZF9hcmd1bWVudCgiLS10aHJlc2hvbGQiLCB0eXBlPWludCwgZGVmYXVsdD0xMDI0KQ0KDQoNCmRlZiBjbWRfc2VydmUoYXJncyk6DQogICAgaW1wb3J0IGh0dHAuc2VydmVyLCBzb2NrZXRzZXJ2ZXINCiAgICBoYW5kbGVyID0gaHR0cC5zZXJ2ZXIuU2ltcGxlSFRUUFJlcXVlc3RIYW5kbGVyDQogICAgd2l0aCBzb2NrZXRzZXJ2ZXIuVENQU2VydmVyKCgiIiwgYXJncy5wb3J0KSwgaGFuZGxlcikgYXMgaHR0cGQ6DQogICAgICAgIHByaW50KGYiU2VydmluZyBhdCBodHRwOi8vbG9jYWxob3N0OnthcmdzLnBvcnR9IikNCiAgICAgICAgaHR0cGQuc2VydmVfZm9yZXZlcigpDQogICAgcmV0dXJuIDANCg0KZGVmIGNtZF9oZWFkZXJzKGFyZ3MpOg0KICAgIHBhcnNlZCA9IHt9DQogICAgZm9yIGxpbmUgaW4gYXJncy5oZWFkZXJfc3RyaW5nLnNwbGl0KCJcbiIpOg0KICAgICAgICBpZiAiOiIgaW4gbGluZToNCiAgICAgICAgICAgIGssIHYgPSBsaW5lLnNwbGl0KCI6IiwgMSkNCiAgICAgICAgICAgIHBhcnNlZFtrLnN0cmlwKCldID0gdi5zdHJpcCgpDQogICAgcHJpbnQoanNvbi5kdW1wcyhwYXJzZWQsIGluZGVudD0yKSkNCiAgICByZXR1cm4gMA0KDQpkZWYgY21kX3VybF9wYXJzZShhcmdzKToNCiAgICBmcm9tIHVybGxpYi5wYXJzZSBpbXBvcnQgdXJscGFyc2UNCiAgICB1ID0gdXJscGFyc2UoYXJncy51cmwpDQogICAgcmVzdWx0ID0geyJzY2hlbWUiOiB1LnNjaGVtZSwgIm5ldGxvYyI6IHUubmV0bG9jLCAicGF0aCI6IHUucGF0aCwNCiAgICAgICAgICAgICAgInF1ZXJ5IjogdS5xdWVyeSwgImZyYWdtZW50IjogdS5mcmFnbWVudH0NCiAgICBwcmludChqc29uLmR1bXBzKHJlc3VsdCwgaW5kZW50PTIpKQ0KICAgIHJldHVybiAwDQoNCmRlZiBjbWRfaHRtbF9taW5pZnkoYXJncyk6DQogICAgdGV4dCA9IFBhdGgoYXJncy5pbnB1dCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpDQogICAgdGV4dCA9IHJlLnN1YihyIj5ccys8IiwgIj48IiwgdGV4dCkNCiAgICB0ZXh0ID0gcmUuc3ViKHIiXHN7Mix9IiwgIiAiLCB0ZXh0KQ0KICAgIG91dCA9IFBhdGgoYXJncy5vdXRwdXQpIGlmIGFyZ3Mub3V0cHV0IGVsc2UgUGF0aChhcmdzLmlucHV0KQ0KICAgIG91dC53cml0ZV90ZXh0KHRleHQsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgcHJpbnQoZiLlt7LljovnvKk6IHtsZW4odGV4dCl9IGJ5dGVzIikNCiAgICByZXR1cm4gMA0KDQpkZWYgY21kX2Nzc19taW5pZnkoYXJncyk6DQogICAgdGV4dCA9IFBhdGgoYXJncy5pbnB1dCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpDQogICAgdGV4dCA9IHJlLnN1YihyIlxzKntccyoiLCAieyIsIHRleHQpDQogICAgdGV4dCA9IHJlLnN1YihyIlxzKn1ccyoiLCAifSIsIHRleHQpDQogICAgdGV4dCA9IHJlLnN1YihyIlxzKjtccyoiLCAiOyIsIHRleHQpDQogICAgdGV4dCA9IHJlLnN1YihyIlxzezIsfSIsICIgIiwgdGV4dCkNCiAgICBvdXQgPSBQYXRoKGFyZ3Mub3V0cHV0KSBpZiBhcmdzLm91dHB1dCBlbHNlIFBhdGgoYXJncy5pbnB1dCkNCiAgICBvdXQud3JpdGVfdGV4dCh0ZXh0LCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIHByaW50KGYi5bey5Y6L57ypOiB7bGVuKHRleHQpfSBieXRlcyIpDQogICAgcmV0dXJuIDANCg0KZGVmIGNtZF9qc19taW5pZnkoYXJncyk6DQogICAgdGV4dCA9IFBhdGgoYXJncy5pbnB1dCkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpDQogICAgIyDnroDljZXljovnvKnvvIjkuI3lronlhajvvIznlJ/kuqfnjq/looPor7fnlKggdGVyc2Vy77yJDQogICAgdGV4dCA9IHJlLnN1YihyIlxzKyIsICIgIiwgdGV4dCkNCiAgICB0ZXh0ID0gcmUuc3ViKHIiXHMqKFt7fSgpOyw9PD4rXC0qL10pXHMqIiwgciJcMSIsIHRleHQpDQogICAgb3V0ID0gUGF0aChhcmdzLm91dHB1dCkgaWYgYXJncy5vdXRwdXQgZWxzZSBQYXRoKGFyZ3MuaW5wdXQpDQogICAgb3V0LndyaXRlX3RleHQodGV4dCwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICBwcmludChmIuW3suWOi+e8qToge2xlbih0ZXh0KX0gYnl0ZXMiKQ0KICAgIHJldHVybiAwDQoNCmRlZiBjbWRfaHR0cF9zdGF0dXMoYXJncyk6DQogICAgc3RhdHVzZXMgPSB7DQogICAgICAgIDIwMDogIk9LIiwgMjAxOiAiQ3JlYXRlZCIsIDIwNDogIk5vIENvbnRlbnQiLA0KICAgICAgICAzMDE6ICJNb3ZlZCBQZXJtYW5lbnRseSIsIDMwMjogIkZvdW5kIiwgMzA0OiAiTm90IE1vZGlmaWVkIiwNCiAgICAgICAgNDAwOiAiQmFkIFJlcXVlc3QiLCA0MDE6ICJVbmF1dGhvcml6ZWQiLCA0MDM6ICJGb3JiaWRkZW4iLA0KICAgICAgICA0MDQ6ICJOb3QgRm91bmQiLCA0MDU6ICJNZXRob2QgTm90IEFsbG93ZWQiLA0KICAgICAgICA1MDA6ICJJbnRlcm5hbCBTZXJ2ZXIgRXJyb3IiLCA1MDI6ICJCYWQgR2F0ZXdheSIsIDUwMzogIlNlcnZpY2UgVW5hdmFpbGFibGUiLA0KICAgIH0NCiAgICBkZXNjID0gc3RhdHVzZXMuZ2V0KGFyZ3MuY29kZSwgIlVua25vd24iKQ0KICAgIHByaW50KGYiICB7YXJncy5jb2RlfSAge2Rlc2N9IikNCiAgICByZXR1cm4gMA0KDQpkZWYgY21kX21pbWVfdHlwZShhcmdzKToNCiAgICBmcm9tIG1pbWV0eXBlcyBpbXBvcnQgZ3Vlc3NfdHlwZQ0KICAgIG10ID0gZ3Vlc3NfdHlwZSgiZmlsZSIgKyBhcmdzLmV4dGVuc2lvbilbMF0gb3IgImFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSINCiAgICBwcmludChmIiAge2FyZ3MuZXh0ZW5zaW9ufSAge210fSIpDQogICAgcmV0dXJuIDANCg0KZGVmIGNtZF9zY3JlZW5zaG90X3VybChhcmdzKToNCiAgICBwcmludChmImh0dHBzOi8vYXBpLnNjcmVlbnNob3RvbmUuY29tL3Rha2U/dXJsPXthcmdzLnVybH0iKQ0KICAgIHJldHVybiAwDQoNCmRlZiBjbWRfcm9ib3RzX3R4dChhcmdzKToNCiAgICBsaW5lcyA9IFsiVXNlci1hZ2VudDogKiIsICIiXQ0KICAgIGZvciBwYXRoIGluIGFyZ3MuZGlzYWxsb3c6DQogICAgICAgIGxpbmVzLmFwcGVuZChmIkRpc2FsbG93OiB7cGF0aH0iKQ0KICAgIGxpbmVzLmFwcGVuZCgiIikNCiAgICBsaW5lcy5hcHBlbmQoIlNpdGVtYXA6IHtiYXNlfS9zaXRlbWFwLnhtbCIuZm9ybWF0KGJhc2U9YXJncy5iYXNlX3VybCkpDQogICAgb3V0ID0gUGF0aChhcmdzLm91dHB1dCkgaWYgaGFzYXR0cihhcmdzLCAnb3V0cHV0JykgYW5kIGFyZ3Mub3V0cHV0IGVsc2UgUGF0aCgicm9ib3RzLnR4dCIpDQogICAgb3V0LndyaXRlX3RleHQoIlxuIi5qb2luKGxpbmVzKSArICJcbiIsIGVuY29kaW5nPSJ1dGYtOCIpDQogICAgcHJpbnQoZiLlt7LnlJ/miJAg4oaSIHtvdXR9IikNCiAgICByZXR1cm4gMA0KDQpkZWYgY21kX3NpdGVtYXBfZ2VuKGFyZ3MpOg0KICAgIGZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lDQogICAgbGluZXMgPSBbJzw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+JywNCiAgICAgICAgICAgICAnPHVybHNldCB4bWxucz0iaHR0cDovL3d3dy5zaXRlbWFwcy5vcmcvc2NoZW1hcy9zaXRlbWFwLzAuOSI+J10NCiAgICBmb3IgcCBpbiBhcmdzLnBhdGhzOg0KICAgICAgICBsaW5lcy5hcHBlbmQoZicgIDx1cmw+PGxvYz57YXJncy5iYXNlX3VybH17cH08L2xvYz48bGFzdG1vZD57ZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZLSVtLSVkIil9PC9sYXN0bW9kPjwvdXJsPicpDQogICAgbGluZXMuYXBwZW5kKCI8L3VybHNldD4iKQ0KICAgIG91dCA9IFBhdGgoYXJncy5vdXRwdXQpIGlmIGhhc2F0dHIoYXJncywgJ291dHB1dCcpIGFuZCBhcmdzLm91dHB1dCBlbHNlIFBhdGgoInNpdGVtYXAueG1sIikNCiAgICBvdXQud3JpdGVfdGV4dCgiXG4iLmpvaW4obGluZXMpICsgIlxuIiwgZW5jb2Rpbmc9InV0Zi04IikNCiAgICBwcmludChmIuW3sueUn+aIkCDihpIge291dH0iKQ0KICAgIHJldHVybiAwDQoNCmRlZiBjbWRfaHRhY2Nlc3NfZ2VuKGFyZ3MpOg0KICAgIGxpbmVzID0gWyIjIEF1dG8tZ2VuZXJhdGVkIC5odGFjY2VzcyIsICIiXQ0KICAgIGlmIGFyZ3MucmV3cml0ZToNCiAgICAgICAgbGluZXMgKz0gWyJSZXdyaXRlRW5naW5lIE9uIiwgIlJld3JpdGVCYXNlIC8iLCAiIl0NCiAgICBpZiBhcmdzLmNhY2hlOg0KICAgICAgICBsaW5lcyArPSBbIiMgQ2FjaGUgc3RhdGljIGFzc2V0cyBmb3IgMSB5ZWFyIiwNCiAgICAgICAgICAgICAgICAgICI8SWZNb2R1bGUgbW9kX2V4cGlyZXMuYz4iLA0KICAgICAgICAgICAgICAgICAgIiAgRXhwaXJlc0FjdGl2ZSBPbiIsDQogICAgICAgICAgICAgICAgICAnICBFeHBpcmVzQnlUeXBlIGltYWdlL2pwZWcgImFjY2VzcyBwbHVzIDEgeWVhciInLA0KICAgICAgICAgICAgICAgICAgJyAgRXhwaXJlc0J5VHlwZSBpbWFnZS9wbmcgImFjY2VzcyBwbHVzIDEgeWVhciInLA0KICAgICAgICAgICAgICAgICAgJyAgRXhwaXJlc0J5VHlwZSB0ZXh0L2NzcyAiYWNjZXNzIHBsdXMgMSBtb250aCInLA0KICAgICAgICAgICAgICAgICAgIjwvSWZNb2R1bGU+Il0NCiAgICBvdXQgPSBQYXRoKGFyZ3Mub3V0cHV0KSBpZiBoYXNhdHRyKGFyZ3MsICdvdXRwdXQnKSBhbmQgYXJncy5vdXRwdXQgZWxzZSBQYXRoKCIuaHRhY2Nlc3MiKQ0KICAgIG91dC53cml0ZV90ZXh0KCJcbiIuam9pbihsaW5lcykgKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiKQ0KICAgIHByaW50KGYi5bey55Sf5oiQIOKGkiB7b3V0fSIpDQogICAgcmV0dXJuIDANCg0KZGVmIGNtZF9nemlwX3Rlc3QoYXJncyk6DQogICAgaW1wb3J0IGd6aXANCiAgICBkYXRhID0gUGF0aChhcmdzLmlucHV0KS5yZWFkX2J5dGVzKCkNCiAgICBjb21wcmVzc2VkID0gZ3ppcC5jb21wcmVzcyhkYXRhKQ0KICAgIHJhdGlvID0gbGVuKGNvbXByZXNzZWQpIC8gbGVuKGRhdGEpICogMTAwIGlmIGRhdGEgZWxzZSAwDQogICAgcHJpbnQoZiIgIOWOn+Wnizoge2xlbihkYXRhKTosfSBieXRlcyIpDQogICAgcHJpbnQoZiIgIOWOi+e8qToge2xlbihjb21wcmVzc2VkKTosfSBieXRlcyAoe3JhdGlvOi4xZn0lKSIpDQogICAgaWYgcmF0aW8gPCBmbG9hdChnZXRhdHRyKGFyZ3MsICd0aHJlc2hvbGQnLCAxMDI0KSk6DQogICAgICAgIHByaW50KGYiICDinIUg5Y6L57yp546H6auY77yM5bu66K6u5ZCv55SoIGd6aXAiKQ0KICAgIHJldHVybiAw
+"""web: Web 工具。"""
+from __future__ import annotations
+import argparse, json, re, sys, time
+from pathlib import Path
+
+def register(parent):
+    sub = parent.add_subparsers(dest="cmd", required=True)
+    p = sub.add_parser("serve", help="简易 HTTP 服务器")
+    p.add_argument("--dir", default=".")
+    p.add_argument("--port", type=int, default=8080)
+    p = sub.add_parser("headers", help="HTTP Header 解析")
+    p.add_argument("header_string")
+    p = sub.add_parser("url-parse", help="URL 解析")
+    p.add_argument("url")
+    p = sub.add_parser("html-minify", help="HTML 压缩")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+    p = sub.add_parser("css-minify", help="CSS 压缩")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+    p = sub.add_parser("js-minify", help="JS 压缩")
+    p.add_argument("input")
+    p.add_argument("--output", "-o")
+    p = sub.add_parser("cors-check", help="CORS 头检查")
+    p.add_argument("url")
+    p.add_argument("--method", default="GET")
+    p = sub.add_parser("http-status", help="HTTP 状态码说明")
+    p.add_argument("--code", type=int, required=True)
+    p = sub.add_parser("mime-type", help="MIME 类型查询")
+    p.add_argument("extension")
+    p = sub.add_parser("screenshot-url", help="生成截图 URL")
+    p.add_argument("url")
+    p = sub.add_parser("robots-txt", help="生成 robots.txt")
+    p.add_argument("--disallow", nargs="*", default=["/admin", "/private"])
+    p.add_argument("--output", "-o", default="robots.txt")
+    p = sub.add_parser("sitemap-gen", help="生成 sitemap.xml")
+    p.add_argument("--base-url", required=True)
+    p.add_argument("--paths", nargs="*", default=["/"])
+    p.add_argument("--output", "-o", default="sitemap.xml")
+    p = sub.add_parser("htaccess-gen", help="生成 .htaccess")
+    p.add_argument("--rewrite", action="store_true")
+    p.add_argument("--cache", action="store_true")
+    p.add_argument("--output", "-o", default=".htaccess")
+    p = sub.add_parser("gzip-test", help="Gzip 压缩测试")
+    p.add_argument("input")
+    p.add_argument("--threshold", type=int, default=1024)
+
+
+def cmd_serve(args):
+    import http.server, socketserver
+    handler = http.server.SimpleHTTPRequestHandler
+    with socketserver.TCPServer(("", args.port), handler) as httpd:
+        print(f"Serving at http://localhost:{args.port}")
+        httpd.serve_forever()
+    return 0
+
+def cmd_headers(args):
+    parsed = {}
+    for line in args.header_string.split("\n"):
+        if ":" in line:
+            k, v = line.split(":", 1)
+            parsed[k.strip()] = v.strip()
+    print(json.dumps(parsed, indent=2))
+    return 0
+
+def cmd_url_parse(args):
+    from urllib.parse import urlparse
+    u = urlparse(args.url)
+    result = {"scheme": u.scheme, "netloc": u.netloc, "path": u.path,
+              "query": u.query, "fragment": u.fragment}
+    print(json.dumps(result, indent=2))
+    return 0
+
+def cmd_html_minify(args):
+    text = Path(args.input).read_text(encoding="utf-8")
+    text = re.sub(r">\s+<", "><", text)
+    text = re.sub(r"\s{2,}", " ", text)
+    out = Path(args.output) if args.output else Path(args.input)
+    out.write_text(text, encoding="utf-8")
+    print(f"已压缩: {len(text)} bytes")
+    return 0
+
+def cmd_css_minify(args):
+    text = Path(args.input).read_text(encoding="utf-8")
+    text = re.sub(r"\s*{\s*", "{", text)
+    text = re.sub(r"\s*}\s*", "}", text)
+    text = re.sub(r"\s*;\s*", ";", text)
+    text = re.sub(r"\s{2,}", " ", text)
+    out = Path(args.output) if args.output else Path(args.input)
+    out.write_text(text, encoding="utf-8")
+    print(f"已压缩: {len(text)} bytes")
+    return 0
+
+def cmd_js_minify(args):
+    text = Path(args.input).read_text(encoding="utf-8")
+    # 简单压缩（不安全，生产环境请用 terser）
+    text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"\s*([{}();,=<>+\-*/])\s*", r"\1", text)
+    out = Path(args.output) if args.output else Path(args.input)
+    out.write_text(text, encoding="utf-8")
+    print(f"已压缩: {len(text)} bytes")
+    return 0
+
+def cmd_http_status(args):
+    statuses = {
+        200: "OK", 201: "Created", 204: "No Content",
+        301: "Moved Permanently", 302: "Found", 304: "Not Modified",
+        400: "Bad Request", 401: "Unauthorized", 403: "Forbidden",
+        404: "Not Found", 405: "Method Not Allowed",
+        500: "Internal Server Error", 502: "Bad Gateway", 503: "Service Unavailable",
+    }
+    desc = statuses.get(args.code, "Unknown")
+    print(f"  {args.code}  {desc}")
+    return 0
+
+def cmd_mime_type(args):
+    from mimetypes import guess_type
+    mt = guess_type("file" + args.extension)[0] or "application/octet-stream"
+    print(f"  {args.extension}  {mt}")
+    return 0
+
+def cmd_screenshot_url(args):
+    print(f"https://api.screenshotone.com/take?url={args.url}")
+    return 0
+
+def cmd_robots_txt(args):
+    lines = ["User-agent: *", ""]
+    for path in args.disallow:
+        lines.append(f"Disallow: {path}")
+    lines.append("")
+    lines.append("Sitemap: {base}/sitemap.xml".format(base=args.base_url))
+    out = Path(args.output) if hasattr(args, 'output') and args.output else Path("robots.txt")
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"已生成 → {out}")
+    return 0
+
+def cmd_sitemap_gen(args):
+    from datetime import datetime
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for p in args.paths:
+        lines.append(f'  <url><loc>{args.base_url}{p}</loc><lastmod>{datetime.now().strftime("%Y-%m-%d")}</lastmod></url>')
+    lines.append("</urlset>")
+    out = Path(args.output) if hasattr(args, 'output') and args.output else Path("sitemap.xml")
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"已生成 → {out}")
+    return 0
+
+def cmd_htaccess_gen(args):
+    lines = ["# Auto-generated .htaccess", ""]
+    if args.rewrite:
+        lines += ["RewriteEngine On", "RewriteBase /", ""]
+    if args.cache:
+        lines += ["# Cache static assets for 1 year",
+                  "<IfModule mod_expires.c>",
+                  "  ExpiresActive On",
+                  '  ExpiresByType image/jpeg "access plus 1 year"',
+                  '  ExpiresByType image/png "access plus 1 year"',
+                  '  ExpiresByType text/css "access plus 1 month"',
+                  "</IfModule>"]
+    out = Path(args.output) if hasattr(args, 'output') and args.output else Path(".htaccess")
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"已生成 → {out}")
+    return 0
+
+def cmd_gzip_test(args):
+    import gzip
+    data = Path(args.input).read_bytes()
+    compressed = gzip.compress(data)
+    ratio = len(compressed) / len(data) * 100 if data else 0
+    print(f"  原始: {len(data):,} bytes")
+    print(f"  压缩: {len(compressed):,} bytes ({ratio:.1f}%)")
+    if ratio < float(getattr(args, 'threshold', 1024)):
+        print(f"  ✅ 压缩率高，建议启用 gzip")
+    return 0

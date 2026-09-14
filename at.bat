@@ -1,1 +1,5 @@
-77u/QGVjaG8gb2ZmClJFTSBhZ2VudC10b29scyBsYXVuY2hlciBmb3IgV2luZG93cwpSRU0gVXNhZ2U6IGF0IDxjYXRlZ29yeT4gPGNvbW1hbmQ+IFthcmdzLi4uXQpjZCAvZCAiJX5kcDAuLiIKcHl0aG9uIC1tIGFnZW50X3Rvb2xzICUq
+﻿@echo off
+REM agent-tools launcher for Windows
+REM Usage: at <category> <command> [args...]
+cd /d "%~dp0.."
+python -m agent_tools %*
